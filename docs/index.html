@@ -30,9 +30,14 @@
       search: {
         maxAge: 1, // Expiration time, the default one day
         paths: 'auto',
-        placeholder: 'Rechercher',
-        noData: 'Rien à afficher',
-
+        placeholder: {
+          '/fr/': 'Rechercher',
+          '/': 'Search docs'
+        },
+        noData: {
+          '/fr/': 'Rien à afficher',
+          '/': 'Nothing found',
+        },
         // Headline depth, 1 - 6
         depth: 6,
         hideOtherSidebarContent: true, // whether or not to hide other sidebar content
