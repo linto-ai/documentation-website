@@ -1,6 +1,6 @@
-![logo](_media/icon.svg)
+![logo](_media/linto.svg ':size=400px')
 
-# LinTO Developers
+# For developers
 
 [Back to linto.ai](https://linto.ai)
 [Getting started](#documentation)

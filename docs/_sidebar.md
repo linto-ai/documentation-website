@@ -1,16 +1,24 @@
 - **About**
-- [Why use LinTO](why)
+- [Source repositories](repos)
 - [Product Roadmap](roadmap)
 - **LinTO Platform**
-- [Quick Start](services/quick-start)
+- [QuickStart](services/quickstart)
 - [Services](services/services)
+    - [LInTO - Server](services/server)
     - [LinTO - LinSTT](services/linstt)
-- [Docker](services/docker)
-    - [Full stack compose](services/docker)
-    - [Docker Swarm integration](services/docker)
+    - [LinTO - NLU](services/nlu)
+    - [LinTO - Skill server](services/skill)
+    - [LinTO - Admin](services/admin)
 - [Downloadable ressources](services/download)
 - **LinTO client**
-- [Quick Start](services/quick-start)
-    - [Raspberry Pi]
+- [QuickStart](client/quickstart)
+- [Raspberry Pi](client/raspberry)
+- [Other platfoms](client/other)
+- **LinTO skills**
+- [Node Red](skill/nodered)
+- [Available LinTO skills](skill/list)
+- [Skill deployment guide](skill/depguide)
+- [Skill development guide](skill/devguide)
+    - [Basic skill structure](skill/basic)
+    - [Advanced features](skill/advanced)
 - **Links**
-
