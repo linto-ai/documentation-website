@@ -22,11 +22,11 @@ docker swarm join-token worker
 ```
 
 * 3 - This command outputs something like :
+
 ```
-docker swarm join --token SWMTKN-1-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxx <Manager IP for cluster communication>:<Some TCP port used by docker swarm>
+docker swarm join --token SWMTKN-1-xxx<Manager IP for cluster communication>:<Some TCP port used by docker swarm>
 ```
 --> Use this command on every other machine that needs to join your docker swarm cluster
-
 
 * 4 - List nodes in the cluster <hostname> <Private Ip for nodes communication>
 

@@ -3,4 +3,4 @@
 # For developers
 
 [Back to linto.ai](https://linto.ai)
-[Getting started](#documentation)
+[Getting started](#gnu-affero-general-public-licence-v3)
