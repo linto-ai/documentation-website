@@ -2,6 +2,7 @@
 - [Source repositories](repos)
 - [Product Roadmap](roadmap)
 - **LinTO Platform**
+- [Infrastructure](infra)
 - [QuickStart](services/quickstart)
 - [Services](services/services)
     - [LInTO - Server](services/server)
