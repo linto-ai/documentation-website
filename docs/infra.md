@@ -1,9 +1,10 @@
 # Plan and setup the infrastructure for production
 ## Prerequistes
 
-* Docker > 17 for swarm mode availability https://docs.docker.com/engine/installation/, and to https://docs.docker.com/compose/install/.
-* Debian like (9/10 or Ubuntu hosts or VM hosts)
+* Docker CE with Docker Engine > 1.12 for swarm mode availability. See : https://docs.docker.com/engine/installation/,  https://docs.docker.com/compose/install/.
+* Debian (or Ubuntu hosts or VM hosts)
 * Private network (VLAN) established and fuly routed between hosts.
+* Public network interface on at least one of the cluster's nodes for ingress traffic
 
 __Note__ : Our service stack relies on [Docker Swarm Mode](https://docs.docker.com/glossary/?term=swarm%20mode) for orchestrating containers and services. This tutorial treats your infrastructure as a multi-host cluster. If you deploy the stack in a mono-host Docker Swarm Cluster (wich is obviously not recommanded for production) just adapt the following guide for your needs... That's maybe how you want to deploy it for your home usage with our Maker's Raspberry Pi Client LinTO implementation.
 
@@ -41,7 +42,7 @@ do echo -e "$(docker node inspect --format '{{.Status.Addr}}' "${NODE}") "${NODE
 
 A good design pattern for highly available applications is to deploy the application as a container on a Docker Swarm cluster with persistent storage provided by GlusterFS. GlusterFS is a fast shared filesystem that can keep the container volume in sync between multiple nodes of the Docker Swarm cluster.  In the event a node dies, Docker Swarm will spin up the container on another node. GlusterFS will ensure the container has access to the same data when it comes up.
 
-In our case, [LinTO-Platform-STT-Service-Manager service]() will need read / write access on a shared folder made available on every node of your cluster for AI models used by the [LinTO-STT-Services]. In this tutorial we will use a GlusterFS share folder
+In our case, [LinTO-Platform-STT-Service-Manager](services/manager) will need read / write access on a shared folder made available on every node of your cluster for AI models used by the [LinTO-STT-Services](services/services). In this tutorial we will use a GlusterFS share folder
 
 ### Create directories for GlusterFS storage
 
@@ -116,7 +117,7 @@ sudo mount.glusterfs localhost:/shared_linto <Local mount point>
 
 ### Final steps
 
-You're done. Treat yourself with a LinTO tutti fruity blue gum and jump to [Service Installation]()
+You're done. Treat yourself with a LinTO candy jelly bean and jump to [Service Installation](services/services)
 
 # Using Ansible
 
