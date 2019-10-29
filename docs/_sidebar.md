@@ -16,7 +16,7 @@
     - [Os Generator](client/osgenerator)
     - [Sources](client/modules)
     - [Pre-built binaries](client/binaries)
-- [Embedded HotWord](client/hotword)
+- [Embedded Wake-Word Spotting](client/hotword)
     - [Quickstart](client/hotword)
     - [Building your own models](client/hotword)
 - [Other platfoms](client/other)
