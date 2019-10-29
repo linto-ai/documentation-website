@@ -1,5 +1,7 @@
 # On device Wake-Word Spotting
 
+
+## Quickstart
 On device wake-word spotting is an important privacy feature. It ensures that only your voice commands are processed by the service.
 Whitout it, if the detection takes place server-side, the device can potentialy become a listening device and LinTO ain't no snitch.
 

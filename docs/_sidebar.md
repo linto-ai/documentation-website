@@ -17,8 +17,7 @@
     - [Sources](client/modules)
     - [Pre-built binaries](client/binaries)
 - [Embedded Wake-Word Spotting](client/hotword)
-    - [Quickstart](client/hotword)
-    - [Building your own models](client/hotword)
+    - [Building your own models](client/custom_hotword)
 - [Other platfoms](client/other)
 - [Downloads](client/hotword)
 - **LinTO skills**
