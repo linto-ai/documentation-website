@@ -1,7 +1,7 @@
 # On device Wake-Word Spotting
 
 
-## Quickstart
+### Wakeword
 On device wake-word spotting is an important privacy feature. It ensures that only your voice commands are processed by the service.
 Whitout it, if the detection takes place server-side, the device can potentialy become a listening device and LinTO ain't no snitch.
 
@@ -9,15 +9,15 @@ Whitout it, if the detection takes place server-side, the device can potentialy 
 
 ```linto-command-module``` is the piece of software that serve that purpose.
 
-It is distributed directy inside the LinTo image, or build using the [os-generator](client/osgenerator) (As part of the functionnal modules).
+It is distributed directy inside the LinTO image, or build using the [os-generator](client/osgenerator) (As part of the functionnal modules).
 
 You can also download the source or the release binary on [github](https://github.com/linto-ai/linto-command-module)
 
-## Technology
+### Technology
 
 Our Wake-Word spotting technology relies on Deep Learning. Using a lightweight Recurrent Neural Retwork model trained on [collected data]() it achieves production-ready accuracy with minimum ressource usage.
 
-## Say 'LinTO'
+### Say 'LinTO'
 
 Just say "*LinTO*" to start interacting with the client.
 
