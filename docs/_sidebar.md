@@ -1,6 +1,7 @@
 - **About**
 - [Source repositories](repos)
 - [Product Roadmap](roadmap)
+- [Voice contribution](wakemeup)
 - **LinTO Platform**
 - [Infrastructure](infra)
 - [Services](services/services)
