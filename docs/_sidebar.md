@@ -1,6 +1,7 @@
 - **About**
 - [Source repositories](repos)
 - [Product Roadmap](roadmap)
+- [Voice contribution](wakemeup)
 - **LinTO Platform**
 - [Infrastructure](infra)
 - [Services](services/services)
@@ -11,11 +12,11 @@
     - [LinTO - Admin](services/admin)
 - [Downloads](services/download)
 - **LinTO client**
-- [Raspberry Pi](client/raspberry)
-    - [QuickStart](client/quickstart)
+- [Raspberry Pi](client/rpi)
+    - [QuickStart](client/rpi_quickstart)
     - [Os Generator](client/osgenerator)
-    - [Sources](client/modules)
-    - [Pre-built binaries](client/binaries)
+    - [Sources](client/rpi_sources)
+    - [Pre-built binaries](client/rpi_prebuilts)
 - [Wake-Word Spotting](client/embedded_hotword)
     - [Quickstart](client/hotword)
     - [Building your own models](client/custom_hotword)
