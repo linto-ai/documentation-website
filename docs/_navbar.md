@@ -1,1 +1,1 @@
-* [English](/)
+* [Back to linto.ai](https://linto.ai)
