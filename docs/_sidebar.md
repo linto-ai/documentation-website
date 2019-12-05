@@ -30,4 +30,4 @@
     - [Basic skill structure](skill/basic)
     - [Advanced features](skill/advanced)
 - **Links**
-- [Back to linto.ai](https://linto.ai)
+    - [Back to linto.ai](https://linto.ai)
