@@ -1,1 +1,1 @@
-* [Back to linto.ai](https://linto.ai)
+* <a href="https://linto.ai" target="_self">Back to linto.ai</a>
