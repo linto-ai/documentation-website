@@ -37,11 +37,11 @@ First of all, launch ```HMG```.
 
 On the main page, you can load an existing project (1) or create a new project (2).
 
-![Home page](https://i.imgur.com/zmfNXTX.png)
+![Home page](../_media/hmg/home.png)
 
 You can either set your project name or directly click on create to display the create project window.
 
-![Create Window](https://imgur.com/pilX9gw.png)
+![Create Window](../_media/hmg/create.png)
 
 Set your project name and the project location and specify the keyword(s) you'll be training. It might be a single keyword or multiple keywords.
 
@@ -59,7 +59,7 @@ There are two ways adding data:
 #### json file
 By selecting a json file (2) a prompt will ask you to select the field used to describe the samples:
 
-![Set fields](https://imgur.com/I4xeqUi.png)
+![Set fields](../_media/hmg/add.png)
 
 - ```File name``` is the field containing the ... file's name
 - ```Label``` is the field containing the keyword's name. Note that the name must be the same as the one set at the first step.
@@ -79,7 +79,7 @@ Once satisfied, click on done.
 ### 3. Setting the features.
 The next panel allows you tune the audio features use on the samples.
 
-![Features panel](https://imgur.com/1MtEPib.png)
+![Features panel](../_media/hmg/features.png)
 
 In ```Sample Parameters``` you can specify the sample length (in second).
 
@@ -94,7 +94,7 @@ Once finished, click on ```Setup Features Parameters``` to go to the training st
 ### 4. Model setup and training.
 This tab allow you to tune the net and training parameters.
 
-![Training Tab](https://imgur.com/uJV6PSQ.png)
+![Training Tab](../_media/hmg/train.png)
 
 In ```Model parameters``` you can change some of the net parameters such as Dropout, Loss function, Number of dense Layer and Layer's sizes or add a Gaussian noise layer.
 
@@ -110,14 +110,14 @@ If you are not satisfied you can click on ```Delete Model``` and start the train
 
 ### 5. Evaluate your model
 The Evaluate tab run the trained net on the training set and displays metrics.
-![Evaluate Tab](https://imgur.com/glocOqd.png)
+![Evaluate Tab](../_media/hmg/evaluate.png)
 
 Wrongly classified samples are available to listen on the bottom panel. It allows you to spot bad apples in your sets. 
 
 ### 6. Test your model
 The test tab allow to run your model and try it using your microphone
 
-![Test tab](https://i.imgur.com/J78Ch5D.png)
+![Test tab](../_media/hmg/test.png)
 
 Click on test to start the real time inference. The chart display the result for each hotword. If the threshold is reached the sample is added to ```recorded activations``` output.
 
@@ -125,7 +125,7 @@ Click on test to start the real time inference. The chart display the result for
 
 Once you are satisfied you can export your model using the export tab. 
 
-![Export tab](https://i.imgur.com/bVlu5Jh.png)
+![Export tab](../_media/hmg/export.png)
 
 For now, only the tensorflow protobuf (.pb) is available. Select the model version and click on ```Tensorflow format```. Your model will be saved in *PROJECT_FOLDER*/output/*MODEL_NAME*/*VERSION*/.
 
