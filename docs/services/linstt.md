@@ -1,70 +1,12 @@
-> Server stt-standalone-worker Endpoints
->  -
-* '/transcribe': 
-	* methods='POST'
-	* inputs='wavFile'
-	* output=audio transcription
-* '/check':
-	* methods='GET'
-	* inputs=None
-	* output=1 if the service is on
-* '/stop':
-	* methods='POST'
-	* inputs=None
-	* output=None
+# Automatic Speech Recognition - LinSTT
 
-> Config:
->  -
-* Environment variables:
-	* SERVICE_PORT
-* Volumes:
-	* /path/to/the/AM/directory:/opt/models/AM
-	* /path/to/the/LM/directory:/opt/models/LM
+LinSTT is a speech-to-text transcriber web service. It listens to the transcription requests which encapsules the input wave file and the worker produces as output the corresponding transcription. 
 
 
-> Parameters
-> -
-AM config file (decode.cfg)
-* decoder: Acoustic model used for decoding (dnn2, dnn3)
-* ampath: Path to the AM directory
-* lmPath: Path to the language model generation directory (this option is only required by the model service)
-* lmOrder: Ngrams used to generate the language model (this option is only required by the model service)
-* min_active: Min active tokens
-* max_active: Max active tokens
-* beam: Decoding beam
-* lattice_beam: Beam used in lattice generation
-* acwt: Acoustic likelihoods scale
-* frame_subsampling_factor : related to chain models (dnn3)
+![LinSTT](../../_media/stt.png)  
 
-AM directory:
-*	final.mdl
-*	conf
-	*	ivector_extractor.conf
-	*	mfcc.conf
-	*	online_cmvn.conf
-	*	splice.conf
-	*	online.conf
-*	ivector_extractor
-	*	final.dubm
-	*	final.ie
-	*	final.mat
-	*	global_cmvn.stats
-	*	online_cmvn.conf
-	*	splice_opts
 
-> Nb:  use relative path in config files
-> example: decode.cfg
-	>ampath: online/
-	>lmPath: online/LM_gen/
-
-> Nb: ivector_extractor.conf must include only the extraction parameters without the file dependecies
-	> - --num-gselect=5
-	>- --min-post=0.025
-	>- --posterior-scale=0.1
-	>- --max-remembered-frames=1000
-	>- --max-count=100
-	
-LM directory:
-*	HCLG.fst
-*	words.txt
-
+In the following sub-sections:
+- [Quickstart](services/linstt_quickstart): The architecture of our transcriber and its differents modules are introduced.
+- [How2use](services/linstt_howtouse): We will show how to install, configure and execute this service under docker technology.
+- [Download](services/linstt_download): Various models are available for download.
