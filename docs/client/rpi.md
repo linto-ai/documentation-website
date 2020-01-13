@@ -11,5 +11,4 @@ We choose to develop a early version on raspberry for many reason:
 
 In outline, it is a perfect tool for prototyping and testing LinTO in real conditions.
 
-**Summary**
-Comming soon ...
+Setup your assistant: [Quickstep](client/rpi_quickstart)
