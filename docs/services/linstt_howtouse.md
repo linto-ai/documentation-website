@@ -1,10 +1,5 @@
 # Automatic Speech Recognition - LinSTT: Get Started 
 
-
-installation (using docker)
-configuration (env, models, ...)
-execute (alone, under service manager)
-
 ## Installation
 
 ### Packaged in Docker
@@ -46,8 +41,8 @@ If you want to use our service alone without LinTO-Platform-STT-Service-Manager,
 1- Download the French acoustic model and the small decoding graph
 
 ```bash
-wget https://gamma.linto.ai/downloads/model-distribution/acoustic-models/fr-FR/linSTT_AM_fr-FR_v1.0.0.zip
-wget https://gamma.linto.ai/downloads/model-distribution/decoding-graphs/LVCSR/fr-FR/decoding_graph_fr-FR_Small_v1.0.0.zip
+wget https://dl.linto.ai/downloads/model-distribution/acoustic-models/fr-FR/linSTT_AM_fr-FR_v1.0.0.zip
+wget https://dl.linto.ai/downloads/model-distribution/decoding-graphs/LVCSR/fr-FR/decoding_graph_fr-FR_Small_v1.0.0.zip
 ```
 
 2- Uncompress both files
@@ -93,6 +88,14 @@ docker-compose up
 
 To run and manager LinSTT under `LinTO-Platform-STT-Service-Manager` service, you need to create a service first and then to start it. See [LinTO - Manager](services/manager?id=execute)
 
+Our service requires an audio file in `Waveform format`. It should has the following parameters:
+
+    - sample rate: 16000 Hz
+    - number of bits per sample: 16 bits
+    - number of channels: 1 channel
+    - microphone: any type
+    - duration: <30 minutes
+
 ### Run Example Applications
 To run an automated test go to the test folder
 
@@ -105,3 +108,7 @@ And run the test script:
 ```bash
 ./run.sh
 ```
+
+Or use swagger interface to perform your personal test
+
+![Swagger](../../_media/linstt_swagger.png)
