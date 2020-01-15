@@ -24,7 +24,7 @@
     - [Quickstart](client/hotword)
     - [Building your own models](client/custom_hotword)
 - [Other platfoms](client/other)
-- [Downloads](client/hotword)
+- [Downloads](client/download)
 - **LinTO skills**
 - [Node Red](skill/nodered)
 - [Available LinTO skills](skill/list)
