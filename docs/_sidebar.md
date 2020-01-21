@@ -27,10 +27,11 @@
 - [Downloads](client/download)
 - **LinTO skills**
 - [Node Red](skill/nodered)
+- [Components](skill/components)
 - [Available LinTO skills](skill/list)
+- [Skill development guide](skill/devguide/intro)
+    - [Basic skill structure](skill/devguide/basic)
+    - [Advanced features](skill/devguide/advanced)
 - [Skill deployment guide](skill/depguide)
-- [Skill development guide](skill/devguide)
-    - [Basic skill structure](skill/basic)
-    - [Advanced features](skill/advanced)
 - **Links**
 - <a href="https://linto.ai" target="_self">Back to linto.ai</a>
