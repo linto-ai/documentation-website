@@ -5,8 +5,7 @@ We will describe here the basic part about LinTO skill. These knowledge will giv
 ## Prerequisite
 
 Make sure to have the template provided : `git clone https://ci.linagora.com/linagora/lgs/labs/Linto-Device/Linto-Backend/linto-skills-v2.git`
-
-linto-components has been installed : `npm i linto-components -s`
+Then install the different module `npm install`
 
 ## Architecture
 First step will be to describe the template architecture. The template is formed of these following file :
