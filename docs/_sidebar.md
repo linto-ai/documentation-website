@@ -26,12 +26,12 @@
 - [Other platfoms](client/other)
 - [Downloads](client/download)
 - **LinTO skills**
-- [Node Red](skill/nodered)
-- [Components](skill/components)
-- [Available LinTO skills](skill/list)
-- [Skill development guide](skill/devguide/intro)
-    - [Basic skill structure](skill/devguide/basic)
-    - [Advanced features](skill/devguide/advanced)
-- [Skill deployment guide](skill/depguide)
+- [Node Red](skills/nodered)
+- [Components](skills/components)
+- [Available LinTO skills](skills/list)
+- [Skill development guide](skills/devguide/intro)
+    - [Basic skill structure](skills/devguide/basic)
+    - [Advanced features](skills/devguide/advanced)
+- [Skill deployment guide](skills/depguide)
 - **Links**
 - <a href="https://linto.ai" target="_self">Back to linto.ai</a>
