@@ -33,5 +33,7 @@
     - [Basic skill structure](skills/devguide/basic)
     - [Advanced features](skills/devguide/advanced)
 - [Skill deployment guide](skills/depguide)
+- **Lexical seeding**
+- [Format dataset](lexical_seeding/format)
 - **Links**
 - <a href="https://linto.ai" target="_self">Back to linto.ai</a>
