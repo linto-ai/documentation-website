@@ -213,4 +213,4 @@ Unless like other node, a node-red-linto-skill is trigger by an event and emit a
 ```
 
 ## Tweak it
-Now the last step is to enhance the skill to you own desire
+Now the last step is to enhance the skill to you'r own desire

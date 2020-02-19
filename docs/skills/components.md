@@ -1,12 +1,14 @@
-
 # Linto-Components
-LinTO-Components contains the main part of a LinTO skill. These module has been created to simplify a LinTO skill creation.
+[LinTO-Components](https://github.com/linto-ai/linto-skills-components) contains the main part of a LinTO skill. These module has been created to simplify a LinTO skill creation.
 
 Here is a list of the main components with a brief summary of what they do:
 *  **Nodes** : Node component manage a default setup based on the desired type of node (CoreNode, DictionaryNode, SkillNode)
 *  **Components** : Utility toolbox for LinTO
 *  **Connect** : Provide different connector for a skill
 *  **Exception** : Exception related to linto-component
+
+## Installation 
+These module can be installed with `npm i @linto-ai/linto-components -s`
 
 ## Nodes
 The components "Nodes" regroup each type of LinTO node. These type of node allow to easily setup a specific node type for the BLS.
