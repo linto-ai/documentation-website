@@ -15,9 +15,9 @@ Our pre-built models are:
 Our pre-built graphs are:
 
 - Kaldi ASR, French:
-    - `decoding graph_fr-FR_Big_v3.0.0`: This model is trained on various large corpus. Should provide the best accuracy but is a bit more resource intensive than the other models. [Download link](https://dl.linto.ai/downloads/model-distribution/decoding-graphs/LVCSR/fr-FR/decoding_graph_fr-FR_Big_v3.0.0.zip)
+    - `decoding graph_fr-FR_Big_v1.3.0`: This model is trained on various large corpus. Should provide the best accuracy but is a bit more resource intensive than the other models. [Download link](https://dl.linto.ai/downloads/model-distribution/decoding-graphs/LVCSR/fr-FR/decoding_graph_fr-FR_Big_v1.3.0.zip)
 
-    - `decoding_graph_fr-FR_Medium_v2.0.0`: This model is trained on four corpus. Less accurate but also slightly less resource intensive than the `decoding graph_fr-FR_Big_v3.0.0` model. [Download link](https://dl.linto.ai/downloads/model-distribution/decoding-graphs/LVCSR/fr-FR/decoding_graph_fr-FR_Medium_v2.0.0.zip)
+    - `decoding_graph_fr-FR_Medium_v1.2.0`: This model is trained on four corpus. Less accurate but also slightly less resource intensive than the `decoding graph_fr-FR_Big_v1.3.0` model. [Download link](https://dl.linto.ai/downloads/model-distribution/decoding-graphs/LVCSR/fr-FR/decoding_graph_fr-FR_Medium_v1.2.0.zip)
 
-    - `decoding_graph_fr-FR_Small_v1.0.0`: This model is trained on three small corpus. Less resource intensive, suitable for use in embedded applications. [Download link](https://dl.linto.ai/downloads/model-distribution/decoding-graphs/LVCSR/fr-FR/decoding_graph_fr-FR_Small_v1.0.0.zip)
+    - `decoding_graph_fr-FR_Small_v1.1.0`: This model is trained on three small corpus. Less resource intensive, suitable for use in embedded applications. [Download link](https://dl.linto.ai/downloads/model-distribution/decoding-graphs/LVCSR/fr-FR/decoding_graph_fr-FR_Small_v1.1.0.zip)
 
