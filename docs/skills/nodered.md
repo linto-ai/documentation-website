@@ -15,5 +15,5 @@ With these framework we can easily extended LinTO action by creating new nodes f
 
 ## Web View
 <p align="center">
-  <img src="../_media/skill/nodered/red_ui.png" alt="red_ui"/>
+  <img src="../_media/skills/nodered/red_ui.png" alt="red_ui"/>
 </p>

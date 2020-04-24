@@ -7,10 +7,10 @@ Before we get started we assume that you have the knowledge to create your own n
 
 A template is provided for the following guide to ease the comprehension. The template can be found [here](https://ci.linagora.com/linagora/lgs/labs/Linto-Device/Linto-Backend/linto-skills-v2) or by cloning it with : `git clone https://ci.linagora.com/linagora/lgs/labs/Linto-Device/Linto-Backend/linto-skills-v2.git`
 
-For an easiest understanding we assume that you have a knowledge about [linto-components guide](skill/components), not require
+For an easiest understanding we assume that you have a knowledge about [linto-components guide](skills/components), not require
 
 ## Guide
 
 We provide two guide :
- - [Basic guide - Understanding a linto-skill](skill/devguide/basic)
- - [Advanced guide - WIP](skill/devguide/basic) 
+ - [Basic guide - Understanding a linto-skill](skills/devguide/basic)
+ - [Advanced guide - WIP](skills/devguide/basic) 

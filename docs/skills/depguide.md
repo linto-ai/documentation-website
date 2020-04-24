@@ -38,13 +38,13 @@ Make sure to stop the docker, then the process is same has the previous one, the
 If the skill has been published on npm with the name `node-red-xxx` then it will be possible to install the node with the node-red manager.
 <br>First step, is to go on the `manage palette` reachable by the side-menu :
 <p align="center">
-  <img src="../_media/skill/depguide/manage_palette.png" alt="manage_palette"/>
+  <img src="../_media/skills/depguide/manage_palette.png" alt="manage_palette"/>
 </p>
 
 
 Then go on the tabs `install` and search for the node to install by his name.
 <br>**Note**: If the module is not find but has been recently published, he can take some time before being visible
 <p align="center">
-  <img src="../_media/skill/depguide/install_module.png" alt="install_module"/>
+  <img src="../_media/skills/depguide/install_module.png" alt="install_module"/>
 </p>
 Finally you should be able to find and use your node in the node-red palette.

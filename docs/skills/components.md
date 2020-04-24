@@ -41,7 +41,7 @@ class  MyLintoNode  extends  LintoNode {
 The template LinTO-Core-Node are used by the provided skills with LinTO : **node-red-linto-core**.
 
 A core-node is provided with **loadModule** function, which allow to load a desired function for the wire (used on multiple API selection).
-The node also load by default `Wire-Node` component (see below in [components - wire node](skill/components?id=components))
+The node also load by default `Wire-Node` component (see below in [components - wire node](skills/components?id=components))
 
 ### Example use
 ```js
@@ -77,8 +77,8 @@ class  MyLinTODictionary  extends  LintoDictionaryCoreNode {
 #### ** LinTO Skill Node**
 Each new skill-node will enable LinTO to proceed a new action.
 
-The skill node manage different autoload function, a tutorial has been made about [crating your own skill](/skill/depguide)
-The node also load by default `Wire-Event` component (see below in [components - wire event](skill/components?id=components))
+The skill node manage different autoload function, a tutorial has been made about [crating your own skill](/skills/depguide)
+The node also load by default `Wire-Event` component (see below in [components - wire event](skills/components?id=components))
 
 ### Example use
 ```js

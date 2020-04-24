@@ -151,7 +151,7 @@ module.exports = function (payload) {
 
 ## Some tips
 ### Load multiple component
-More information about different [component](skill/components)
+More information about different [component](skills/components)
 
 ```js
 const { payloadAction, template, request, ... } = require('linto-components').components
