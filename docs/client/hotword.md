@@ -11,7 +11,9 @@ Whitout it, if the detection takes place server-side, the device can potentialy 
 
 It is distributed directy inside the LinTO image, or build using the [os-generator](client/osgenerator) (As part of the functionnal modules).
 
-You can also download the source or the release binary on [github](https://github.com/linto-ai/linto-command-module)
+You can also download the source or the release binary on [github](https://github.com/linto-ai/linto-command-module).
+
+The latest generated keyword model can be found [here](https://dl.linto.ai/downloads/model-distribution/KWS/linto-latest.tar.gz).
 
 ### Technology
 
