@@ -15,7 +15,7 @@ You can also download the source or the release binary on [github](https://githu
 
 ### Technology
 
-Our Wake-Word spotting technology relies on Deep Learning. Using a lightweight Recurrent Neural Retwork model trained on [collected data]() it achieves production-ready accuracy with minimum ressource usage.
+Our Wake-Word spotting technology relies on Deep Learning. Using a lightweight Recurrent Neural Retwork model trained on [collected data](https://dl.linto.ai/downloads/datasets/2020-05-09-linto-corpus-public.tar.gz) it achieves production-ready accuracy with minimum ressource usage.
 
 ### Say 'LinTO'
 
