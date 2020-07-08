@@ -59,6 +59,20 @@ class  MyLintoCoreNode  extends  LintoSkillNode {
     }
 }
 ```
+#### ** LinTO Connect Core Node**
+Linto-Core-Connect node are extended from lintoCoreNode, they load the component mqtt by default. The ConnectCoreNode destroy their mqtt connection when the node is remove.
+
+### Example use
+```js
+const  LintoConnectCoreNode = require('linto-components').nodes.lintoConnectCoreNode
+class  MyLinTODictionary  extends  LintoConnectCoreNode {
+    constructor(RED, node, config) {
+        super(node, config)
+        ...
+    }
+}
+```
+
 
 #### ** LinTO Dictionary Core Node**
 Linto-Core-Dictionary node are extended from lintoCoreNode, they add one check on the required data for a dictionary
@@ -369,9 +383,7 @@ this.wireNode = wireNode.init(RED)
 Component allowing different external communication
   
 <!-- tabs:start -->
-#### ** Authenticated Token **
-`WIP: Not yet implemented, require to work with linto-overwatch-auth`
-  
+
 #### ** MQTT **
 Toolbox that handle different MQTT functionality
   
@@ -390,8 +402,7 @@ let  mqttConfig = this.getFlowConfig('confMqtt')
 >  `connect`  <br>
 > Connect to the specified host:port
 >>  <b  style="color:green;">Arguments</b> :
->>  -  **{String} host** : Host to connect
->>  -  **{String} port** : Port to connect
+>>  -  **{Object} flowMqttConfig** : MQTT information (host, port, user, password)
 >
 >  **{Promise}** : Return, mqtt client connected.
   
@@ -414,6 +425,33 @@ let  mqttConfig = this.getFlowConfig('confMqtt')
 >>  -  **{Array{string}} ids** : List of ids to subscribe (can be **+** for all LinTO)
 >>  -  **{String} topicAction** : Topic to subscribe (by default LinTO have : status, statusack)
   
+
+#### ** Authenticated Token **
+Authentication toolbox enable user check token
+
+### Example use
+```js
+const { authToken } = require('@linto-ai/linto-components').connect
+...
+// In constructor class
+this.authToken = authToken.init(authServerService)
+...
+// After component initialisation
+let response = await this.authToken.checkToken(auth_token)
+```
+
+### Functionality
+> `init` <br>
+> Settings default authentication host
+>>  <b  style="color:green;">Arguments</b> :
+>>  -  **{String} host** :  Token validator service path
+
+> `checkToken` <br>
+> Verify the user token
+>>  <b  style="color:green;">Arguments</b> :
+>>  -  **{String} token** : User token to be validate
+>  **{Promise}** : Return, request response.
+
 <!-- tabs:end -->
 ## Exception
 Different exception related to LinTO.
