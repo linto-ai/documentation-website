@@ -29,7 +29,7 @@ Or, download the pre-built image from docker-hub:
 docker pull lintoai/linto-platform-stt-standalone-worker:latest
 ```
 
-NB: You must install docker on your machine. See installation instruction in [Infrastructure](infra?id=prerequistes)
+NOTE: You must install docker on your machine. See installation instruction in [Infrastructure](infra?id=prerequistes)
 
 ## Configuration
 The LinSTT service that will be set-up here require KALDI models, the acoustic model and the decoding graph. Indeed, these models are not included in the repository; you must download them in order to run LinSTT. You can use our pre-trained models from here: [linstt download](services/linstt_download).
@@ -59,13 +59,15 @@ mv AM_fr-FR ~/linto_shared/data
 mv DG_fr-FR_Small ~/linto_shared/data
 ```
 
-4- Configure the environment file `.env` included in the repository `linto-platform-stt-standalone-worker`
+4- Rename the default environment file `.envdefault` included in the repository `linto-platform-stt-standalone-worker` and configure it by providing the full path of the following parameters:
 
     AM_PATH=/full/path/to/linto_shared/data/AM_fr-FR
     LM_PATH=/full/path/to/linto_shared/data/DG_fr-FR_Small
 
+5- If you want to use Swagger interface, you need to set the corresponding environment parameter:
+    SWAGGER_PATH=/full/path/to/swagger/file
 
-NB: if you want to use the visual user interface of the service, you need also to configure the swagger file `document/swagger.yml` included in the repository `linto-platform-stt-standalone-worker`. Specifically, in the section `host`, specify the adress of the machine in which the service is deployed.
+NOTE: if you want to use the user interface of the service, you need also to configure the swagger file `document/swagger.yml` included in the repository `linto-platform-stt-standalone-worker`. Specifically, in the section `host`, specify the address of the machine in which the service is deployed.
 
 ### Using LinTO-Platform-STT-Service-Manager
 In case you want to use `LinTO-Platform-STT-Service-Manager`, you need to:
@@ -74,9 +76,9 @@ In case you want to use `LinTO-Platform-STT-Service-Manager`, you need to:
 
 2- Create a language model and upload the corresponding decoding graph
 
-3- Configure the environmenet file of this service.
+3- Configure the environment file of this service.
 
-For more details, see configuration instruction in [LinTO - Manager](services/manager?id=configuration)
+For more details, see configuration instruction in [LinTO - STT-Manager](services/stt_manager?id=configuration)
 
 ## Execute
 In order to run the service alone, you have only to execute:
@@ -85,8 +87,9 @@ In order to run the service alone, you have only to execute:
 cd linto-platform-stt-standalone-worker
 docker-compose up
 ```
+Then you can acces it on [localhost:8888](localhost:8888)
 
-To run and manager LinSTT under `LinTO-Platform-STT-Service-Manager` service, you need to create a service first and then to start it. See [LinTO - Manager](services/manager?id=execute)
+To run and manager LinSTT under `LinTO-Platform-STT-Service-Manager` service, you need to create a service first and then to start it. See [LinTO - STT-Manager](services/stt_manager?id=execute)
 
 Our service requires an audio file in `Waveform format`. It should has the following parameters:
 
@@ -95,6 +98,8 @@ Our service requires an audio file in `Waveform format`. It should has the follo
     - number of channels: 1 channel
     - microphone: any type
     - duration: <30 minutes
+
+Other formats are also supported: mp3, aiff, flac, and ogg.
 
 ### Run Example Applications
 To run an automated test go to the test folder
@@ -106,9 +111,31 @@ cd linto-platform-stt-standalone-worker/test
 And run the test script:
 
 ```bash
-./run.sh
+./test_deployment.sh
 ```
 
-Or use swagger interface to perform your personal test
+Or use swagger interface to perform your personal test: localhost:8888/api-doc/
 
-![Swagger](../../_media/linstt_swagger.png)
+![Swagger](../../_media/linstt/linstt_swagger.png)
+
+
+<!-- tabs:start -->
+
+#### ** /transcribe **
+
+Convert a speech to text
+
+### Functionality
+>  `post`  <br>
+> Make a POST request
+>>  <b  style="color:green;">Arguments</b> :
+>>  -  **{File} file** : Audio file (file format: wav, mp3, aiff, flac, ogg)
+>>  -  **{Integer} nbrSpeaker (optional)**: Number of speakers engaged in dialog
+>>  -  **{String} speaker (optional)**: Do speaker diarization (yes|no)
+>
+>>  <b  style="color:green;">Header</b> :
+>>  -  **{String} Accept**: response content type (text/plain|application/json)
+>
+>  **{text|Json}** : Return the full transcription or a json object with metadata
+
+<!-- tabs:end -->
