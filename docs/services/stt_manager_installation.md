@@ -1,7 +1,7 @@
 # STT Service Manager: Installation
 
 ## Prerequisites
-To lauch the application, you'll have to launch associated services :
+To use the STT-manager service, you'll have to make sure that dependent services are installed and launched:
 
 - mongodb: `docker pull mongo`
 - nginx: `docker pull nginx`
@@ -9,7 +9,7 @@ To lauch the application, you'll have to launch associated services :
 
 ## Download and Install
 
-To install STT Service Manager you will need to download the source code :
+To install STT Service Manager you will need to download the source code:
 
 ```bash
 git clone https://github.com/linto-ai/linto-platform-stt-service-manager.git
