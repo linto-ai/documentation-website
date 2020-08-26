@@ -16,6 +16,7 @@ The components "Nodes" regroup each type of LinTO node. These type of node allow
 Here is a list of all type node define in linto-components :
 - Node
 - Core-Node
+- Core-Event-Node
 - Dictionary-Node
 - Skill-Node
 
@@ -24,7 +25,7 @@ We will describe the difference node type and how to use them :
 <!-- tabs:start -->
 
 #### ** LinTO Node **
-LinTO-Node is a classic node style
+LinTO-Node is the classic node style
 
 ### Example use
 ```js
@@ -57,6 +58,24 @@ class  MyLintoCoreNode  extends  LintoSkillNode {
         let  serviceFunc = await  this.loadModule(`${**dirname}/api/${this.config.node.api}`) // Not require
         this.wireNode.onMessageSend(this, serviceFunc)
     }
+}
+```
+
+#### ** LinTO Core Event Node **
+Linto-Core-Event node are extended from lintoCoreNode, they load the component wire-event by default enable to publish a message to linto-out
+
+### Example use
+```js
+const  LintoCoreEventNode = require('linto-components').nodes.lintoCoreEventNode
+class  MyLintoCoreNode  extends  LintoSkillNode {
+    constructor(RED, node, config) {
+        super(RED, node, config)
+        ...
+        this.init()
+    }
+
+    // In node function skill
+    this.notifyEventError('mqtt-Topic', {text : 'LinTo text'}, { message: err.message, code: 500 })
 }
 ```
 #### ** LinTO Connect Core Node**
