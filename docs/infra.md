@@ -87,7 +87,7 @@ replica <Number of cluster nodes> \
 ... (etc)
 force
 ```
---> Use "force" directive if you want to use some folder inside the node root folded.
+--> Use "force" directive if you want to use some folder inside the node root folder.
 
 ### Start the replicated volume
 
@@ -102,7 +102,7 @@ mkdir ~/linto_shared_mount
 ```
 --> This is where the services will access the filesystem provided by the Gluster FS volume 
 
-### Prepare utomount shared volume on each node (effective after reboot or mount -a)
+### Prepare automount shared volume on each node (effective after reboot or mount -a)
 
 __USE THIS WISELY WITH THE CORRECT MOUNT POINTS__, command will look like :
 ```
@@ -118,7 +118,3 @@ sudo mount.glusterfs localhost:/shared_linto <Local mount point>
 ### Final steps
 
 You're done. Treat yourself with a LinTO candy jelly bean and jump to [Service Installation](services/services)
-
-# Using Ansible
-
-Soon !

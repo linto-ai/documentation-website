@@ -685,7 +685,7 @@ LinTO platform deployment heavily relies on Docker. Therefore we propose ready-m
 
 ***NOTE*** : _You can always dig in the source code and build custom deployments for some parts._
 
-### Having trouble ?
+### Having trouble with this documentation ?
 
-- [Troubleshooting](troubleshooting)
-- contact@linto.ai
+- You'll find a comment field in the footer of every documentation page. We will answer as soon as possible.
+- Contact us : contact@linto.ai

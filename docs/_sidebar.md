@@ -1,11 +1,10 @@
 - **About**
 - [Source repositories](repos)
-- [Product Roadmap](roadmap)
 - [Voice contribution](wakemeup)
 - **LinTO Platform**
 - [Infrastructure](infra)
 - [Services](services/services)
-    - [LInTO - Server](services/server)
+    - [LinTO Platform Stack](services/stack)
     - [LinTO - STT-Manager](services/stt_manager)
         - [Installation](services/stt_manager_installation)
         - [How2use](services/stt_manager_how2use)
