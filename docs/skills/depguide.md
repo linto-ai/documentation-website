@@ -50,13 +50,13 @@ Then go on the tabs `install` and search for the node to install by his name.
 Finally you should be able to find and use your node in the node-red palette.
 
 
-### Custom Published Node (CATALOGUE)
-Catalogue url points to a json file that provides content of a new skill to be installed.
-By default, the catalogue will be one we provide, but he can be customized.
+## Custom catalogue
+Catalogue are used to install unpublish new skill. 
+By default, the catalogue will be one we provide, but they can be customized.
 
 Below are the API we provide for the generation of those catalogue
 
-## Generate from json
+### Generate from json
 Generate the node-red catalogue from a json.
 
 **URL** : `/:LINTO_STACK_BLS_BASE_PATH/red/catalogue/raw`
@@ -98,7 +98,7 @@ Content-Type : application/json
 }
 ```
 
-### Success Response
+#### Success Response
 
 **Code** : `200 OK`
 
@@ -131,7 +131,7 @@ Content-Type : application/json
 }
 ```
 
-## Generate from host
+### Generate from host
 Generate the node-red catalogue based on a private npm registry.
 
 **URL** : `/:LINTO_STACK_BLS_BASE_PATH/red/catalogue/:host_type`
@@ -153,7 +153,7 @@ Content-Type : application/json
 }
 ```
 
-### Success Response
+#### Success Response
 
 **Code** : `200 OK`
 
@@ -186,29 +186,42 @@ Content-Type : application/json
 }
 ```
 
-## Get Catalogue
+### Get Catalogue
 Get the node-red catalogue currently generated.
 
 **URL** : `/:LINTO_STACK_BLS_BASE_PATH/red/catalogue`
 
 **Method** : `GET`
 
-### Success Response
+#### Success Response
 
 **Code** : `200 OK`
 
 **Body Content**
 ```json
-[
-  {
-    "topic": "blk",
-    "name": "Default",
-    "description": "Default scope"
-  },
-  {
-    "topic": "LNG",
-    "name": "Linagora",
-    "description": "A small description of the scope"
-  }
-]
+{
+  "msg": "Registry generated for : https://host_url",
+  "name": "catalogue",
+  "updated_at": "2020-08-26T08:31:22.245Z",
+  "modules": [
+    {
+      "description": "Linto skill that gives information about welcoming (greeting, goodbye, how are you)",
+      "version": "0.1.3-2",
+      "keywords": [
+        "linto",
+        "node-red",
+        "skill",
+        "greeting"
+      ],
+      "types": [
+        "node-red"
+      ],
+      "updated_at": "2020-08-26T08:31:09.187Z",
+      "id": "@linto-ai/node-red-linto-welcome",
+      "url": "http://verdaccio.linto.ai/-/web/detail/@linto-ai/node-red-linto-welcome",
+      "pkg_url": "http://verdaccio.linto.ai/@linto-ai/node-red-linto-welcome/-/@linto-ai/node-red-linto-welcome-0.1.3-2.tgz"
+    },
+    {...}
+  ]
+}
 ```
