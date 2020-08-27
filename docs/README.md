@@ -660,6 +660,7 @@ For more information on this, and how to apply and follow the GNU AGPL, see
 
 This documentation provides step by step instructions to get you started using LinTO. It will guide you through the process of deploying the platform on premise, quickly developing your own specific skills and many more...
 
+
 ## Technology overview
 
 LinTO is a client-server system that enables the conception, deployment and maintenance of complete software & hardware clients that uses voice as a natural user interface.
@@ -672,18 +673,25 @@ Some use cases includes :
 - Engine for privacy by design smart assistant
 - ...
 
+![overview](../../_media/client-server.jpg)
+
+## Deployment
+
+As you want to connect voice enabled endpoints __"LinTO Clients"__ to a server, most of this documentation relates to __"LinTO Platform"__ which is the label used to describe anything related to server-side components of __"LinTO"__ as a whole.
+
+LinTO platform deployment heavily relies on Docker. Therefore we propose ready-made images of every services (this is what you shall use).
+
+- First you need to setup an infrastructure to deploy LinTO Platform Services : [Plan Infrastructure](infra)
+- Deploy the services stack : [Deploy services](services/services)
+
+>[Our Docker Hub images](https://hub.docker.com/u/lintoai)
+
+***NOTE*** : _You can always dig in the source code and build custom deployments for some parts._, see below
+
 ### Source code
 
 LinTO source code is available on github, splitted into multiple sub-projects that are related to specific services, tools or general utility softwares.
 > [Source repositories](repos)
-
-### Deployment
-
-LinTO platform deployment heavily relies on Docker. Therefore we propose ready-made images of every services (this is what you shall use)
-
->[Our Docker Hub images](https://hub.docker.com/u/lintoai)
-
-***NOTE*** : _You can always dig in the source code and build custom deployments for some parts._
 
 ### Having trouble with this documentation ?
 
