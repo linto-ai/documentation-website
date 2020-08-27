@@ -50,13 +50,13 @@ Then go on the tabs `install` and search for the node to install by his name.
 Finally you should be able to find and use your node in the node-red palette.
 
 
-### Custom Published Node (CATALOGUE)
-Catalogue url points to a json file that provides content of a new skill to be installed.
-By default, the catalogue will be one we provide, but he can be customized.
+## Custom catalogue
+Catalogue are used to install unpublish new skill. 
+By default, the catalogue will be one we provide, but they can be customized.
 
 Below are the API we provide for the generation of those catalogue
 
-## Generate from json
+### Generate from json
 Generate the node-red catalogue from a json.
 
 **URL** : `/:LINTO_STACK_BLS_BASE_PATH/red/catalogue/raw`
@@ -98,7 +98,7 @@ Content-Type : application/json
 }
 ```
 
-### Success Response
+#### Success Response
 
 **Code** : `200 OK`
 
@@ -131,7 +131,7 @@ Content-Type : application/json
 }
 ```
 
-## Generate from host
+### Generate from host
 Generate the node-red catalogue based on a private npm registry.
 
 **URL** : `/:LINTO_STACK_BLS_BASE_PATH/red/catalogue/:host_type`
@@ -153,7 +153,7 @@ Content-Type : application/json
 }
 ```
 
-### Success Response
+#### Success Response
 
 **Code** : `200 OK`
 
@@ -186,14 +186,14 @@ Content-Type : application/json
 }
 ```
 
-## Get Catalogue
+### Get Catalogue
 Get the node-red catalogue currently generated.
 
 **URL** : `/:LINTO_STACK_BLS_BASE_PATH/red/catalogue`
 
 **Method** : `GET`
 
-### Success Response
+#### Success Response
 
 **Code** : `200 OK`
 
