@@ -1,4 +1,4 @@
-# Plan and setup the infrastructure for production
+# Plan and setup the infrastructure for tests or production
 ## Prerequistes
 
 * Docker CE with Docker Engine > 1.12 for swarm mode availability. See : https://docs.docker.com/engine/installation/,  https://docs.docker.com/compose/install/.
@@ -117,4 +117,4 @@ sudo mount.glusterfs localhost:/shared_linto <Local mount point>
 
 ### Final steps
 
-You're done. Treat yourself with a LinTO candy jelly bean and jump to [Service Installation](services/services)
+You're done. Treat yourself with a LinTO candy jelly bean and jump to [Service Installation](stack)

@@ -7,11 +7,14 @@ If you fancy using kubernetes, or other containers orchestration tools, you migh
 
 The benefit we try to raise by chosing Docker Swarm is to stick as much as we can to standard Docker / Docker Compose deployements. We hope that it would be more convinient for LinTO contributors, hackers and makers that wants to quickly deploy LinTO's tooling.
 
-# What's inside linto-platform-stack GitHub repository
 
-This repo provides a tool that *tries* to solve all the burden of  deploying LinTO's server components with our proposed Docker images (quite a complicated task otherwise...)
+# LinTO Stack deployment tool
 
-The tool is available here, [linto-platform-stack](https://github.com/linto-ai/linto-platform-stack). It mainly consists of a bash script, `start.sh`, that feeds Docker Swarm with the provided YML Docker Compose files. The script will also generate files in a shared folder made available on every node of the swarm cluster. Almost every user setups are wrapped in a single environement variable declarative file.
+**The tool is available here, [linto-platform-stack](https://github.com/linto-ai/linto-platform-stack). Please, clone this on a *manager node* of your Docker Swarm cluster !**
+
+This tool *tries* to solve all the burden of  deploying LinTO's server components with our proposed Docker images (quite a complicated task otherwise...)
+
+It mainly consists of a bash script, `start.sh`, that feeds Docker Swarm with the provided YML Docker Compose files. The script will also generate files in a shared folder made available on every node of the swarm cluster. Almost every user setups are wrapped in a single environement variable declarative file.
 
 The whole point here is to rationalize all your deployement in two quick steps:
 1. Configure the service stack options by filling-up all the mandatory environement variables in `.dockerenv`

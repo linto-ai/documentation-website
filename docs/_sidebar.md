@@ -1,30 +1,19 @@
 - **About**
 - [Source repositories](repos)
 - [Voice contribution](wakemeup)
-- **LinTO Platform**
-- [Infrastructure](infra)
-- [Services](services/services)
-    - [LinTO Platform Stack](services/stack)
-    - [LinTO - STT-Manager](services/stt_manager)
-        - [Installation](services/stt_manager_installation)
-        - [How2use](services/stt_manager_how2use)
-    - [LinTO - LinSTT](services/linstt)
-        - [QuickStart](services/linstt_quickstart)
-        - [How2use](services/linstt_howtouse)
-        - [Download](services/linstt_download)
-    - [LinTO - NLU](services/nlu)
-    - [LinTO - Skill server](services/skill)
-    - [LinTO - Admin](services/admin)
-- [Downloads](services/download)
+- **LinTO Platform Server**
+- [Plan Infrastructure](infra)
+- [Deploy Platform Stack](stack/stack)
+- [Post install tutorial](stack/postinstall)
 - **LinTO client**
+- [Wake-Word Spotting](client/embedded_hotword)
+    - [Quickstart](client/hotword)
+    - [Building your own models](client/custom_hotword)
 - [Raspberry Pi](client/rpi)
     - [QuickStart](client/rpi_quickstart)
     - [Os Generator](client/osgenerator)
     - [Sources](client/rpi_sources)
     - [Pre-built binaries](client/rpi_prebuilts)
-- [Wake-Word Spotting](client/embedded_hotword)
-    - [Quickstart](client/hotword)
-    - [Building your own models](client/custom_hotword)
 - [Other platfoms](client/other)
 - [Downloads](client/download)
 - **LinTO skills**
@@ -37,5 +26,18 @@
 - [Skill deployment guide](skills/depguide)
 - **Lexical seeding**
 - [Format dataset](lexical_seeding/format)
+- **Services Howtos**
+- [Notice](services/services)
+- [LinTO - STT-Manager](services/stt_manager)
+    - [Installation](services/stt_manager_installation)
+    - [How2use](services/stt_manager_how2use)
+- [LinTO - LinSTT](services/linstt)
+    - [QuickStart](services/linstt_quickstart)
+    - [How2use](services/linstt_howtouse)
+    - [Download](services/linstt_download)
+- [LinTO - NLU](services/nlu)
+- [LinTO - Skill server](services/skill)
+- [LinTO - Admin](services/admin)
+- [Downloads](services/download)
 - **Links**
 - <a href="https://linto.ai" target="_self">Back to linto.ai</a>

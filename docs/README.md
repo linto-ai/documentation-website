@@ -681,8 +681,9 @@ As you want to connect voice enabled endpoints __"LinTO Clients"__ to a server, 
 
 LinTO platform deployment heavily relies on Docker. Therefore we propose ready-made images of every services (this is what you shall use).
 
-- First you need to setup an infrastructure to deploy LinTO Platform Services : [Plan Infrastructure](infra)
-- Deploy the services stack : [Deploy services](services/services)
+- First : You need to setup an infrastructure to deploy LinTO Platform Services : [Plan Infrastructure](infra)
+- Then : Deploy the services stack : [Deploy Platform Stack](stack/stack)
+- Finaly : follow the [Post install setup Guide](stack/postinstall.md)
 
 >[Our Docker Hub images](https://hub.docker.com/u/lintoai)
 
