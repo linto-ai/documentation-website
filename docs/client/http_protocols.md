@@ -143,7 +143,7 @@ When the client disconnect, it can call the logout API to revoke its token.
 
 **type**: GET
 
-**target API**: `server_url`/overwatch/`auth_route`/`platform`/logout
+**target API**: `server_url`/overwatch/`basePath`/`platform`/logout
 
 **request format**: 
 ```json
