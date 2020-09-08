@@ -95,7 +95,7 @@ For the `ask` behavior, conversation data are attached to the request and shall 
 
 **Available on**: ![](../_media/client/rpi.png) ![](../_media/client/android.png)
 
-**Topic**: `ingressTopic`/npl/file
+**Topic**: `ingressTopic`/nlp/file
 
 **Retain**: false
 
