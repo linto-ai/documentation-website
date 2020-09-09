@@ -12,5 +12,4 @@ For an easiest understanding we assume that you have a knowledge about [linto-co
 ## Guide
 
 We provide two guide :
- - [Basic guide - Understanding a linto-skill](skills/devguide/basic)
- - [Advanced guide - WIP](skills/devguide/basic) 
+ - [Basic guide - Create a linto-skill](skills/devguide/basic)
