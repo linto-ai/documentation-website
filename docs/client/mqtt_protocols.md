@@ -95,7 +95,7 @@ For the `ask` behavior, conversation data are attached to the request and shall 
 
 **Available on**: ![](../_media/client/rpi.png) ![](../_media/client/android.png)
 
-**Topic**: `ingressTopic`/npl/file
+**Topic**: `ingressTopic`/nlp/file
 
 **Retain**: false
 
@@ -242,9 +242,9 @@ Open a remote-SSH to remotly access the device.
 ***
 
 <h3 name="say">Say</h2>
-The server ask the device to say a given text.
+The server ask the device to say a given text. It is an alternate way to execute the behavior say on Raspberry.
 
-**Available on**: ![](../_media/client/rpi.png)![](icons/android.png) *Requires a TTS engine.
+**Available on**: ![](../_media/client/rpi.png)![](../_media/client/android.png) *Requires a TTS engine.
 
 **Topic**: `ingressTopic`/say
 
