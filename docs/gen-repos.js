@@ -22,7 +22,7 @@ async function start() {
     let followers = 0
     let forks = 0
     for (repo of allRepos){
-        md += `|[${repo.name}](${repo.url})|${repo.description}|${repo.language}|${repo.stargazers_count}|\n`
+        md += `|[${repo.name}](${repo.html_url})|${repo.description}|${repo.language}|${repo.stargazers_count}|\n`
     
         stars += repo.stargazers_count
         forks += repo.forks_count
