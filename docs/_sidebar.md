@@ -6,6 +6,8 @@
 - [Deploy Platform Stack](stack/stack)
 - [Post install tutorial](stack/postinstall)
 - **LinTO client**
+- [HTTP protocols](client/http_protocols)
+- [MQTT protocols](client/mqtt_protocols)
 - [Wake-Word Spotting](client/embedded_hotword)
     - [Quickstart](client/hotword)
     - [Building your own models](client/custom_hotword)
