@@ -81,7 +81,7 @@ Available behaviors depends on the client device. As for now, there are two avai
 | [End Volume](#endvolume)      | Remotely set the default volume   |![](../_media/client/rpi.png)|
 | [Manage Meeting](#meeting)    | Manage meeting                    |![](../_media/client/rpi.png)|
 | [Mute](#mute)                 | Remotely mute the device          |![](../_media/client/rpi.png)|
-| [Ping](#ping)                 | Ping the device                   |![](../_media/client/rpi.png)|
+| [Ping](#ping)                 | Ping the device                   |![](../_media/client/rpi.png)![](../_media/client/android.png)|
 | [Reverse SSH](#ssh)           | Start reverse SSH                 |![](../_media/client/rpi.png)|
 | [Say](#say)                   | Tell the device to say a sentence |![](../_media/client/rpi.png)![](../_media/client/android.png)|
 | [ShellExec](#shellexec)       | Execute a shell command           |![](../_media/client/rpi.png)|
@@ -194,7 +194,7 @@ Remote mute the device. Expect an acknowledgement.
 
 <h3 name="ping">Ping</h2>
 
-**Available on**: ![](../_media/client/rpi.png)
+**Available on**: ![](../_media/client/rpi.png) ![](../_media/client/android.png)
 
 **Topic**: `ingressTopic`/ping
 
