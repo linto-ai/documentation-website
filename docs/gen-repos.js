@@ -15,7 +15,7 @@ async function start() {
         return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
     })
     md = `# LinTO project Github repositories\n `
-    md += `This Listing is generated using [GitHub API](https://api.github.com/users/linto-ai/repos)\n`
+    md += `This Listing was generated using [GitHub API](https://api.github.com/users/linto-ai/repos) on ${new Date()}\n`
     md +=  `\n| Name | Description | Language | Stars |\n`
     md += `|:-|:-|:-|:-|\n`
     let stars = 0
