@@ -22,9 +22,6 @@
 - [Components](skills/components)
 - [Available LinTO skills](skills/list)
 - [Skill development guide](skills/devguide/intro)
-    - [Basic skill structure](skills/devguide/basic)
-    - [Advanced features](skills/devguide/advanced)
-- [Skill deployment guide](skills/depguide)
 - **Lexical seeding**
 - [Format dataset](lexical_seeding/format)
 - **Services Howtos**
