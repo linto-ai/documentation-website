@@ -118,7 +118,7 @@ The last step is to add the current node in BLS.
 We allow users to create their own custom node-RED catalogue
 The routes shown below allow users to add a new node in the catalogue to enable the skill(from `url` or `.tgz`(pkg_url))
 
-**URL** : `http(s)://LINTO_STACK_BLS_BASE_PATH/red/catalogue/raw`
+**URL** : `http(s)://LINTO_STACK_DOMAIN/red/catalogue/raw`
 
 **Method** : `POST`
 
