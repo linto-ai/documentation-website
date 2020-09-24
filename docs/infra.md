@@ -117,4 +117,4 @@ sudo mount.glusterfs localhost:/shared_linto <Local mount point>
 
 ### Final steps
 
-You're done. Treat yourself with a LinTO candy jelly bean and jump to [Service Installation](stack)
+You're done. Treat yourself with a LinTO candy jelly bean and jump to [Service Installation](stack/stack.md)
