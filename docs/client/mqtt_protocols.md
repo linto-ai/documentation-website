@@ -32,13 +32,25 @@ Status is a message that give the platform a connexion state.
 
 **Topic**: `egressTopic`/status
 
-**Retain**: true
+**Retain**: false
 
 **Content**:
 ```json
 {
     "connexion" : "online",
-    "on" : "datetime"
+    "on" : "datetime",
+    "config" : {
+        "network" : [
+            {
+                "mac_address" : "",
+                "gateway_ip" : "",
+                "type" : "wifi|eth",
+                "ip_address" : "",
+                "name" : ""
+            }
+        ],
+        "firmware" : "FIRMWARE_VERSION"
+    },
 }
 ```
 
@@ -47,7 +59,18 @@ The offline status is published using LWT (Last Will Testament) on the same topi
 ```json
 {
     "connexion" : "offline",
-    "on" : "datetime"
+    "on" : "datetime",
+    "config" : {
+        "network" : [
+            {
+                "mac_address" : "",
+                "gateway_ip" : "",
+                "type" : "wifi|eth",
+                "ip_address" : "",
+                "name" : ""
+            }
+        ],
+        "firmware" : "FIRMWARE_VERSION"
 }
 ```
 
