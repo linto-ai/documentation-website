@@ -16,7 +16,6 @@ Module sources can be retrieved on github:
 | linto-command-module | ![version](https://img.shields.io/github/manifest-json/v/linto-ai/linto-command-module?cacheSeconds=3600) | [github](https://github.com/linto-ai/linto-command-module) |
 | linto-tts| ![version](https://img.shields.io/github/manifest-json/v/linto-ai/linto-tts-module?cacheSeconds=3600) | [github](https://github.com/linto-ai/linto-tts-module) |
 | linto-ui | ![version](https://img.shields.io/github/manifest-json/v/linto-ai/linto-ui-module?cacheSeconds=3600) | [github](https://github.com/linto-ai/linto-ui-module) |
-| linto-models | ![version](https://img.shields.io/github/manifest-json/v/linto-ai/linto-models?cacheSeconds=3600) | [github](https://github.com/linto-ai/linto-models) |
 | linto-client-stack | ![version](https://img.shields.io/github/manifest-json/v/linto-ai/linto-client-stack?cacheSeconds=3600) | [github](https://github.com/linto-ai/linto-client-stack) |
 
 
