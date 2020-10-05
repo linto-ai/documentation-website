@@ -85,17 +85,17 @@ Here all format example that LinTO support (note that all example bellow can be 
 
 #### Simple dictionary
 ```markdown
-#en
+##en
 blue
 red
 ```
 
 #### Multiple language dictionary
 ```markdown
-#en
+##en
 blue
 red
-#fr
+##fr
 bleu
 rouge
 ```
@@ -104,7 +104,7 @@ rouge
 In case you want to use interlanguage you will need to write the phonetic word `words|phonetic_words`
 
 ```markdown
-#fr
+##fr
 meeting|miting
 software|sauftware
 afterwork|afeuterework
