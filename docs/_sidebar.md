@@ -4,6 +4,7 @@
 - **LinTO Platform Server**
 - [Plan Infrastructure](infra)
 - [Deploy Platform Stack](stack/stack)
+- [Post Install Tutorial](stack/postinstall.md)
 - **LinTO client**
 - [HTTP protocols](client/http_protocols)
 - [MQTT protocols](client/mqtt_protocols)

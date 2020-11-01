@@ -6,7 +6,7 @@
 * Private network (VLAN) established and fuly routed between hosts.
 * Public network interface on at least one of the cluster's nodes for ingress traffic
 
-__Note__ : Our service stack relies on [Docker Swarm Mode](https://docs.docker.com/glossary/?term=swarm%20mode) for orchestrating containers and services. This tutorial treats your infrastructure as a multi-host cluster. If you deploy the stack in a mono-host Docker Swarm Cluster (wich is obviously not recommanded for production) just adapt the following guide for your needs... That's maybe how you want to deploy it for your home usage with our Maker's Raspberry Pi Client LinTO implementation.
+__Note__ : Our service stack relies on [Docker Swarm Mode](https://docs.docker.com/glossary/?term=swarm%20mode) for orchestrating containers and services. This tutorial treats your infrastructure as a multi-host cluster. If you deploy the stack in a mono-host Docker Swarm Cluster (wich is obviously not recommanded for production) make sure to read the __Note__ to adapt the following guide for your needs (That's maybe how you want to deploy it for your home usage with our Maker's Raspberry Pi Client LinTO implementation).
 
 ## Docker swarm mode
 
@@ -44,6 +44,7 @@ A good design pattern for highly available applications is to deploy the applica
 
 In our case, [LinTO-Platform-STT-Service-Manager](services/manager) will need read / write access on a shared folder made available on every node of your cluster for AI models used by the [LinTO-STT-Services](services/services). In this tutorial we will use a GlusterFS share folder
 
+
 ### Create directories for GlusterFS storage
 
 Setup the glusterFS directories where the gluster “bricks” (replicated volume) will reside. 
@@ -53,6 +54,9 @@ mkdir -p ~/linto_shared/data
 mkdir -p ~/linto_shared/data
 ... and so on on every node of your swarm cluster
 ```
+
+__Note for single Machine Deployement:__ If you do not intent to add other machines to the cluster later, you can stop right here and jump to [Server Installation](stack/stack.md).
+
 ### Install Gluster FS
 
 Here, we use [GLusterFS v7.0](https://docs.gluster.org/en/latest/Install-Guide/Install/)

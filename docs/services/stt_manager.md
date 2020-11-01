@@ -5,5 +5,5 @@ Our STT Service Manager is a service that manages the scalabitily of linSTT serv
 ![Docker Swarm](../../_media/stt-manager/docker_swarm.png)
 
 ### Summary
-- [Installation](services/stt_manager_installation): installation, configuration, and execution
+- [Installation](services/stt_manager_installation): installation, configuration, and execution. (**If you have installed the Stack, STT-Service-Manager is already installed**). 
 - [How2use](services/stt_manager_how2use): APIs definition and use guidelines
