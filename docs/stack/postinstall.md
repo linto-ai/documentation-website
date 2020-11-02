@@ -130,7 +130,7 @@ You platform just acquired the capacity to process audio files into text and it 
 
 We can now drop the requests and move to the main administration interface located at `[LINTO_STACK_DOMAIN]/`.
 
-This is the **linto-platform-admin** interface. Its goals are to create, manage and monitor your voice controlled applications. If its your first time using it, it may ask you to enter your administrator credentials. Once logged-in you will be greeted with the main interface.
+This is the **linto-platform-admin** interface. Its goals are to create, manage and monitor your voice controlled applications. If it's your first time using it, it may ask you to enter your administrator credentials. Once logged-in you will be greeted with the main interface.
 
 On the left hand side you have several elements:
 
@@ -149,10 +149,9 @@ On the left hand side you have several elements:
 * __Tock interface__: Is the NLU interface where you can fiddle with how the platform detect intentions, extract information from user voice command.
 
 In this part we will:
-* Create an application.
-* Connect a client.
-* Manage your application accesses.
-* Customize your application.
+* [Create an application](#Create-and-application)
+* [Connect a client](#Connect-a-client)
+* [Customize your application](#Customize-your-application)
 
 ## Create and application
 
@@ -190,17 +189,70 @@ This part is dedicated to deploy an application designed to be used by multiple 
 And that's it, you have a voice command application ready to be used by [clients](#Connect-a-client) and to be [customized](#Customize-your-application).
 
 ## Connect a client
-Coming soon
-### Connect your LinTO maker Client
 
-### Connect your Android Client
+**Connect your LinTO maker client**
 
-### Setup your web client.
+To connect your Android client, you need to gather the following informations:
+* `Serial number` that you created for the device.
+* `MQTT broker address` : The adress should be the stack address `[LINTO_STACK_DOMAIN]` and the port 1883. Those information are sets in the .dockerenv file used to configure your stack under __MQTT Broker for LinTO clients__.
+* `MQTT password` and `MQTT login` can be configured in .dockerenv under the same section.
+* Get the `application ID` which will be used as the communication topic.
 
-## Manage your application accesses
-Coming soon
+Equiped with those information just follow the Maker Setup [here](../client/rpi_quickstart.md#connect-the-links).
+
+**Connect you Static Android Client**
+
+Get the informations described on the previous session and enter them in the __More Options__ view on the android connection page.
+
+**Connect your Android client**
+
+To connect an Android client, you must first create an user account. To do so :
+1. Go on the __Users__ tab on the admin interface and create a new user.
+2. Associate the desired applications with your user.
+
+Use the created login/password to connect your client, the application server being `[LINTO_STACK_DOMAIN]`. 
+
+**Setup your web client**
+
+Web client requires a authentication token as well as the domain authorization.
+
+1. Go to the __Domain__ and `Add a domain`.
+2. Set the Domain url of your web site and create the domain.
+3. On the newly created Domain click on `Manage` and add click on `Associate application`.
+4. Select the application(s) you wish to access from your client and set the number of slots. The number of slot is the number of concurrent client that can access the service simultaneously.
+
+Use the generated Request token in your application to connect your client.
 
 ## Customize your application
+Default application come with limited functionnality. You may want to add more skills or even add your own skills.
+
+You may also want to customize or correct the sentences used to trigger a skill.
+
+### Skills
+A skill is a functionnaly of your voice controlled application. They are software blocks designed to link intents detected by the NLU to functionnalities. Formers may be informations fetched on APIs, domotic command, ... 
+
+Skill are composed of 2 elements:
+- The intent part is a list of sentences for the triggering of the skill.
+- A logic part responsible for the underlying processing.
+
+### Manage skills
+To manage skills within an application, go to the Application panel on linto-Admin (Device or Multi-user) and click on the deployed workflow.
+
+Log in and you are on the [node-red interface](../skills/nodered.md)
+
+![red_ui](../_media/skills/nodered/red_ui.png)
+
+To add existing skills, simply pick a skill on the skills subsection on the left side panel and drag it on the main panel.
+
+Certain skills can be configured by double-clicking them.
+
+Once you have added or removed skill click on `Save and publish` to save the modifications. Publish will have for effect to render the skill available and add the intention utterances described in the skill to the NLU service.
+
+### Create your skills
+You want to create and add your own skills ? Follow the [Create your skill guide](../skills/devguide/intro).
+
+### Intent detection
+Coming soon
 
 # Stack monitoring
 Coming soon
