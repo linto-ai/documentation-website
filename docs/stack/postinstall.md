@@ -64,7 +64,7 @@ curl [LINTO_STACK_DOMAIN]/stt-manager/acmodels
 
 Which should return your newly created acoustic model.
 
-__Note__: Acoustic model creation need to be done only once per language.
+__Note__: Acoustic model creation needs to be done only once per language.
 
 ### Create your language model
 
@@ -169,7 +169,7 @@ Before creating your application you must register a device.
 2. On the pop-up window, you must enter a serial number which is the unique id of the device.
 
 3. You can now go to the __Devices application view__ and click on `Create a device application`
-4. You may fill the App name, its description, select your newly created device. Select the default workflow template, choose your language and select the STT service we created previously let the streaming and Large vocabulary file fields to none and select Create a new tock application in the final field.
+4. You may fill the App name, its description, select your newly created device. Select the default workflow template, choose your language and select the STT service we created previously, let the streaming and Large vocabulary file fields to none and select Create a new tock application in the final field.
 
 5. Tap `Deploy` and you first application is now created. 
 
@@ -202,7 +202,7 @@ Equiped with those information just follow the Maker Setup [here](../client/rpi_
 
 **Connect you Static Android Client**
 
-Get the informations described on the previous session and enter them in the __More Options__ view on the android connection page.
+Get the informations described on the previous section and enter them in the __More Options__ view on the android connection page.
 
 **Connect your Android client**
 
