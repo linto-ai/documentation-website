@@ -42,14 +42,14 @@ If you want to use our service alone without LinTO-Platform-STT-Service-Manager,
 
 ```bash
 wget https://dl.linto.ai/downloads/model-distribution/acoustic-models/fr-FR/linSTT_AM_fr-FR_v1.0.0.zip
-wget https://dl.linto.ai/downloads/model-distribution/decoding-graphs/LVCSR/fr-FR/decoding_graph_fr-FR_Small_v1.0.0.zip
+wget https://dl.linto.ai/downloads/model-distribution/decoding-graphs/LVCSR/fr-FR/decoding_graph_fr-FR_Small_v1.1.0.zip
 ```
 
 2- Uncompress both files
 
 ```bash
 unzip linSTT_AM_fr-FR_v1.0.0.zip -d AM_fr-FR
-unzip decoding_graph_fr-FR_Small_v1.0.0.zip -d DG_fr-FR_Small
+unzip decoding_graph_fr-FR_Small_v1.1.0.zip -d DG_fr-FR_Small
 ```
 
 3- Move the uncompressed files into the shared storage directory
@@ -130,8 +130,6 @@ Convert a speech to text
 > Make a POST request
 >>  <b  style="color:green;">Arguments</b> :
 >>  -  **{File} file** : Audio file (file format: wav, mp3, aiff, flac, ogg)
->>  -  **{Integer} nbrSpeaker (optional)**: Number of speakers engaged in dialog
->>  -  **{String} speaker (optional)**: Do speaker diarization (yes|no)
 >
 >>  <b  style="color:green;">Header</b> :
 >>  -  **{String} Accept**: response content type (text/plain|application/json)
