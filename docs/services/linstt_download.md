@@ -34,7 +34,7 @@ Our pre-built models are:
 >   **Download Link** : [\[...\]/decoding_graph_fr-FR_Medium_v1.2.0.zip](https://dl.linto.ai/downloads/model-distribution/decoding-graphs/LVCSR/fr-FR/decoding_graph_fr-FR_Medium_v1.2.0.zip)
 
 
->  `decoding graph_fr-FR_Big_v1.3.0`  <br>
+>  `decoding_graph_fr-FR_Big_v1.3.0`  <br>
 >>  <b  style="color:green;">Description</b> :
 >> - This model is trained on various large corpus. Should provide the best accuracy but is a bit more resource intensive than the other models.
 >
@@ -64,11 +64,40 @@ Our pre-built models are:
 >   **Download Link** : [\[...\]/decoding_graph_fr-FR_Medium_v2.1.0.zip](https://dl.linto.ai/downloads/model-distribution/decoding-graphs/LVCSR/fr-FR/decoding_graph_fr-FR_Medium_v2.1.0.zip)
 
 
->  `decoding graph_fr-FR_Big_v2.2.0`  <br>
+>  `decoding_graph_fr-FR_Big_v2.2.0`  <br>
 >>  <b  style="color:green;">Description</b> :
->> - This model is trained on various large corpus. Should provide the best accuracy but is a bit more resource intensive than the other models.
+>> - 
 >
 >   **Download Link** : [\[...\]/decoding_graph_fr-FR_Big_v2.2.0.zip](https://dl.linto.ai/downloads/model-distribution/decoding-graphs/LVCSR/fr-FR/decoding_graph_fr-FR_Big_v2.2.0.zip)
+
+
+
+<!-- tabs:end -->
+
+
+
+
+## English Language Models
+
+<!-- tabs:start -->
+
+#### ** Speech Recognition Models v1 **
+
+
+### Acoustic model
+>  `linSTT_AM_en-US_v1.0.0`  <br>
+>>  <b  style="color:green;">Description</b> :
+>> - A chain model based on TDNN-F, trained on a 1000 hours, with volume and speed perturbation.
+>
+>   **Download Link** : [\[...\]/linSTT_AM_en-US_v1.0.0.zip](https://dl.linto.ai/downloads/model-distribution/acoustic-models/en-US/linSTT_AM_en-US_v1.0.0.zip)
+
+
+### Decoding graphs
+>  `decoding_graph_en-US_v1.0.0`  <br>
+>>  <b  style="color:green;">Description</b> :
+>> - Two language model are used for the decoding. A <b> medium model</b> is used to perform the decoding pass. A <b>big model</b>, trained on a large corpus of books, is used to perform the rescoring pass.
+>
+>   **Download Link** : [\[...\]/decoding_graph_en-US_v1.0.0.zip](https://dl.linto.ai/downloads/model-distribution/decoding-graphs/LVCSR/en-US/decoding_graph_en-US_v1.0.0.zip)
 
 
 
