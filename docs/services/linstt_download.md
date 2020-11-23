@@ -66,7 +66,7 @@ Our pre-built models are:
 
 >  `decoding_graph_fr-FR_Big_v2.2.0`  <br>
 >>  <b  style="color:green;">Description</b> :
->> - 
+>> - This model is trained on various large corpus. Should provide the best accuracy but is a bit more resource intensive than the other models.
 >
 >   **Download Link** : [\[...\]/decoding_graph_fr-FR_Big_v2.2.0.zip](https://dl.linto.ai/downloads/model-distribution/decoding-graphs/LVCSR/fr-FR/decoding_graph_fr-FR_Big_v2.2.0.zip)
 
