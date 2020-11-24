@@ -19,7 +19,7 @@ cd linto-platform-stt-service-manager
 You will need to have Docker and Docker Compose installed on your machine. Then, to build the docker image, execute:
 
 ```bash
-docker build -t lintoai/linto-platform-stt-standalone-worker .
+docker build -t lintoai/linto-platform-stt-server-manager .
 ```
 
 Or using docker-compose:
@@ -30,7 +30,7 @@ docker-compose build
 Otherwise, you can download the pre-built image from docker-hub:
 
 ```bash
-docker pull lintoai/linto-platform-stt-standalone-worker:latest
+docker pull lintoai/linto-platform-stt-server-manager:latest
 ```
 
 NOTE: To install the service without docker, please follow the instructions defined in the `Dockerfile` (Build kaldi, Install NLP packages, Install npm modules). 
