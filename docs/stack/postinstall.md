@@ -1,4 +1,10 @@
-# Prerequistes
+# POST INSTALL TUTORIAL
+
+This section intends to describe all the functionnalities of your deployed stack and how to manage them.
+
+If you have a specific usage in mind please check the [Use cases Walkthrough](stack/use_cases).
+
+## Prerequistes
 
 - You have a functionnal LinTO Platform Stack running on a server.
 - You have a mean to access the server by a Domain Name (DNS server / DNS Record / entries in /etc/hosts ...)
@@ -15,7 +21,7 @@ With applications running, it will the time to effectively connect some **client
 Finally once everything is running you'll have the possibity to access **monitoring tools** to keep an eye on your stack.
 
 * [STT Service Manager](#First-contact-with-STT-Service-Manager)
-* [Create and manage spplications on the Admin Interface](#First-access-to-LinTO-Admin)
+* [Create and manage applications on the Admin Interface](#First-access-to-LinTO-Admin)
 * [Monitor your stack](#Stack-monitoring)
 
 # First contact with STT Service Manager
@@ -89,7 +95,7 @@ Set a `[modelID]` and choose between a local reference if the model is already i
 | Flexible Voice Command | Small or medium model | STT will use sentences declared as well as current language elements to transcribe. |
 | Large vocabulary | Large model. | STT will be able to transcribe natural speech and a large amount of various proper names, location and business specific terms. |
 
-Input a language (lang) as specified and the `[modelID]` of the previously created acoustic model. Finaly specify that it is a `cmd` or `lvcsr`(large vocabulary) model.
+Input a language `lang` as specified and the `[modelID]` of the previously created acoustic model. Finaly specify that it is a `cmd` or `lvcsr`(large vocabulary) model.
 
 Now your STT Service Manager has its first language model, and you can check it using this command:
 
