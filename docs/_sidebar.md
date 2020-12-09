@@ -23,6 +23,7 @@
 - [Components](skills/components)
 - [Available LinTO skills](skills/list)
 - [Skill development guide](skills/devguide/intro)
+- [Install skill](skills/devguide/install_my_skills)
 - **Lexical seeding**
 - [Format dataset](lexical_seeding/format)
 - **Services Howtos**
