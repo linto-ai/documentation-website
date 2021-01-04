@@ -142,15 +142,15 @@ On the left hand side you have several elements:
 
 * __Device applications__: Is the place to create and manage applications related to static devices. Static devices are basicly device attached to a specific location (e.g. Room 101) and not attached to a group of users. Device application are attached to a single device.
 
-* __Multi-user applications__: Is the place to create and manage applications that are .. not static devices. Multi-user application are attached to multiple terminals. 
+* __Multi-user applications__: Is the place to create and manage multi-users applications. Multi-user application are attached to multiple terminals and require an authentication to be reached. 
 
 * __Devices__: Is where you manage you static devices.
 
-* __Users__: Is where you manage your .. users.
+* __Users__: Is where you manage users and their accessibility to multi-users applications.
 
 * __Domains__: Domains allow to restrict provenance of web based LinTo clients and allocate slots.
 
-* __Workflow templates__: Allows you to create custom application foundations.
+* __Workflow templates__: Allows you to create custom application workflows, through nodered interface.
 
 * __Tock interface__: Is the NLU interface where you can fiddle with how the platform detect intentions, extract information from user voice command.
 
@@ -193,6 +193,9 @@ This part is dedicated to deploy an application designed to be used by multiple 
 5. Tap `Create application`.
 
 And that's it, you have a voice command application ready to be used by [clients](#Connect-a-client) and to be [customized](#Customize-your-application).
+
+
+> NB: Once you've deployed or updated an application, it could trigger the process of lexical seeding generation. In this case, you'll see a notification on the top of the interface, giving you the generation process status. While an STT model is generating process, you cannot access workflow and update it. 
 
 ## Connect a client
 
