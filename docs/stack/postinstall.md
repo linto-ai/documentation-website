@@ -174,12 +174,12 @@ Before creating your application you must register a device.
 1. Go to __Devices__ and click on `Add a device`.
 2. On the pop-up window, you must enter a serial number which is the unique id of the device.
 
-![linto admin - add a device](../_media/linto-admin/Devices-add-a-device.png)
+![linto admin - add a device](../_media/linto-admin/create-device.png)
 
 3. You can now go to the __Devices application view__ and click on `Create a device application`
 4. You may fill the App name, its description, select your newly created device. Select the default workflow template, choose your language and select the STT service we created previously, let the streaming and Large vocabulary file fields to none and select Create a new tock application in the final field.
 
-![linto admin - deploy a device appplication](../_media/linto-admin/Deploy-application-01.png)
+![linto admin - deploy a device appplication](../_media/linto-admin/deploy-application-form.png)
 
 5. Tap `Deploy` and you first application is now created. 
 
