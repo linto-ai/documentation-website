@@ -159,7 +159,7 @@ In this part we will:
 * [Connect a client](#Connect-a-client)
 * [Customize your application](#Customize-your-application)
 
-## Create and application
+## Create an application
 
 There is currently two types of application:
 * [Device applications](#Device-Application)
