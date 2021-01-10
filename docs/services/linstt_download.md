@@ -55,6 +55,11 @@ Our pre-built models are:
 >
 >   **Download Link** : [\[...\]/linSTT_AM_fr-FR_v2.0.0.zip](https://dl.linto.ai/downloads/model-distribution/acoustic-models/fr-FR/linSTT_AM_fr-FR_v2.0.0.zip)
 
+>  `linSTT_AM_fr-FR_v2.2.0`  <br>
+>>  <b  style="color:green;">Description</b> :
+>> - A deep neural network architecture (~30M parameters). This model is trained on the same data (7100 hours)
+>
+>   **Download Link** : [\[...\]/linSTT_AM_fr-FR_v2.2.0.zip](https://dl.linto.ai/downloads/model-distribution/acoustic-models/fr-FR/linSTT_AM_fr-FR_v2.2.0.zip)
 
 ### Decoding graphs
 >  `decoding_graph_fr-FR_Medium_v2.1.0`  <br>
