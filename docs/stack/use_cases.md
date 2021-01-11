@@ -89,7 +89,7 @@ This section covers the setup of user clients.
 <table class="navTable">
   <tbody>
   <tr>
-    <td> <a class="notdone" style="text-decoration:none"  target="_blank" ><b>Setup a voice-controlled web client</b></a></td>
+    <td> <a style="text-decoration:none" href="#/use_case/web_setup" target="_blank" ><b>Setup a voice-controlled web client</b></a></td>
     <td> <a class="notdone" style="text-decoration:none"  target="_blank" ><b>Setup your LinTO android clients</b></a></td>
     <td> <a class="notdone" style="text-decoration:none"  target="_blank" ><b>Setup a raspberry based LinTO client</b></a></td>
   </tr>
