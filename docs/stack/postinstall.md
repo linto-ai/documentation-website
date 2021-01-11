@@ -132,7 +132,7 @@ And that's it ! You have now the capability to transcribe speech.
 
 # First access to LinTO-Admin
 
-You platform just acquired the capacity to process audio files into text and it is time to define what it can do with that.
+Your platform just acquired the capacity to process audio files into text and it is time to define what it can do with that.
 
 We can now drop the requests and move to the main administration interface located at `[LINTO_STACK_DOMAIN]/`.
 
@@ -142,15 +142,15 @@ On the left hand side you have several elements:
 
 * __Device applications__: Is the place to create and manage applications related to static devices. Static devices are basicly device attached to a specific location (e.g. Room 101) and not attached to a group of users. Device application are attached to a single device.
 
-* __Multi-user applications__: Is the place to create and manage applications that are .. not static devices. Multi-user application are attached to multiple terminals. 
+* __Multi-user applications__: Is the place to create and manage multi-users applications. Multi-user application are attached to multiple terminals and require an authentication to be reached. 
 
 * __Devices__: Is where you manage you static devices.
 
-* __Users__: Is where you manage your .. users.
+* __Users__: Is where you manage users and their accessibility to multi-users applications.
 
 * __Domains__: Domains allow to restrict provenance of web based LinTo clients and allocate slots.
 
-* __Workflow templates__: Allows you to create custom application foundations.
+* __Workflow templates__: Allows you to create custom application workflows and save it as a template, through nodered interface.
 
 * __Tock interface__: Is the NLU interface where you can fiddle with how the platform detect intentions, extract information from user voice command.
 
@@ -159,7 +159,7 @@ In this part we will:
 * [Connect a client](#Connect-a-client)
 * [Customize your application](#Customize-your-application)
 
-## Create and application
+## Create an application
 
 There is currently two types of application:
 * [Device applications](#Device-Application)
@@ -167,15 +167,19 @@ There is currently two types of application:
 
 ### Device Applications
 
-This part is for you if you intend to use a static client such as a LinTO Maker based clients or a static android clients.
+This part is for you if you intend to use a static client such as a LinTO Maker based clients or a static android client.
 
 Before creating your application you must register a device.
 
 1. Go to __Devices__ and click on `Add a device`.
 2. On the pop-up window, you must enter a serial number which is the unique id of the device.
 
+![linto admin - add a device](../_media/linto-admin/create-device.png)
+
 3. You can now go to the __Devices application view__ and click on `Create a device application`
 4. You may fill the App name, its description, select your newly created device. Select the default workflow template, choose your language and select the STT service we created previously, let the streaming and Large vocabulary file fields to none and select Create a new tock application in the final field.
+
+![linto admin - deploy a device appplication](../_media/linto-admin/deploy-application-form.png)
 
 5. Tap `Deploy` and you first application is now created. 
 
@@ -189,7 +193,7 @@ This part is dedicated to deploy an application designed to be used by multiple 
 2. Enter Application's name, description and select the multi-user-default-workflow.
 3. Select your STT command service.
 3. (optionnal) If you have a large vocabulary and/or streaming service you can select them.
-4. Select Create a new tock application.
+4. Select "Create a new tock application".
 5. Tap `Create application`.
 
 And that's it, you have a voice command application ready to be used by [clients](#Connect-a-client) and to be [customized](#Customize-your-application).
@@ -215,6 +219,7 @@ Get the informations described on the previous section and enter them in the __M
 To connect an Android client, you must first create an user account. To do so :
 1. Go on the __Users__ tab on the admin interface and create a new user.
 2. Associate the desired applications with your user.
+![linto admin - create an user](../_media/linto-admin/create-an-user.png)
 
 Use the created login/password to connect your client, the application server being `[LINTO_STACK_DOMAIN]`. 
 
@@ -225,14 +230,24 @@ Web client requires a authentication token as well as the domain authorization.
 1. Go to the __Domain__ and `Add a domain`.
 2. Set the Domain url of your web site and create the domain.
 3. On the newly created Domain click on `Manage` and add click on `Associate application`.
-4. Select the application(s) you wish to access from your client and set the number of slots. The number of slot is the number of concurrent client that can access the service simultaneously.
+4. Select the application(s) you wish to access from your client and set the number of slots. The number of slot is the number of concurrent clients that can access the service simultaneously.
+![linto admin - create a domain](../_media/linto-admin/manage-domains.png)
 
 Use the generated Request token in your application to connect your client.
 
 ## Customize your application
 Default application come with limited functionnality. You may want to add more skills or even add your own skills.
-
 You may also want to customize or correct the sentences used to trigger a skill.
+
+Select your device application or mutli-user application and click on the associated "deployed workflow" button. This will open the workflow in an embeded nodered interface, where you can customize your application. You can for example add new skills to your workflow, customize dictionnaries or settings. 
+
+![linto admin - edit application workflow](../_media/linto-admin/edit-workflows.png)
+
+Once you've finished updating your workflow, you can click on "save and publish" to deploy your updates on the business logic server.
+
+You also can edit the application parameters (title, description, services...) by clicking on the "Edit" button on your applications overviews.
+
+> NB: Once you've deployed or updated an application, it could trigger the process of lexical seeding and model generation. In this case, you'll see a notification on the top of the interface, giving you the generation process status. While an STT model is in generating process, you cannot access the workflow and update it. 
 
 ### Skills
 A skill is a functionnaly of your voice controlled application. They are software blocks designed to link intents detected by the NLU to functionnalities. Formers may be informations fetched on APIs, domotic command, ... 
