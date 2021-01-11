@@ -22,8 +22,8 @@
 - [Node Red](skills/nodered)
 - [Components](skills/components)
 - [Available LinTO skills](skills/list)
-- [Skill development guide](skills/devguide/intro)
-- [Install skill](skills/devguide/install_my_skills)
+- [Install my skill](skills/devguide/install_my_skills)
+- [Make my skill](skills/devguide/make_my_skills)
 - **Lexical seeding**
 - [Format dataset](lexical_seeding/format)
 - **Services Howtos**

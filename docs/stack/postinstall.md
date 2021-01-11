@@ -255,7 +255,7 @@ Certain skills can be configured by double-clicking them.
 Once you have added or removed skill click on `Save and publish` to save the modifications. Publish will have for effect to render the skill available and add the intention utterances described in the skill to the NLU service.
 
 ### Create your skills
-You want to create and add your own skills ? Follow the [Create your skill guide](../skills/devguide/intro).
+You want to create and add your own skills ? Follow the [Create your skill guide](../skills/devguide/make_my_skill).
 
 ### Intent detection
 Coming soon
