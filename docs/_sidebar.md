@@ -4,6 +4,7 @@
 - **LinTO Platform Server**
 - [Plan Infrastructure](infra)
 - [Deploy Platform Stack](stack/stack)
+    - [Entrypoint](stack/entrypoint.md)
 - [Post Install Tutorial](stack/postinstall.md)
 - [Use Case Walkthrough](stack/use_cases.md)
 - **LinTO client**
