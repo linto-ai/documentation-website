@@ -23,6 +23,12 @@ The whole point here is to rationalize all your deployement in two quick steps:
 
 Simple, isn't it ?
 
+Note: `start.sh [-- command args]` have command arguments
+```sh
+    -f | --force-pull     Force all image to be pull
+    -r | --restart        Hard restart of the stack
+```
+
 ## Repo's structure explained
 
 ```
