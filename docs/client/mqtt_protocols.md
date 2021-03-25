@@ -92,6 +92,50 @@ The id field is a unique id associated with the audio file.
 }
 ```
 
+### Streaming
+Streaming is a way to send an audio flux to stt server for live transcription.
+
+#### Start
+Start a WS connection to the STT server
+
+**Topic**: `egressTopic`/streaming/start`
+
+**content**:
+```json
+{
+    "config": {
+        "sample_rate":16000,
+        "metadata":1
+    }
+}
+```
+
+#### Chunk
+Send a chunk to be transcribe after an WS connection
+
+**Topic**: `egressTopic`/streaming/chunk`
+
+**content**: The mqtt message contains a binary payload of the 16bits encoded raw audio signal.
+
+#### Stop
+Close the WS connection with the STT server to stop the live transcription
+
+**Topic**: `egressTopic`/streaming/stop`
+
+
+### Chatbot
+Sending a text request to the server.
+
+**Topic**: `egressTopic`/chatbot/`id`
+
+**content**:
+```json
+    {
+        "text" : "",                    // the text for the chatbot
+        "conversationData" : {},        // Conversation data, empty for client initiated request.
+    }
+```
+
 
 ## Server --> Client communication.
 
