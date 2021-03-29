@@ -101,6 +101,6 @@ Firstly to rename a skill those files need to be edited:
 
 Secondly replace all followed line by the desired name. **Be carefull they are case sensitive.**
  - `linto-skill-demo` by `linto-skill-custom-name` (including file name)
- - `LintoSkillDemo` by `LintoSkillCustomName`
+ - `lintoSkillDemo` by `lintoSkillCustomName`
 
 Then you should be able to see you'r skill updated with is new name.
