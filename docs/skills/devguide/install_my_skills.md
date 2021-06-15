@@ -1,19 +1,18 @@
 
 # How to install my linto-skill
 
-We gonna explain how to install a linto-skill based on the template skill that we provide.
+We gonna see how to install a linto-skill based on the template skill that we provide.
 
 ## Prerequistes
 
-The **Business-Logic-Server** is require, also called **BLS**. This is the workflow manager, based on the framework Node-RED. It’s a programming tool for wiring different node / skill. Each skill have their own action allowing together to simulate a linto process.
+We need the  **Business-Logic-Server** (**BLS**) and the **skill-template**.
 
 ```sh
 git clone https://github.com/linto-ai/linto-platform-business-logic-server
 cd linto-platform-business-logic-server
 npm install
 ```
-
-And a **linto-skill**, that's the main point of these page. Has these demo we gonna use the skill template.
+And a **linto-skill-template**, that's the main point of these page.
 
 ```sh
 git clone https://github.com/linto-ai/linto-skills-template skills/linto-skills-template
@@ -22,19 +21,22 @@ npm install
 ```
 
 ## Local install
-How to install my skill in BLS ?
-You just need to install the skill like any npm module
+How to install my skill from a local installation ? You just need to install the skill like any npm module.
 
-```sh
+```bash
 cd path-to-/linto-platform-business-logic-server/
+# From filesystem
 npm install -s path-to-/skills/linto-skills-template/
+# If the module is published
+npm install -s module_name
 
 // Start the BLS 
 npm start // or 'node index.js'
 ```
 
+
 ## Stack install
-How to install my skill in stack ?
+How to install my skill in thestack ?
 
 An archive of your skills (`.zip` or `.tar`) need to be create. On that archive make sure to :
   - Copy the file **package.json** to the created folder : **package/package.json**
@@ -49,7 +51,7 @@ Lastly if the installation is complete, it will be listed on **Local skills**
 ## Docker install
 How to install my skill in Docker ?
 
-Easy, just use a volume. That volume need to map your local skill with the docker folder skill. _(default skill folder location `/root/.node-red/node_modules/` )_
+Easy, we use volume. That volume need to map your local skill with the docker folder skill. _(default skill location `/root/.node-red/node_modules/` )_
 
 That should look like that :
 ```yml
@@ -57,10 +59,10 @@ That should look like that :
       - path-to/skills-folder/:/root/.node-red/node_modules/
 ```
 
-Then run the docker with `docker-compose up`
+Then restart the docker with `docker-compose up`
 
 ## NPM Registry
-You can also publish a skill in a registry to be able to install it like a node module
+You can also publish a skill in a registry like a node module
 
 ```sh
 # Publish skill
@@ -74,8 +76,6 @@ cd path-to-bls/
 npm install -s linto-module-name
 ```
 
-### Default registry
+### Custom registry
 The default registry is the `registry.npmjs.com`. I would not recommend these part until the skill is ready to be release.
-
-### Private registry
-A private repository can be used : `npm set registry my.repository.url`.
+But a private repository can be used : `npm set registry my.repository.url`.

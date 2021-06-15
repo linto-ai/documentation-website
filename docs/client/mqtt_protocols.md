@@ -136,25 +136,40 @@ Sending a text request to the server.
     }
 ```
 
+### Skill action
+Sending a json to a skill.
+
+**Topic**: `egressTopic`/skills/`:skillName`/`:actionName`
+**content**:
+```json
+    {
+        "any" : {},        // Just send any json you want
+    }
+```
+
+
 
 ## Server --> Client communication.
 
 Server to client messages provide request answers and communicate behaviors for the client device.
 Available behaviors depends on the client device. As for now, there are two available devices: LinTO Maker on RPi and LinTO Android.
 
-| Name | Description | Available on |
-|------|-------------|--------------|
-| [Behavior](#Behavior)         | Request response                  |![](../_media/client/rpi.png)![](../_media/client/android.png)|
-| [End Volume](#endvolume)      | Remotely set the default volume   |![](../_media/client/rpi.png)|
-| [Manage Meeting](#meeting)    | Manage meeting                    |![](../_media/client/rpi.png)|
-| [Mute](#mute)                 | Remotely mute the device          |![](../_media/client/rpi.png)|
-| [Ping](#ping)                 | Ping the device                   |![](../_media/client/rpi.png)![](../_media/client/android.png)|
-| [Reverse SSH](#ssh)           | Start reverse SSH                 |![](../_media/client/rpi.png)|
-| [Say](#say)                   | Tell the device to say a sentence |![](../_media/client/rpi.png)![](../_media/client/android.png)|
-| [ShellExec](#shellexec)       | Execute a shell command           |![](../_media/client/rpi.png)|
-| [TTS language](#ttslanguage)  | Set the embedded tts language     |![](../_media/client/rpi.png)|
-| [Unmute](#unmute)             | Remotely unmute the device        |![](../_media/client/rpi.png)|
-| [Volume](#volume)             | Remotely set the volume           |![](../_media/client/rpi.png)|
+| Name                         | Description                       | Available on                                                   |
+|------------------------------|-----------------------------------|----------------------------------------------------------------|
+| [Behavior](#Behavior)        | Request response                  | ![](../_media/client/rpi.png)![](../_media/client/android.png) |
+| [End Volume](#endvolume)     | Remotely set the default volume   | ![](../_media/client/rpi.png)                                  |
+| [Manage Meeting](#meeting)   | Manage meeting                    | ![](../_media/client/rpi.png)                                  |
+| [Mute](#mute)                | Remotely mute the device          | ![](../_media/client/rpi.png)                                  |
+| [Ping](#ping)                | Ping the device                   | ![](../_media/client/rpi.png)![](../_media/client/android.png) |
+| [Reverse SSH](#ssh)          | Start reverse SSH                 | ![](../_media/client/rpi.png)                                  |
+| [Say](#say)                  | Tell the device to say a sentence | ![](../_media/client/rpi.png)![](../_media/client/android.png) |
+| [ShellExec](#shellexec)      | Execute a shell command           | ![](../_media/client/rpi.png)                                  |
+| [TTS language](#ttslanguage) | Set the embedded tts language     | ![](../_media/client/rpi.png)                                  |
+| [Unmute](#unmute)            | Remotely unmute the device        | ![](../_media/client/rpi.png)                                  |
+| [Volume](#volume)            | Remotely set the volume           | ![](../_media/client/rpi.png)                                  |
+| [ChatBot](#chatbot           | Request chatbot reponse           |                                                                |
+| [Action](#action)            | Request action reponse            |                                                                |
+
 
 <h3 name="Behavior">Behavior</h2>
 Server answer to a client request. The server specify the device behavior. It may be a single response (say or/and display) or the server might need additionnal information (ask).
@@ -408,3 +423,56 @@ Remotely set the device volume.
     "value" : [0-100]
 }
 ```
+***
+
+<h3 name="volume">Chatbot</h2>
+Server answer to a chatbot request
+
+**Available on**:  ![](../_media/client/rpi.png)
+
+**Topic**: `ingressTopic`/chatbot/`id`
+
+**Retain**: 
+
+**content**: 
+```json
+{
+    "text" : "any skill response"
+}
+
+{
+    "behavior": {
+        "customAction" : {},
+        "chatbot" : {
+            "ask" : "text ask", // Question asked to LinTo
+            "answer" : {
+                "text" : "Chatbot answer", // LinTo answer
+                "data" : [  // Metadata to the answer
+                    { 
+                        "text" : "Chatbot answer",
+                        "eventType" : "sentence"    // supported eventType : ['attachment', 'choice', 'sentence']
+                    }
+                ]
+            }
+        }
+    }
+}
+```
+***
+
+<h3 name="volume">Action</h2>
+Server answer to a client skill request.
+
+**Available on**:  ![](../_media/client/rpi.png)
+
+**Topic**: `ingressTopic`/customAction/`:skillName`/`:actionName`
+
+**Retain**: 
+
+**content**: 
+```json
+{
+    "any" : "any skill response"
+}
+```
+

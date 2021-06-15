@@ -1,31 +1,32 @@
 # Linto-Components
-[LinTO-Components](https://github.com/linto-ai/linto-skills-components) contains the main part of a LinTO skill. These module has been created to simplify a LinTO skill creation.
+[LinTO-Components](https://github.com/linto-ai/linto-skills-components) contains the main part of a LinTO skill. These module have been created to simplify the creation of a skills LinTo.
 
-Here is a list of the main components with a brief summary of what they do:
-*  **Nodes** : Node component manage a default setup based on the desired type of node (CoreNode, DictionaryNode, SkillNode)
+Here a list of the main components :
+*  **Nodes** : Different type of node auto-setup (core-node, dictionary-node, skill-node)
 *  **Components** : Utility toolbox for LinTO
-*  **Connect** : Provide different connector for a skill
-*  **Exception** : Exception related to linto-component
+*  **Connect** : Provide connector for skills (mqtt, wss)
+*  **Exception** : Different exception related to component.
 
 ## Installation 
-These module can be installed with `npm i @linto-ai/linto-components -s`
+The module can be installed with `npm i @linto-ai/linto-components -s`
 
 ## Nodes
-The components "Nodes" regroup each type of LinTO node. These type of node allow to easily setup a specific node type for the BLS.
+Components "Nodes" regroup all type of LinTO node. These node allow an easy setup for making a new specific node.
 
 Here is a list of all type node define in linto-components :
 - Node
 - Core-Node
 - Core-Event-Node
+- Connect-Core-Node
 - Dictionary-Node
 - Skill-Node
 
-We will describe the difference node type and how to use them :
+A description of all node and how to use them :
 
 <!-- tabs:start -->
 
 #### ** LinTO Node **
-LinTO-Node is the classic node style
+LinTo-Node is simple node style
 
 ### Example use
 ```js
@@ -39,10 +40,12 @@ class  MyLintoNode  extends  LintoNode {
 ```
 
 #### ** LinTO Core Node **
-The template LinTO-Core-Node are used by the provided skills with LinTO : **node-red-linto-core**.
+LinTo-Core-Node, extends Linto-Node. 
+It autoload [wire node](skills/components?id=components) component allowing to receive/notify payload by wire.
 
-A core-node is provided with **loadModule** function, which allow to load a desired function for the wire (used on multiple API selection).
-The node also load by default `Wire-Node` component (see below in [components - wire node](skills/components?id=components))
+Some function are also provided :
+ - loadModule : load a js file to be trigger on wire event.
+ - sendPayloadToLinTO : allow to trigger an event if **wireEvent** is loaded
 
 ### Example use
 ```js
@@ -55,14 +58,15 @@ class  MyLintoCoreNode  extends  LintoSkillNode {
     }
 
     async  init(){
-        let  serviceFunc = await  this.loadModule(`${**dirname}/api/${this.config.node.api}`) // Not require
+        let  serviceFunc = await  this.loadModule(`${**dirname}/api/${this.config.node.api}`)
         this.wireNode.onMessageSend(this, serviceFunc)
     }
 }
 ```
 
 #### ** LinTO Core Event Node **
-Linto-Core-Event node are extended from lintoCoreNode, they load the component wire-event by default enable to publish a message to linto-out
+LinTo-Core-Event-Node, extend LinTo-Core-Node.
+It autoload [wire event](skills/components?id=components) component allowing to receive/publish event without been wire.
 
 ### Example use
 ```js
@@ -79,7 +83,8 @@ class  MyLintoCoreNode  extends  LintoSkillNode {
 }
 ```
 #### ** LinTO Connect Core Node**
-Linto-Core-Connect node are extended from lintoCoreNode, they load the component mqtt by default. The ConnectCoreNode destroy their mqtt connection when the node is remove.
+LinTo-Core-Connect, extend LinTo-Core-Node.
+Manage connection to linto-mqtt-broker by loading the component mqtt. Any opened connection is destroyed when the node is removed.
 
 ### Example use
 ```js
@@ -94,7 +99,8 @@ class  MyLinTODictionary  extends  LintoConnectCoreNode {
 
 
 #### ** LinTO Dictionary Core Node**
-Linto-Core-Dictionary node are extended from lintoCoreNode, they add one check on the required data for a dictionary
+LinTo-Core-Dictionary, extend LinTo-Core-Node.
+The node will check if the mandatory data are provided.
 
 ### Example use
 ```js
@@ -108,10 +114,11 @@ class  MyLinTODictionary  extends  LintoDictionaryCoreNode {
 ```
 
 #### ** LinTO Skill Node**
-Each new skill-node will enable LinTO to proceed a new action.
+LinTo-Skill-Node, extend LinTo-Node.
 
-The skill node manage different autoload function, a tutorial has been made about [crating your own skill](/skills/depguide)
-The node also load by default `Wire-Event` component (see below in [components - wire event](skills/components?id=components))
+A skill can only is only trigger by event, these event are created automaticaly on the node creation.
+
+More information about how to create a skill [crating your own skill](/skills/make_my_skills)
 
 ### Example use
 ```js
@@ -136,7 +143,7 @@ Components are a bundle of utility tools. We will describe each of these compone
 <!-- tabs:start -->
 
 #### ** Payload Action **
-Toolbox that provide utility function to read the payload generated by the node linto-red-event-emitter
+Toolbox who provide utility function to read a payload.
 
 ### Example use
 ```js
@@ -180,7 +187,7 @@ this.payloadAction = payloadAction
 >  **{Boolean}** : Return, <u>true</u> if one entity require are find, else <u>false</u>
 
 #### ** Red Action **
-Toolbox who provide functionality to get information about a workflow
+Toolbox who provide functionality for information about a workflow
 
 ### Example use
 ```js
@@ -230,7 +237,7 @@ this.redAction = redAction
 >  **{Array{Object}}** : Return an array containing all node from the flow
 
 #### ** Request **
-Utility toolbox that enable HTTP functionality
+Utility toolbox who provide HTTP functionality
 
 ### Example use
 ```js
@@ -258,6 +265,15 @@ this.request = request
 >
 >  **{Promise}** : Return a promise to handle
 
+>  `put`  <br>
+> Make a PUT request
+>>  <b  style="color:green;">Arguments</b> :
+>>  -  **{String} url** : Host to call
+>>  -  **{Object} form**: Request form data (json)
+>>  -  **{String} token | optional**: Authentication token (headers.authorization)
+>
+>  **{Promise}** : Return a promise to handle
+
 #### ** Template **
 Template HTML for different node type
 
@@ -271,14 +287,21 @@ this.template = template
 
 ### Functionality
 >  `settupSkillTemplate`  <br>
-> Generate template format for a skill
+> Generate skill template format
+>>  <b  style="color:green;">Arguments</b> :
+>>  -  **{String} paletteName** : Node palette name
+>
+>  **{Object}** : Return, Json format for the HTML template node settings
+
+>  `settupDictionaryTemplate`  <br>
+> Generate dictionary template format
 >>  <b  style="color:green;">Arguments</b> :
 >>  -  **{String} paletteName** : Node palette name
 >
 >  **{Object}** : Return, Json format for the HTML template node settings
 
 #### ** Terminal Out **
-Generate a supported format for LinTO output
+Generate the supported format for LinTO output
   
 ### Example use
 ```js
@@ -309,7 +332,7 @@ this.terminalOut = terminalOut
 >  **WIP**
 
 #### ** Wire Event **
-Handle event with RED.events and provide utility function to work with the RED event emitter
+Handle RED.events emitter and provide utility function 
 
 ### Example use
 ```js
@@ -320,27 +343,25 @@ this.wireEvent = wireEvent.init(RED)
 ```
 
 ### Functionality
->  `init`  <br>
-> Initialize RED.events for wire-event components
->>  <b  style="color:green;">Arguments</b> :
->>  -  **{Object} RED** : RED object from node
->
->  **{Object}** : Return, initialized wire-event setup (this)
-
 >  `getBaseName`  <br>
-> Get the base name of wire-event using to create events
+> Get the base name of every event created
 >
->  **{String}** : Return, event base name
-  
+>  **{String}** : Return, base name event
+
+>  `getOutputName`  <br>
+> Get the output event name
+>
+>  **{String}** : Return, output event name
+
 >  `subscribe`  <br>
-> Create an event (eventBaseName-flowId-eventName)
+> Subscribe to the event (eventBaseName-flowId-eventName)
 >>  <b  style="color:green;">Arguments</b> :
 >>  -  **{String} flowId** : Node flow id
 >>  -  **{String} eventName** : Event name
 >>  -  **{Function} handler** : Function to trigger on event
 
 >  `subscribeWithStatus`  <br>
-> Create an event (eventBaseName-flowId-eventName). Node will showcase a status error or success.
+> Subscribe to the event  (eventBaseName-flowId-eventName). Node will showcase a status information.
 >>  <b  style="color:green;">Arguments</b> : Has to be called with **.call(this)** in a node class
 >>  -  **{String} flowId** : Node flow id
 >>  -  **{String} eventName** : Event name
@@ -359,14 +380,14 @@ this.wireEvent = wireEvent.init(RED)
 >>  -  **{String} eventName** : Event name to delete
   
 >  `isEventFlow`  <br>
-> Verify if the event has been created
+> Check if the event has been created
 >>  <b  style="color:green;">Arguments</b> :
 >>  -  **{String} eventName** : Event name to verify
 >
 >  **{Boolean}** : Return, <u>true</u> if the event exist , else <u>false</u>
   
 #### ** Wire Node **
-Handle wire and provide utility function to work with it
+Handle wire and provide utility function.
   
 ### Example use
 ```js
@@ -378,33 +399,33 @@ this.wireNode = wireNode.init(RED)
   
 ### Functionality
 >  `onMessageSend`  <br>
-> Setup a function when a node message is receive then send function result to the next wired node
+> On message will trigger the function handled then the result will be send to the next node.
 >>  <b  style="color:green;">Arguments</b> :
 >>  -  **{Object} registerNode** : Node to execute an action on message
 >>  -  **{Object} handler** : Function to trigger on message
 >>  -  **{String} successMsg | optional** : Message to print on the node
   
 >  `onMessage`  <br>
-> Setup a function when a node message is receive.
+> On message will trigger the function handled.
 >>  <b  style="color:green;">Arguments</b> :
 >>  -  **{Object} registerNode** : Node to execute an action on message
 >>  -  **{Object} handler** : Function to trigger on message
 >>  -  **{String} successMsg | optional** : Message to print on the node
   
 >  `nodeSend`  <br>
-> Message send to the next wired node
+> Send the payload to the next node
 >>  <b  style="color:green;">Arguments</b> :
 >>  -  **{Object} registerNode** : Node that send data
 >>  -  **{Object} payload** : Payload to send
 <!-- tabs:end -->
   
 ## Connect
-Component allowing different external communication
+Component allowing external communication
   
 <!-- tabs:start -->
 
 #### ** MQTT **
-Toolbox that handle different MQTT functionality
+Toolbox who handle MQTT functionality
   
 ### Example use
 ```js
@@ -426,13 +447,13 @@ let  mqttConfig = this.getFlowConfig('confMqtt')
 >  **{Promise}** : Return, mqtt client connected.
   
 >  `onMessage`  <br>
-> Trigger the handled function on the desired topic when a mqtt message has been receive
+> Trigger function on a mqtt message receive from a specified topic
 >>  <b  style="color:green;">Arguments</b> :
 >>  -  **{Object} handler** : Function to trigger on mqtt message
->>  -  **{String} topicFilter** : Topic to trigger on mqtt message
+>>  -  **{String} topicFilter** : Topic to trigger the function
   
 >  `publish`  <br>
-> Publish a message to a desired mqtt topic
+> Publish a message to the specified topic topic
 >>  <b  style="color:green;">Arguments</b> :
 >>  -  **{String} topic** : Topic to publish
 >>  -  **{Object} payload** : Json payload to send
@@ -446,7 +467,7 @@ let  mqttConfig = this.getFlowConfig('confMqtt')
   
 
 #### ** Authenticated Token **
-Authentication toolbox enable user check token
+Authentication toolbox enable to check user token
 
 ### Example use
 ```js
@@ -461,19 +482,19 @@ let response = await this.authToken.checkToken(auth_token)
 
 ### Functionality
 > `init` <br>
-> Settings default authentication host
+> Settings authentication host
 >>  <b  style="color:green;">Arguments</b> :
 >>  -  **{String} host** :  Token validator service path
 
 > `checkToken` <br>
-> Verify the user token
+> Check the token validity
 >>  <b  style="color:green;">Arguments</b> :
->>  -  **{String} token** : User token to be validate
->  **{Promise}** : Return, request response.
+>>  -  **{String} token** : User token to be checked
+>  **{Promise}** : Return, promise to be handle.
 
 <!-- tabs:end -->
 ## Exception
-Different exception related to LinTO.
+Exception related to LinTO component.
   
 <!-- tabs:start -->
 #### ** Connect Exception **
