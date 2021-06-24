@@ -1,25 +1,25 @@
 # Lexical Seeding
 
-This section deal with LinTO Lexical-Seeding that enable the command model customization .
+This section deal with LinTo Lexical-Seeding, it's enable the command model customization.
 
 These module allow LinTO to :
-  * Adapt to specific use cases using customized command models
-  * Re-training of models when deploying or deleting skills and dictionaries
+  * Customized an use cases command models
+  * Re-training a models after deploying or deleting skills and dictionaries
 
-The part of creating your own skill is an important part of LinTO, also a new skill need to be trigger by vocal command. Unfortunately the skill created will not have any command in the trained model that's where the lexical seeding is useful. The lexical seeding will allow any command to be added to the model by following the defined format (command and dictionary)
+The part of creating your own skill is an important part of LinTO, also a new skill need to be trigger by vocal command. Unfortunately the skill created will not have any command in the trained model that's where lexical seeding is useful. It will allow any command to be added to the model by following the defined format (command and dictionary)
 
 ## Command
 
-A command is a word of string that has one goal, trigger the desired skill when the sentence is detected by the NLU. Because LinTO use a command model only the trained sentence will be detected. That's where a skill need to provide his own command to be detected by both STT (transcription) and NLU(intent). 
+A command is a string with one goal, trigger the desired skill when the sentence is detected by the NLU. Only the trained sentence will be detected. So a  skill need to provide his own command for STT (transcription) and NLU(intent). 
 
-To add a command you will need to double-click on a skill-node in RED and edit the **Command** block
+To add a command for a skill, you will need to double-click on a linto-skill-node in RED and edit the **Command** block
 
-### Format Example
-Here all format that LinTO support (note that all example bellow can be mixed between them)
+### Intent format
+Here the supported intent format (all example can be mixed between them)
 
 #### Declare intent
 ```markdown
-  ##intent_separator|intent_name|language_intent_en
+  ##intent|intent_name|intent_language
 ```
 
 #### Basic command
@@ -41,18 +41,18 @@ Here all format that LinTO support (note that all example bellow can be mixed be
 
 #### Multiple intent command
 ```markdown
-##intent|my_first_intent_goodbye|en
-- farewell
-- goodbye
-##intent|my_second_intent_greeting|en
+##intent|my_first_intent_greeting|en
 - hello
 - greeting
+##intent|my_second_intent_goodbye|en
+- farewell
+- goodbye
 ```
-### Format Entity in command
-To define an entity, two way are possible, by defined entity in command or by declared dictionary
+### Entity format
+Here the supported format for entity (in command or by dictionary)
 
 #### Defined entity
-In case you don't want to create a dictionary (see bellow) you can define any entity directly in the command `[words](entity)`
+Entity can be define in command : `[words](entity)`
 
 ```markdown
 ##intent|weather|en
@@ -61,27 +61,28 @@ In case you don't want to create a dictionary (see bellow) you can define any en
 ```
 
 #### Dictionary entity
-The dictionary declaration way require to be linked to an dictionary of the same name
-In the command the syntaxe is `#entity`
+Dictionary entity need to be wired to the desired skill. It allow to load all entity from the dictionary to the skill
+In the command the syntaxe is `#dictionary_name`
 ```markdown
 ##intent|weather|en
 - what's the weather in #location
+- what's the weather in #location #date
 ```
 
 ## Dictionary
 
-A dictionary allow to group a list of words related to the same entity. Their will be located at the same place and be reusable for multiple skill. That will allow to reduce the amount of same command for create any new words entity.
+A dictionary allow to group a list of words related to the same entity. A dictionary is reusable for multiple skill. It allow to reduce the amount entity declaration from a skill command.
 
-To add a dictionary you will need to double-click on a dictionary-node in RED and edit the **Data** block
+To add a dictionary you need to double-click on a dictionary-node in RED and edit the **Data** block.
 
 
 ### Format Example
-The dictionary name is used has the node name
+Dictionary name is used has the node name.
 <p align="center">
   <img src="../_media/lexical_seeding/dictionary_name.png" alt="dictionary_name"/>
 </p>
 
-Here all format example that LinTO support (note that all example bellow can be mixed between them)
+Here the supported format for a dictionary (note that all example bellow can be mixed between them)
 
 #### Simple dictionary
 ```markdown
@@ -101,7 +102,7 @@ rouge
 ```
 
 #### Interlanguages of two language
-In case you want to use interlanguage you will need to write the phonetic word `words|phonetic_words`
+In case you want to use interlanguage you will need to write the phonetic desired of the words `words|phonetic_words`
 
 ```markdown
 ##fr
@@ -114,8 +115,8 @@ words|phonetic_words
 ## Duckling
 
 ### Duckling entity
-A skill can also use duckling that enable strong performance for their defined entity.
-Here the list of the supported duckling entity :
+Entity support duckling. Duckling will add entity information as structured data.
+The supported duckling entity :
 * `duckling:amount-of-money`
 * `duckling:volume`
 * `duckling:temperature`
@@ -128,23 +129,23 @@ Here the list of the supported duckling entity :
 * `duckling:phone-number`
 * `duckling:distance` 
 
-To use it for an entity, the entity name require to have in front of the entity `duckling:` in their name
+To use an duckling entity, just declare it like a normal entity :
 
 ```markdown
-##intent|weather|en
-- what's the weather in [new york](duckling:location)
-- what's the weather in #duckling:location
+##intent|date|en
+- what is [tomorrow](datetime) day
+- what is the date of #datetime
 ```
 
-## Wired command
+## Wired example
 
-The final step is to link the dictionary to the desired skill like the example bellow where
+To use a dictionary, you need to link it to the desired skill.
 
 <p align="center">
   <img src="../_media/lexical_seeding/skill_red.png" alt="dictionary_name"/>
 </p>
 
-We can see that a skill don't require an dictionary. A dictionary can be used for one or multiple skill.
+We can see that a skill don't require a dictionary. A dictionary can be used for one or multiple skill.
   * linto-skill-weather use the dictionary country and city
   * linto-skill-pollution use the dictionary city
   * linto-skill-welcome don't use any dictionary
