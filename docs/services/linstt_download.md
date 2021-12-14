@@ -107,3 +107,51 @@ Our pre-built models are:
 
 
 <!-- tabs:end -->
+
+
+
+## Arabic Language Models
+
+<!-- tabs:start -->
+
+#### ** Speech Recognition Models v1 **
+
+
+### Acoustic model
+>  `linSTT_AM_ar-AR_v1.0.0`  <br>
+>>  <b  style="color:green;">Description</b> :
+>> - A chain model based on TDNN, trained on a 1200 hours of Arabic broadcast data.
+>
+>   **Download Link** : [\[...\]/linSTT_AM_ar-AR_v1.0.0.zip](https://dl.linto.ai/downloads/model-distribution/acoustic-models/ar-AR/LinSTT_AM_ar-AR_v1.0.0.zip)
+
+
+### Decoding graphs
+>  `decoding_graph_ar-AR_v1.0.0`  <br>
+>>  <b  style="color:green;">Description</b> :
+>> - This language model model is trained on small arabic corpus. It is trained with SRILM tools.
+>
+>   **Download Link** : [\[...\]/decoding_graph_ar-AR_v1.0.0.zip](https://dl.linto.ai/downloads/model-distribution/decoding-graphs/LVCSR/ar-AR/decoding_graph_ar-AR_v1.0.0.zip)
+
+
+
+<!-- tabs:end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
