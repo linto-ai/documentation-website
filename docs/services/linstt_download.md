@@ -1,6 +1,6 @@
 # Automatic Speech Recognition - LinSTT: Download
 
-LinSTT is an offline speech recognition service. It enables speech recognition models for French language actually and for English, Spanish and German soon. It provide high continuous large vocabulary transcription.
+LinSTT is an offline speech recognition service. It enables speech recognition models for French language actually and for English, Arabic, Spanish and German soon. It provide high continuous large vocabulary transcription.
 
 ## French Language Models
 Our pre-built models are:
