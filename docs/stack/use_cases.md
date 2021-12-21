@@ -63,7 +63,12 @@ This section covers the creation of transcription services.
   <tr>
     <td> <a style="text-decoration:none" href="#/use_case/command_service" target="_blank" ><b>Create a command transcription service</b></a></td>
     <td> <a style="text-decoration:none" href="#/use_case/lv_service" target="_blank" ><b>Create a large vocabulary transcription service</b></a></td>
-    <td> <a style="text-decoration:none" href="#/use_case/streaming_service" target="_blank" ><b>Create a streaming transcription service</b></a></td>
+    <td> <a style="text-decoration:none" href="#/use_case/streaming_service_create" target="_blank" ><b>Create a streaming transcription service</b></a></td>
+  </tr>
+  <tr>
+    <td> <a class="notdone" style="text-decoration:none" href="#/use_case/command_service_use" target="_blank" ><b>Use a command transcription service</b></a></td>
+    <td> <a class="notdone" style="text-decoration:none" href="#/use_case/lv_service_use" target="_blank" ><b>Use a large vocabulary transcription service</b></a></td>
+    <td> <a style="text-decoration:none" href="#/use_case/streaming_service_usage" target="_blank" ><b>Use a streaming transcription service</b></a></td>
   </tr>
   </tbody>
 </table>
