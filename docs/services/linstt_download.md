@@ -130,19 +130,20 @@ Our pre-built models are:
 
 
 ### Decoding graphs
->  `decoding_graph_ar-AR_v1.0.0`  <br>
+>  `decoding_graph_ar-AR_v1.1.0`  <br>
 >>  <b  style="color:green;">Description</b> :
 >> - This language model is trained on small arabic text corpus. It is trained with SRILM tools.
 >
->   **Download Link** : [\[...\]/decoding_graph_ar-AR_v1.0.0.zip](https://dl.linto.ai/downloads/model-distribution/decoding-graphs/LVCSR/ar-AR/decoding_graph_ar-AR_v1.0.0.zip)
+>   **Download Link** : [\[...\]/decoding_graph_ar-AR_v1.1.0.zip](https://dl.linto.ai/downloads/model-distribution/decoding-graphs/LVCSR/ar-AR/decoding_graph_ar-AR_v1.1.0.zip)
 
+>  `decoding_graph_ar-AR_v1.2.0`  <br>
+>>  <b  style="color:green;">Description</b> :
+>> - This language model is trained on big arabic text from different corpus. It is trained with SRILM tools.
+>
+>   **Download Link** : [\[...\]/decoding_graph_ar-AR_v1.2.0.zip](https://dl.linto.ai/downloads/model-distribution/decoding-graphs/LVCSR/ar-AR/decoding_graph_ar-AR_v1.2.0.zip)
 
 
 <!-- tabs:end -->
-
-
-
-
 
 
 
