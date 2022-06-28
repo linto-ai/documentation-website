@@ -70,6 +70,7 @@ DEBVER=$(grep 'VERSION=' /etc/os-release | grep -Eo '[a-z]+')
 DEBARCH=$(dpkg --print-architecture)
 echo deb https://download.gluster.org/pub/gluster/glusterfs/LATEST/Debian/${DEBID}/${DEBARCH}/apt ${DEBVER} main | sudo tee --append /etc/apt/sources.list.d/gluster.list
 sudo apt-get install && sudo apt-get install glusterfs-server -y
+sudo systemctl enable --now glusterd
 ```
 
 ### Peer Gluster FS nodes
