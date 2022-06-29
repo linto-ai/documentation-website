@@ -696,5 +696,4 @@ LinTO source code is available on github, splitted into multiple sub-projects th
 
 ### Having trouble with this documentation ?
 
-- You'll find a comment field in the footer of every documentation page. We will answer as soon as possible.
 - Contact us : contact@linto.ai
