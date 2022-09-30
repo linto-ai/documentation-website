@@ -7,7 +7,7 @@ tags: [linto, tadhack, voicelab]
 
 ![Locaux](./france.png)
 
-Chers hackers, [LINAGORA](https://www.linagora.com) et [Le Voice Lab](http://www.levoicelab.org/) aurons le plaisir de vous acceuillir dans **les locaux LINAGORA de la Défence** pour cette édition 2022 du [TADHACK France](https://tadhack.com/2022/global/tadhack-global-france/)
+Chers hackers, [LINAGORA](https://www.linagora.com) et [Le Voice Lab](http://www.levoicelab.org/) auront le plaisir de vous acceuillir dans **les locaux LINAGORA de la Défense** pour cette édition 2022 du [TADHACK France](https://tadhack.com/2022/global/tadhack-global-france/)
 
 :::tip Rendez-vous les 15-16 octobre 2022
 ```
@@ -32,7 +32,7 @@ La **plus grande base de code de technologies vocales Open Source du monde** pou
 
 ## Resources à disposition pour le TADHACK 2022
 
-- Un support et un accompagnement pour la découverte et l'utilisation de nos technologie et de notre [documentation](/docs/developpers)
+- Un support et un accompagnement pour la découverte et l'utilisation de nos technologies et de notre [documentation](/docs/developpers)
 
 - Une plateforme LinTO Serveur **déja en place** pour **déployer immédiatement** des **agents vocaux intelligents** directement dans des pages / application web. Nous souhaitons ainsi vous permettre de **vous concentrer sur la valeur de votre proposition** sans de fastidieuses tâches d'administration serveur.
 
@@ -46,7 +46,7 @@ La **plus grande base de code de technologies vocales Open Source du monde** pou
 
 Une collection d'APIs proposées de manière pratique sous forme d'images Docker prêtes à l'emploi. Ces images Docker peuvent être exécutées de manière autonome pour le développement et les tests avec des points d'accès HTTP et WS intégrés.
 
-Nos API, qui **gèrent des requêtes HTTP synchrones**, peuvent également être invoquées par le biais d'un **task-broker basé sur Celery** pour le mode asynchrone/travail. Cette fonctionnalité vous permet de développer vos propres services hautement disponibles.
+Nos API, qui **gèrent des requêtes HTTP synchrones**, peuvent également être invoquées par le biais d'un **task-broker basé sur Celery** pour le mode asynchrone/tasks. Cette fonctionnalité vous permet de développer vos propres services hautement disponibles.
 
 - Reconnaissance automatique de la parole (transcription de fichiers multimédias et streaming)
 - Text To Speech (synthèse vocale)

@@ -118,7 +118,7 @@ export default {
           "items": [
             {
               "label": "Discord",
-              "href": "https://discord.gg/KuD6ghHg"
+              "href": "https://discord.gg/jvNK3FXv3d"
             },
             {
               "label": "Contact",
