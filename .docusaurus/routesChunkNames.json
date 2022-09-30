@@ -62,6 +62,34 @@
     "tag": "0902ff14",
     "listMetadata": "0838f7a8"
   },
+  "/fr/tutorials/tags/tadhack-b6d": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "3909a632"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "95186366"
+      }
+    ],
+    "tag": "e0998127",
+    "listMetadata": "f0aa22f2"
+  },
+  "/fr/tutorials/tags/voicelab-26a": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "3909a632"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "95186366"
+      }
+    ],
+    "tag": "b4cd08d0",
+    "listMetadata": "4de8679f"
+  },
   "/fr/tutorials/tutorials_intro-a38": {
     "__comp": "ccc49370",
     "__context": {

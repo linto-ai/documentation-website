@@ -33,6 +33,16 @@ export default [
     exact: true
   },
   {
+    path: '/fr/tutorials/tags/tadhack',
+    component: ComponentCreator('/fr/tutorials/tags/tadhack', 'b6d'),
+    exact: true
+  },
+  {
+    path: '/fr/tutorials/tags/voicelab',
+    component: ComponentCreator('/fr/tutorials/tags/voicelab', '26a'),
+    exact: true
+  },
+  {
     path: '/fr/tutorials/tutorials_intro',
     component: ComponentCreator('/fr/tutorials/tutorials_intro', 'a38'),
     exact: true
