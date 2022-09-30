@@ -1,0 +1,24 @@
+{
+  "unversionedId": "external/external",
+  "id": "external/external",
+  "title": "External ressources",
+  "description": "Source code and built artifacts",
+  "source": "@site/docs/external/external.md",
+  "sourceDirName": "external",
+  "slug": "/external/",
+  "permalink": "/fr/docs/external/",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/external/external.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "LinTO for meetings",
+    "permalink": "/fr/docs/developpers/meeting/"
+  },
+  "next": {
+    "title": "Docker images",
+    "permalink": "/fr/docs/external/docker"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "permalink": "/fr/tutorials/tutorials_intro",
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/tutorials/tutorials/2022-09-27-welcome/index.md",
+  "source": "@site/tutorials/2022-09-27-welcome/index.md",
+  "title": "About tutorials",
+  "description": "You'll find here specific tutorials for Business specific use-cases... stay tuned !",
+  "date": "2022-09-27T00:00:00.000Z",
+  "formattedDate": "27 septembre 2022",
+  "tags": [
+    {
+      "label": "linto",
+      "permalink": "/fr/tutorials/tags/linto"
+    }
+  ],
+  "readingTime": 0.06,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Damien Laine",
+      "title": "LinTO contributor",
+      "url": "https://github.com/damienlaine",
+      "imageURL": "https://media-exp1.licdn.com/dms/image/C4E03AQHP5S70gZiXfQ/profile-displayphoto-shrink_800_800/0/1624143018841?e=1669248000&v=beta&t=WXwZwOpn3VQtl-MOisHB6nQh84TmTYr2EvYdRK4modE",
+      "key": "damienlaine"
+    }
+  ],
+  "frontMatter": {
+    "slug": "tutorials_intro",
+    "title": "About tutorials",
+    "authors": [
+      "damienlaine"
+    ],
+    "tags": [
+      "linto"
+    ]
+  },
+  "prevItem": {
+    "title": "LINAGORA & Le Voice Lab : TADHACK France 2022",
+    "permalink": "/fr/tutorials/tadhack"
+  }
+}

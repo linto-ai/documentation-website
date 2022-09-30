@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developpers/agent/clients/raspberry/osgenerator",
+  "id": "developpers/agent/clients/raspberry/osgenerator",
+  "title": "OS Generator for LinTO on Raspberry Pi",
+  "description": "Interactive generation / customization tools using ARM emulation in Chroot.",
+  "source": "@site/docs/developpers/agent/clients/raspberry/osgenerator.md",
+  "sourceDirName": "developpers/agent/clients/raspberry",
+  "slug": "/developpers/agent/clients/raspberry/osgenerator",
+  "permalink": "/fr/docs/developpers/agent/clients/raspberry/osgenerator",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/clients/raspberry/osgenerator.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Raspberry prebuilt images",
+    "permalink": "/fr/docs/developpers/agent/clients/raspberry/download"
+  },
+  "next": {
+    "title": "On device Wake-Word Spotting",
+    "permalink": "/fr/docs/developpers/agent/clients/raspberry/hotword"
+  }
+}

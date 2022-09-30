@@ -1,0 +1,24 @@
+{
+  "unversionedId": "external/docker",
+  "id": "external/docker",
+  "title": "Docker images",
+  "description": "LinTO's Docker Hub - Available Docker images overview",
+  "source": "@site/docs/external/docker.md",
+  "sourceDirName": "external",
+  "slug": "/external/docker",
+  "permalink": "/fr/docs/external/docker",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/external/docker.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "External ressources",
+    "permalink": "/fr/docs/external/"
+  },
+  "next": {
+    "title": "Github source repositories",
+    "permalink": "/fr/docs/external/repos"
+  }
+}

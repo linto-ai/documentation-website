@@ -1,0 +1,28 @@
+{
+  "unversionedId": "developpers/apis/ASR/dockerrun",
+  "id": "developpers/apis/ASR/dockerrun",
+  "title": "Automatic Speech Recognition",
+  "description": "LinTO-platform-stt can either be used as a standalone transcription service or deployed within a micro-services infrastructure using a message broker connector.",
+  "source": "@site/docs/developpers/apis/ASR/dockerrun.md",
+  "sourceDirName": "developpers/apis/ASR",
+  "slug": "/developpers/apis/ASR/dockerrun",
+  "permalink": "/fr/docs/developpers/apis/ASR/dockerrun",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/apis/ASR/dockerrun.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Run with Docker",
+    "sidebar_position": 1
+  },
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "LinTO Platform STT",
+    "permalink": "/fr/docs/developpers/apis/ASR/"
+  },
+  "next": {
+    "title": "Models download",
+    "permalink": "/fr/docs/developpers/apis/ASR/models"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developpers/agent/clients/android",
+  "id": "developpers/agent/clients/android",
+  "title": "Android",
+  "description": "Android flutter client for LinTO.",
+  "source": "@site/docs/developpers/agent/clients/android.md",
+  "sourceDirName": "developpers/agent/clients",
+  "slug": "/developpers/agent/clients/android",
+  "permalink": "/fr/docs/developpers/agent/clients/android",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/clients/android.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "LinTO Web UI - User documentation",
+    "permalink": "/fr/docs/developpers/agent/clients/web/widget"
+  },
+  "next": {
+    "title": "Raspberry Pi",
+    "permalink": "/fr/docs/developpers/agent/clients/raspberry/"
+  }
+}

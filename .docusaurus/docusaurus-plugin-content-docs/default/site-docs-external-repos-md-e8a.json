@@ -1,0 +1,20 @@
+{
+  "unversionedId": "external/repos",
+  "id": "external/repos",
+  "title": "Github source repositories",
+  "description": "LinTO's Github - Repositories overview",
+  "source": "@site/docs/external/repos.md",
+  "sourceDirName": "external",
+  "slug": "/external/repos",
+  "permalink": "/fr/docs/external/repos",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/external/repos.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Docker images",
+    "permalink": "/fr/docs/external/docker"
+  }
+}

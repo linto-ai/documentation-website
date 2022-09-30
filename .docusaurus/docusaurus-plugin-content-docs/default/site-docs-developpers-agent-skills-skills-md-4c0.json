@@ -1,0 +1,28 @@
+{
+  "unversionedId": "developpers/agent/skills/skills",
+  "id": "developpers/agent/skills/skills",
+  "title": "About LinTO Applications",
+  "description": "LinTO Applications are created and managed within linto-admin GUI (see Server/PostInstall documentation). They are mainly built upon Node-RED framework. These LinTO applications are automatically created and configured inside embeded Node-RED server as you use linto-admin.",
+  "source": "@site/docs/developpers/agent/skills/skills.md",
+  "sourceDirName": "developpers/agent/skills",
+  "slug": "/developpers/agent/skills/",
+  "permalink": "/fr/docs/developpers/agent/skills/",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/skills/skills.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_label": "LinTO Skills",
+    "sidebar_position": 3
+  },
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Sources",
+    "permalink": "/fr/docs/developpers/agent/clients/raspberry/rpi_sources"
+  },
+  "next": {
+    "title": "How to develop ?",
+    "permalink": "/fr/docs/developpers/agent/skills/devguide/"
+  }
+}

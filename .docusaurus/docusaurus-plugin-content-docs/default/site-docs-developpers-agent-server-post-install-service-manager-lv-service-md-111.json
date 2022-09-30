@@ -1,0 +1,24 @@
+{
+  "unversionedId": "developpers/agent/server/post_install/service-manager/lv_service",
+  "id": "developpers/agent/server/post_install/service-manager/lv_service",
+  "title": "Deploy a Large vocabulary file transcription service",
+  "description": "A file transcription service allows to submit audio files to an API that will return a text transcription. File transcription can be used as itself and is a prerequisite of other uses. \"Large vocabulary\" implies that the transcription won't be limited to preset sentences and intend to cover an entire language.",
+  "source": "@site/docs/developpers/agent/server/post_install/service-manager/lv_service.md",
+  "sourceDirName": "developpers/agent/server/post_install/service-manager",
+  "slug": "/developpers/agent/server/post_install/service-manager/lv_service",
+  "permalink": "/fr/docs/developpers/agent/server/post_install/service-manager/lv_service",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/server/post_install/service-manager/lv_service.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Deploy a command transcription service",
+    "permalink": "/fr/docs/developpers/agent/server/post_install/service-manager/command_service"
+  },
+  "next": {
+    "title": "Deploy a Large Vocabulary Streaming Transcription service",
+    "permalink": "/fr/docs/developpers/agent/server/post_install/service-manager/streaming_service_create"
+  }
+}

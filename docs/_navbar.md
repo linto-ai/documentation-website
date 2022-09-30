@@ -1,1 +1,0 @@
-* <a href="https://linto.ai" target="_self">Back to linto.ai</a>

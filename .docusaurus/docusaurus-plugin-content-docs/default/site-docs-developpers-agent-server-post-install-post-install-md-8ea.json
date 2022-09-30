@@ -1,0 +1,28 @@
+{
+  "unversionedId": "developpers/agent/server/post_install/post_install",
+  "id": "developpers/agent/server/post_install/post_install",
+  "title": "Post install walkthrough",
+  "description": "This section intends to describe generic functionnalities of your deployed LinTO Platform Server Stack and how to manage them .",
+  "source": "@site/docs/developpers/agent/server/post_install/post_install.md",
+  "sourceDirName": "developpers/agent/server/post_install",
+  "slug": "/developpers/agent/server/post_install/",
+  "permalink": "/fr/docs/developpers/agent/server/post_install/",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/server/post_install/post_install.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_label": "Post install walkthrough",
+    "sidebar_position": 3
+  },
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Deploy LinTO Platform Server",
+    "permalink": "/fr/docs/developpers/agent/server/stack_deploy"
+  },
+  "next": {
+    "title": "Transcription service(s) management",
+    "permalink": "/fr/docs/developpers/agent/server/post_install/service-manager/"
+  }
+}

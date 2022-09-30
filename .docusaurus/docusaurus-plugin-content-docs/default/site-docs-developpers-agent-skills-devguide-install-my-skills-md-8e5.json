@@ -1,0 +1,28 @@
+{
+  "unversionedId": "developpers/agent/skills/devguide/install_my_skills",
+  "id": "developpers/agent/skills/devguide/install_my_skills",
+  "title": "Deploy a skill",
+  "description": "Install with LinTO-Admin",
+  "source": "@site/docs/developpers/agent/skills/devguide/install_my_skills.md",
+  "sourceDirName": "developpers/agent/skills/devguide",
+  "slug": "/developpers/agent/skills/devguide/install_my_skills",
+  "permalink": "/fr/docs/developpers/agent/skills/devguide/install_my_skills",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/skills/devguide/install_my_skills.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_label": "Deploy a skill",
+    "sidebar_position": 3
+  },
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Declare intentions and command trigger phrases",
+    "permalink": "/fr/docs/developpers/agent/skills/devguide/format"
+  },
+  "next": {
+    "title": "Node-RED LinTO Framework",
+    "permalink": "/fr/docs/developpers/agent/skills/components"
+  }
+}

@@ -1,0 +1,1795 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs",
+          "editUrlLocalized": "https://github.com/linto-ai/documentation-website/tree/source/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/home/dam/work/documentation-website/sidebars.js",
+          "contentPath": "/home/dam/work/documentation-website/docs",
+          "contentPathLocalized": "/home/dam/work/documentation-website/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "consumers/apis/apis",
+              "id": "consumers/apis/apis",
+              "title": "Cognitive APIs",
+              "description": "LinTO Cognitive APIs services will go live soon.",
+              "source": "@site/docs/consumers/apis/apis.md",
+              "sourceDirName": "consumers/apis",
+              "slug": "/consumers/apis/",
+              "permalink": "/docs/consumers/apis/",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/consumers/apis/apis.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_label": "Cognitive APIs",
+                "sidebar_position": 3
+              },
+              "sidebar": "consumersSidebar",
+              "previous": {
+                "title": "About",
+                "permalink": "/docs/consumers/"
+              },
+              "next": {
+                "title": "Conversation Manager",
+                "permalink": "/docs/consumers/conversation-manager/"
+              }
+            },
+            {
+              "unversionedId": "consumers/consumers",
+              "id": "consumers/consumers",
+              "title": "About",
+              "description": "LinTO Cognitive APIs services will go live soon.",
+              "source": "@site/docs/consumers/consumers.md",
+              "sourceDirName": "consumers",
+              "slug": "/consumers/",
+              "permalink": "/docs/consumers/",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/consumers/consumers.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "displayed_sidebar": "consumersSidebar",
+                "sidebar_position": 1
+              },
+              "sidebar": "consumersSidebar",
+              "next": {
+                "title": "Cognitive APIs",
+                "permalink": "/docs/consumers/apis/"
+              }
+            },
+            {
+              "unversionedId": "consumers/conversation-manager/conversation-manager",
+              "id": "consumers/conversation-manager/conversation-manager",
+              "title": "Conversation Manager",
+              "description": "LinTO Cognitive APIs services will go live soon.",
+              "source": "@site/docs/consumers/conversation-manager/conversation-manager.md",
+              "sourceDirName": "consumers/conversation-manager",
+              "slug": "/consumers/conversation-manager/",
+              "permalink": "/docs/consumers/conversation-manager/",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/consumers/conversation-manager/conversation-manager.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "consumersSidebar",
+              "previous": {
+                "title": "Cognitive APIs",
+                "permalink": "/docs/consumers/apis/"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/agent",
+              "id": "developpers/agent/agent",
+              "title": "Virtual agents and smart assistants",
+              "description": "Overview of LinTO's client-server architecture",
+              "source": "@site/docs/developpers/agent/agent.md",
+              "sourceDirName": "developpers/agent",
+              "slug": "/developpers/agent/",
+              "permalink": "/docs/developpers/agent/",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/agent.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Text To Speech",
+                "permalink": "/docs/developpers/apis/TTS/"
+              },
+              "next": {
+                "title": "LinTO Server Platform",
+                "permalink": "/docs/developpers/agent/server/"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/clients/android",
+              "id": "developpers/agent/clients/android",
+              "title": "Android",
+              "description": "Android flutter client for LinTO.",
+              "source": "@site/docs/developpers/agent/clients/android.md",
+              "sourceDirName": "developpers/agent/clients",
+              "slug": "/developpers/agent/clients/android",
+              "permalink": "/docs/developpers/agent/clients/android",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/clients/android.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "LinTO Web UI - User documentation",
+                "permalink": "/docs/developpers/agent/clients/web/widget"
+              },
+              "next": {
+                "title": "Raspberry Pi",
+                "permalink": "/docs/developpers/agent/clients/raspberry/"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/clients/clients",
+              "id": "developpers/agent/clients/clients",
+              "title": "LinTO Clients",
+              "description": "",
+              "source": "@site/docs/developpers/agent/clients/clients.md",
+              "sourceDirName": "developpers/agent/clients",
+              "slug": "/developpers/agent/clients/",
+              "permalink": "/docs/developpers/agent/clients/",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/clients/clients.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "LinTO Clients",
+                "sidebar_position": 2
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Platform Service manager",
+                "permalink": "/docs/developpers/agent/server/post_install/service-manager/stt_manager_how2use"
+              },
+              "next": {
+                "title": "HTTP authentication",
+                "permalink": "/docs/developpers/agent/clients/http/"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/clients/custom_hotwords/custom_hotwords",
+              "id": "developpers/agent/clients/custom_hotwords/custom_hotwords",
+              "title": "Custom Wake-Up Word",
+              "description": "You want to use your own wake-word to call your agent with a sweet or business-related name ? You are at the right place.",
+              "source": "@site/docs/developpers/agent/clients/custom_hotwords/custom_hotwords.md",
+              "sourceDirName": "developpers/agent/clients/custom_hotwords",
+              "slug": "/developpers/agent/clients/custom_hotwords/",
+              "permalink": "/docs/developpers/agent/clients/custom_hotwords/",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/clients/custom_hotwords/custom_hotwords.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "MQTT operating protocol",
+                "permalink": "/docs/developpers/agent/clients/mqtt/"
+              },
+              "next": {
+                "title": "LinTO Agents on Webpages",
+                "permalink": "/docs/developpers/agent/clients/web/"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/clients/http/http",
+              "id": "developpers/agent/clients/http/http",
+              "title": "HTTP authentication",
+              "description": "LinTO clients communicate with different server API in order to obtain authentication and maintain a secure connexion with the services.",
+              "source": "@site/docs/developpers/agent/clients/http/http.md",
+              "sourceDirName": "developpers/agent/clients/http",
+              "slug": "/developpers/agent/clients/http/",
+              "permalink": "/docs/developpers/agent/clients/http/",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/clients/http/http.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "LinTO Clients",
+                "permalink": "/docs/developpers/agent/clients/"
+              },
+              "next": {
+                "title": "MQTT operating protocol",
+                "permalink": "/docs/developpers/agent/clients/mqtt/"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/clients/mqtt/mqtt",
+              "id": "developpers/agent/clients/mqtt/mqtt",
+              "title": "MQTT operating protocol",
+              "description": "MQTT is the primary mean of communication between LinTO clients and the server platform. Clients publish requests and the server platform dictates behaviors using dedicated topics.",
+              "source": "@site/docs/developpers/agent/clients/mqtt/mqtt.md",
+              "sourceDirName": "developpers/agent/clients/mqtt",
+              "slug": "/developpers/agent/clients/mqtt/",
+              "permalink": "/docs/developpers/agent/clients/mqtt/",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/clients/mqtt/mqtt.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "HTTP authentication",
+                "permalink": "/docs/developpers/agent/clients/http/"
+              },
+              "next": {
+                "title": "Custom Wake-Up Word",
+                "permalink": "/docs/developpers/agent/clients/custom_hotwords/"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/clients/raspberry/download",
+              "id": "developpers/agent/clients/raspberry/download",
+              "title": "download",
+              "description": "LinTO Maker Releases",
+              "source": "@site/docs/developpers/agent/clients/raspberry/download.md",
+              "sourceDirName": "developpers/agent/clients/raspberry",
+              "slug": "/developpers/agent/clients/raspberry/download",
+              "permalink": "/docs/developpers/agent/clients/raspberry/download",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/clients/raspberry/download.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Raspberry prebuilt images",
+                "sidebar_position": 1
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Raspberry Pi",
+                "permalink": "/docs/developpers/agent/clients/raspberry/"
+              },
+              "next": {
+                "title": "OS Generator for LinTO on Raspberry Pi",
+                "permalink": "/docs/developpers/agent/clients/raspberry/osgenerator"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/clients/raspberry/hotword",
+              "id": "developpers/agent/clients/raspberry/hotword",
+              "title": "On device Wake-Word Spotting",
+              "description": "Wakeword",
+              "source": "@site/docs/developpers/agent/clients/raspberry/hotword.md",
+              "sourceDirName": "developpers/agent/clients/raspberry",
+              "slug": "/developpers/agent/clients/raspberry/hotword",
+              "permalink": "/docs/developpers/agent/clients/raspberry/hotword",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/clients/raspberry/hotword.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "OS Generator for LinTO on Raspberry Pi",
+                "permalink": "/docs/developpers/agent/clients/raspberry/osgenerator"
+              },
+              "next": {
+                "title": "Prebuilts binaries for ARM",
+                "permalink": "/docs/developpers/agent/clients/raspberry/rpi_prebuilts"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/clients/raspberry/osgenerator",
+              "id": "developpers/agent/clients/raspberry/osgenerator",
+              "title": "OS Generator for LinTO on Raspberry Pi",
+              "description": "Interactive generation / customization tools using ARM emulation in Chroot.",
+              "source": "@site/docs/developpers/agent/clients/raspberry/osgenerator.md",
+              "sourceDirName": "developpers/agent/clients/raspberry",
+              "slug": "/developpers/agent/clients/raspberry/osgenerator",
+              "permalink": "/docs/developpers/agent/clients/raspberry/osgenerator",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/clients/raspberry/osgenerator.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Raspberry prebuilt images",
+                "permalink": "/docs/developpers/agent/clients/raspberry/download"
+              },
+              "next": {
+                "title": "On device Wake-Word Spotting",
+                "permalink": "/docs/developpers/agent/clients/raspberry/hotword"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/clients/raspberry/raspberry",
+              "id": "developpers/agent/clients/raspberry/raspberry",
+              "title": "Raspberry Pi",
+              "description": "Welcome to the LinTO raspberry Maker tutorial.",
+              "source": "@site/docs/developpers/agent/clients/raspberry/raspberry.md",
+              "sourceDirName": "developpers/agent/clients/raspberry",
+              "slug": "/developpers/agent/clients/raspberry/",
+              "permalink": "/docs/developpers/agent/clients/raspberry/",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/clients/raspberry/raspberry.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Android",
+                "permalink": "/docs/developpers/agent/clients/android"
+              },
+              "next": {
+                "title": "Raspberry prebuilt images",
+                "permalink": "/docs/developpers/agent/clients/raspberry/download"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/clients/raspberry/rpi_prebuilts",
+              "id": "developpers/agent/clients/raspberry/rpi_prebuilts",
+              "title": "Prebuilts binaries for ARM",
+              "description": "Prebuilts are all in one folder module compiled using pyInstaller so you don't have to bother gathering all the dependencies.",
+              "source": "@site/docs/developpers/agent/clients/raspberry/rpi_prebuilts.md",
+              "sourceDirName": "developpers/agent/clients/raspberry",
+              "slug": "/developpers/agent/clients/raspberry/rpi_prebuilts",
+              "permalink": "/docs/developpers/agent/clients/raspberry/rpi_prebuilts",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/clients/raspberry/rpi_prebuilts.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "On device Wake-Word Spotting",
+                "permalink": "/docs/developpers/agent/clients/raspberry/hotword"
+              },
+              "next": {
+                "title": "Sources",
+                "permalink": "/docs/developpers/agent/clients/raspberry/rpi_sources"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/clients/raspberry/rpi_sources",
+              "id": "developpers/agent/clients/raspberry/rpi_sources",
+              "title": "Sources",
+              "description": "The Raspberry LinTO client is based on different modules that serve different purposes:",
+              "source": "@site/docs/developpers/agent/clients/raspberry/rpi_sources.md",
+              "sourceDirName": "developpers/agent/clients/raspberry",
+              "slug": "/developpers/agent/clients/raspberry/rpi_sources",
+              "permalink": "/docs/developpers/agent/clients/raspberry/rpi_sources",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/clients/raspberry/rpi_sources.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Prebuilts binaries for ARM",
+                "permalink": "/docs/developpers/agent/clients/raspberry/rpi_prebuilts"
+              },
+              "next": {
+                "title": "LinTO Skills",
+                "permalink": "/docs/developpers/agent/skills/"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/clients/web/web",
+              "id": "developpers/agent/clients/web/web",
+              "title": "LinTO Agents on Webpages",
+              "description": "A full figured LinTO client designed for building custom voice interactions on a webpage.",
+              "source": "@site/docs/developpers/agent/clients/web/web.md",
+              "sourceDirName": "developpers/agent/clients/web",
+              "slug": "/developpers/agent/clients/web/",
+              "permalink": "/docs/developpers/agent/clients/web/",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/clients/web/web.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Custom Wake-Up Word",
+                "permalink": "/docs/developpers/agent/clients/custom_hotwords/"
+              },
+              "next": {
+                "title": "LinTO Web UI - User documentation",
+                "permalink": "/docs/developpers/agent/clients/web/widget"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/clients/web/widget",
+              "id": "developpers/agent/clients/web/widget",
+              "title": "LinTO Web UI - User documentation",
+              "description": "LinTO UI is a javascript library allowing you to use the customizable features of LinTO intelligent agents directly in your web pages.",
+              "source": "@site/docs/developpers/agent/clients/web/widget.md",
+              "sourceDirName": "developpers/agent/clients/web",
+              "slug": "/developpers/agent/clients/web/widget",
+              "permalink": "/docs/developpers/agent/clients/web/widget",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/clients/web/widget.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "LinTO Agents on Webpages",
+                "permalink": "/docs/developpers/agent/clients/web/"
+              },
+              "next": {
+                "title": "Android",
+                "permalink": "/docs/developpers/agent/clients/android"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/server/infrastructure",
+              "id": "developpers/agent/server/infrastructure",
+              "title": "Plan and setup the infrastructure for tests or production",
+              "description": "Learn how to prepare your server infrastructure to deploy LinTO",
+              "source": "@site/docs/developpers/agent/server/infrastructure.md",
+              "sourceDirName": "developpers/agent/server",
+              "slug": "/developpers/agent/server/infrastructure",
+              "permalink": "/docs/developpers/agent/server/infrastructure",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/server/infrastructure.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Prepare infrastructure",
+                "sidebar_position": 1
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "LinTO Server Platform",
+                "permalink": "/docs/developpers/agent/server/"
+              },
+              "next": {
+                "title": "Deploy LinTO Platform Server",
+                "permalink": "/docs/developpers/agent/server/stack_deploy"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/server/post_install/post_install",
+              "id": "developpers/agent/server/post_install/post_install",
+              "title": "Post install walkthrough",
+              "description": "This section intends to describe generic functionnalities of your deployed LinTO Platform Server Stack and how to manage them .",
+              "source": "@site/docs/developpers/agent/server/post_install/post_install.md",
+              "sourceDirName": "developpers/agent/server/post_install",
+              "slug": "/developpers/agent/server/post_install/",
+              "permalink": "/docs/developpers/agent/server/post_install/",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/server/post_install/post_install.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_label": "Post install walkthrough",
+                "sidebar_position": 3
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Deploy LinTO Platform Server",
+                "permalink": "/docs/developpers/agent/server/stack_deploy"
+              },
+              "next": {
+                "title": "Transcription service(s) management",
+                "permalink": "/docs/developpers/agent/server/post_install/service-manager/"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/server/post_install/service-manager/acoustic_model",
+              "id": "developpers/agent/server/post_install/service-manager/acoustic_model",
+              "title": "Create an acoustic model",
+              "description": "Acoustic model",
+              "source": "@site/docs/developpers/agent/server/post_install/service-manager/acoustic_model.md",
+              "sourceDirName": "developpers/agent/server/post_install/service-manager",
+              "slug": "/developpers/agent/server/post_install/service-manager/acoustic_model",
+              "permalink": "/docs/developpers/agent/server/post_install/service-manager/acoustic_model",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/server/post_install/service-manager/acoustic_model.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Transcription service(s) management",
+                "permalink": "/docs/developpers/agent/server/post_install/service-manager/"
+              },
+              "next": {
+                "title": "Deploy a command transcription service",
+                "permalink": "/docs/developpers/agent/server/post_install/service-manager/command_service"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/server/post_install/service-manager/command_service",
+              "id": "developpers/agent/server/post_install/service-manager/command_service",
+              "title": "Deploy a command transcription service",
+              "description": "Command transcription service",
+              "source": "@site/docs/developpers/agent/server/post_install/service-manager/command_service.md",
+              "sourceDirName": "developpers/agent/server/post_install/service-manager",
+              "slug": "/developpers/agent/server/post_install/service-manager/command_service",
+              "permalink": "/docs/developpers/agent/server/post_install/service-manager/command_service",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/server/post_install/service-manager/command_service.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Create an acoustic model",
+                "permalink": "/docs/developpers/agent/server/post_install/service-manager/acoustic_model"
+              },
+              "next": {
+                "title": "Deploy a Large vocabulary file transcription service",
+                "permalink": "/docs/developpers/agent/server/post_install/service-manager/lv_service"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/server/post_install/service-manager/lv_service",
+              "id": "developpers/agent/server/post_install/service-manager/lv_service",
+              "title": "Deploy a Large vocabulary file transcription service",
+              "description": "A file transcription service allows to submit audio files to an API that will return a text transcription. File transcription can be used as itself and is a prerequisite of other uses. \"Large vocabulary\" implies that the transcription won't be limited to preset sentences and intend to cover an entire language.",
+              "source": "@site/docs/developpers/agent/server/post_install/service-manager/lv_service.md",
+              "sourceDirName": "developpers/agent/server/post_install/service-manager",
+              "slug": "/developpers/agent/server/post_install/service-manager/lv_service",
+              "permalink": "/docs/developpers/agent/server/post_install/service-manager/lv_service",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/server/post_install/service-manager/lv_service.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Deploy a command transcription service",
+                "permalink": "/docs/developpers/agent/server/post_install/service-manager/command_service"
+              },
+              "next": {
+                "title": "Deploy a Large Vocabulary Streaming Transcription service",
+                "permalink": "/docs/developpers/agent/server/post_install/service-manager/streaming_service_create"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/server/post_install/service-manager/service-manager",
+              "id": "developpers/agent/server/post_install/service-manager/service-manager",
+              "title": "Transcription service(s) management",
+              "description": "Our LinTO Platform Service Manager is a service that manages the scalabitily of linTO Platform STT services depending on the number of queries (scale up or down the number of replicas of each service). Docker swarm is used as a container orchestration tool, meaning that it allows the user to manage multiple containers deployed across multiple host machines. Along with that, this service is designed to manage the linTO Platform STT decoding models, i.e. acoustic models and the decoding graph.",
+              "source": "@site/docs/developpers/agent/server/post_install/service-manager/service-manager.md",
+              "sourceDirName": "developpers/agent/server/post_install/service-manager",
+              "slug": "/developpers/agent/server/post_install/service-manager/",
+              "permalink": "/docs/developpers/agent/server/post_install/service-manager/",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/server/post_install/service-manager/service-manager.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Post install walkthrough",
+                "permalink": "/docs/developpers/agent/server/post_install/"
+              },
+              "next": {
+                "title": "Create an acoustic model",
+                "permalink": "/docs/developpers/agent/server/post_install/service-manager/acoustic_model"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/server/post_install/service-manager/streaming_service_create",
+              "id": "developpers/agent/server/post_install/service-manager/streaming_service_create",
+              "title": "Deploy a Large Vocabulary Streaming Transcription service",
+              "description": "A streaming transcription service deploys a API that accept an audio stream and return a real-time transcription. \"Large vocabulary\" implies that the transcription won't be limited to preset sentences and intend to cover an entire language..",
+              "source": "@site/docs/developpers/agent/server/post_install/service-manager/streaming_service_create.md",
+              "sourceDirName": "developpers/agent/server/post_install/service-manager",
+              "slug": "/developpers/agent/server/post_install/service-manager/streaming_service_create",
+              "permalink": "/docs/developpers/agent/server/post_install/service-manager/streaming_service_create",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/server/post_install/service-manager/streaming_service_create.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Deploy a Large vocabulary file transcription service",
+                "permalink": "/docs/developpers/agent/server/post_install/service-manager/lv_service"
+              },
+              "next": {
+                "title": "Streaming Transcription service usage",
+                "permalink": "/docs/developpers/agent/server/post_install/service-manager/streaming_service_usage"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/server/post_install/service-manager/streaming_service_usage",
+              "id": "developpers/agent/server/post_install/service-manager/streaming_service_usage",
+              "title": "Streaming Transcription service usage",
+              "description": "Streaming speech to text standalone worker. Processes audio streams on an WS endpoint",
+              "source": "@site/docs/developpers/agent/server/post_install/service-manager/streaming_service_usage.md",
+              "sourceDirName": "developpers/agent/server/post_install/service-manager",
+              "slug": "/developpers/agent/server/post_install/service-manager/streaming_service_usage",
+              "permalink": "/docs/developpers/agent/server/post_install/service-manager/streaming_service_usage",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/server/post_install/service-manager/streaming_service_usage.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Deploy a Large Vocabulary Streaming Transcription service",
+                "permalink": "/docs/developpers/agent/server/post_install/service-manager/streaming_service_create"
+              },
+              "next": {
+                "title": "Platform Service manager",
+                "permalink": "/docs/developpers/agent/server/post_install/service-manager/stt_manager_how2use"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/server/post_install/service-manager/stt_manager_how2use",
+              "id": "developpers/agent/server/post_install/service-manager/stt_manager_how2use",
+              "title": "Platform Service manager",
+              "description": "Platform Service manager is a service designed to create, update and scale Speech-To-Text service inside your linTo platform. In this documentation you will be provided with:",
+              "source": "@site/docs/developpers/agent/server/post_install/service-manager/stt_manager_how2use.md",
+              "sourceDirName": "developpers/agent/server/post_install/service-manager",
+              "slug": "/developpers/agent/server/post_install/service-manager/stt_manager_how2use",
+              "permalink": "/docs/developpers/agent/server/post_install/service-manager/stt_manager_how2use",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/server/post_install/service-manager/stt_manager_how2use.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Streaming Transcription service usage",
+                "permalink": "/docs/developpers/agent/server/post_install/service-manager/streaming_service_usage"
+              },
+              "next": {
+                "title": "LinTO Clients",
+                "permalink": "/docs/developpers/agent/clients/"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/server/server",
+              "id": "developpers/agent/server/server",
+              "title": "LinTO Server Platform",
+              "description": "",
+              "source": "@site/docs/developpers/agent/server/server.md",
+              "sourceDirName": "developpers/agent/server",
+              "slug": "/developpers/agent/server/",
+              "permalink": "/docs/developpers/agent/server/",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/server/server.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "LinTO Server Platform",
+                "sidebar_position": 1
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Virtual agents and smart assistants",
+                "permalink": "/docs/developpers/agent/"
+              },
+              "next": {
+                "title": "Prepare infrastructure",
+                "permalink": "/docs/developpers/agent/server/infrastructure"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/server/stack_deploy",
+              "id": "developpers/agent/server/stack_deploy",
+              "title": "Deploy LinTO Platform Server",
+              "description": "LinTO Platform Server stack is meant to get deployed on a Docker Swarm cluster. Please read thouroughly the infrastructure setup guide and the following documentation BEFORE you run the startup script.",
+              "source": "@site/docs/developpers/agent/server/stack_deploy.md",
+              "sourceDirName": "developpers/agent/server",
+              "slug": "/developpers/agent/server/stack_deploy",
+              "permalink": "/docs/developpers/agent/server/stack_deploy",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/server/stack_deploy.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Prepare infrastructure",
+                "permalink": "/docs/developpers/agent/server/infrastructure"
+              },
+              "next": {
+                "title": "Post install walkthrough",
+                "permalink": "/docs/developpers/agent/server/post_install/"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/skills/components",
+              "id": "developpers/agent/skills/components",
+              "title": "Node-RED LinTO Framework",
+              "description": "LinTO-Components repository contains the framework code for building LinTO Bricks that would plug into Node-Red. It enables its users to develop LinTO compatible skills, leveraging a set of base Node JS classes inside their own code.",
+              "source": "@site/docs/developpers/agent/skills/components.md",
+              "sourceDirName": "developpers/agent/skills",
+              "slug": "/developpers/agent/skills/components",
+              "permalink": "/docs/developpers/agent/skills/components",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/skills/components.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Deploy a skill",
+                "permalink": "/docs/developpers/agent/skills/devguide/install_my_skills"
+              },
+              "next": {
+                "title": "Published skills and other Node-RED nodes",
+                "permalink": "/docs/developpers/agent/skills/list"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/skills/devguide/devguide",
+              "id": "developpers/agent/skills/devguide/devguide",
+              "title": "LinTO skills developper's handbook",
+              "description": "A skill is made of two main things :",
+              "source": "@site/docs/developpers/agent/skills/devguide/devguide.md",
+              "sourceDirName": "developpers/agent/skills/devguide",
+              "slug": "/developpers/agent/skills/devguide/",
+              "permalink": "/docs/developpers/agent/skills/devguide/",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/skills/devguide/devguide.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "How to develop ?",
+                "sidebar_position": 1
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "LinTO Skills",
+                "permalink": "/docs/developpers/agent/skills/"
+              },
+              "next": {
+                "title": "Code your actions",
+                "permalink": "/docs/developpers/agent/skills/devguide/make_my_skills"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/skills/devguide/format",
+              "id": "developpers/agent/skills/devguide/format",
+              "title": "Intentions and entitites usage",
+              "description": "This section explains more deeply how to write manifest markdown files for intents and command phrases within your custom skills.",
+              "source": "@site/docs/developpers/agent/skills/devguide/format.md",
+              "sourceDirName": "developpers/agent/skills/devguide",
+              "slug": "/developpers/agent/skills/devguide/format",
+              "permalink": "/docs/developpers/agent/skills/devguide/format",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/skills/devguide/format.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "Declare intentions and command trigger phrases",
+                "sidebar_position": 2
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Code your actions",
+                "permalink": "/docs/developpers/agent/skills/devguide/make_my_skills"
+              },
+              "next": {
+                "title": "Deploy a skill",
+                "permalink": "/docs/developpers/agent/skills/devguide/install_my_skills"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/skills/devguide/install_my_skills",
+              "id": "developpers/agent/skills/devguide/install_my_skills",
+              "title": "Deploy a skill",
+              "description": "Install with LinTO-Admin",
+              "source": "@site/docs/developpers/agent/skills/devguide/install_my_skills.md",
+              "sourceDirName": "developpers/agent/skills/devguide",
+              "slug": "/developpers/agent/skills/devguide/install_my_skills",
+              "permalink": "/docs/developpers/agent/skills/devguide/install_my_skills",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/skills/devguide/install_my_skills.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_label": "Deploy a skill",
+                "sidebar_position": 3
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Declare intentions and command trigger phrases",
+                "permalink": "/docs/developpers/agent/skills/devguide/format"
+              },
+              "next": {
+                "title": "Node-RED LinTO Framework",
+                "permalink": "/docs/developpers/agent/skills/components"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/skills/devguide/make_my_skills",
+              "id": "developpers/agent/skills/devguide/make_my_skills",
+              "title": "Make a skill do something",
+              "description": "Prerequisites",
+              "source": "@site/docs/developpers/agent/skills/devguide/make_my_skills.md",
+              "sourceDirName": "developpers/agent/skills/devguide",
+              "slug": "/developpers/agent/skills/devguide/make_my_skills",
+              "permalink": "/docs/developpers/agent/skills/devguide/make_my_skills",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/skills/devguide/make_my_skills.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Code your actions",
+                "sidebar_position": 1
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "How to develop ?",
+                "permalink": "/docs/developpers/agent/skills/devguide/"
+              },
+              "next": {
+                "title": "Declare intentions and command trigger phrases",
+                "permalink": "/docs/developpers/agent/skills/devguide/format"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/skills/list",
+              "id": "developpers/agent/skills/list",
+              "title": "Published skills and other Node-RED nodes",
+              "description": "LinTO Framework for Node-Red",
+              "source": "@site/docs/developpers/agent/skills/list.md",
+              "sourceDirName": "developpers/agent/skills",
+              "slug": "/developpers/agent/skills/list",
+              "permalink": "/docs/developpers/agent/skills/list",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/skills/list.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Node-RED LinTO Framework",
+                "permalink": "/docs/developpers/agent/skills/components"
+              },
+              "next": {
+                "title": "LinTO for meetings",
+                "permalink": "/docs/developpers/meeting/"
+              }
+            },
+            {
+              "unversionedId": "developpers/agent/skills/skills",
+              "id": "developpers/agent/skills/skills",
+              "title": "About LinTO Applications",
+              "description": "LinTO Applications are created and managed within linto-admin GUI (see Server/PostInstall documentation). They are mainly built upon Node-RED framework. These LinTO applications are automatically created and configured inside embeded Node-RED server as you use linto-admin.",
+              "source": "@site/docs/developpers/agent/skills/skills.md",
+              "sourceDirName": "developpers/agent/skills",
+              "slug": "/developpers/agent/skills/",
+              "permalink": "/docs/developpers/agent/skills/",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/skills/skills.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_label": "LinTO Skills",
+                "sidebar_position": 3
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Sources",
+                "permalink": "/docs/developpers/agent/clients/raspberry/rpi_sources"
+              },
+              "next": {
+                "title": "How to develop ?",
+                "permalink": "/docs/developpers/agent/skills/devguide/"
+              }
+            },
+            {
+              "unversionedId": "developpers/apis/apis",
+              "id": "developpers/apis/apis",
+              "title": "On premises Cognitive APIs",
+              "description": "This documentation is suitable for developpers who wants to benchmark and deploy simple HTTP endpoints for cognitive tasks on audio or text entries.",
+              "source": "@site/docs/developpers/apis/apis.md",
+              "sourceDirName": "developpers/apis",
+              "slug": "/developpers/apis/",
+              "permalink": "/docs/developpers/apis/",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/apis/apis.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "About",
+                "permalink": "/docs/developpers/"
+              },
+              "next": {
+                "title": "LinTO Platform STT",
+                "permalink": "/docs/developpers/apis/ASR/"
+              }
+            },
+            {
+              "unversionedId": "developpers/apis/ASR/ASR",
+              "id": "developpers/apis/ASR/ASR",
+              "title": "LinTO Platform STT (aka LinSTT) Automatic Speech Recognition",
+              "description": "What is an ASR system?",
+              "source": "@site/docs/developpers/apis/ASR/ASR.md",
+              "sourceDirName": "developpers/apis/ASR",
+              "slug": "/developpers/apis/ASR/",
+              "permalink": "/docs/developpers/apis/ASR/",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/apis/ASR/ASR.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "LinTO Platform STT",
+                "sidebar_position": 1
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "On premises Cognitive APIs",
+                "permalink": "/docs/developpers/apis/"
+              },
+              "next": {
+                "title": "Run with Docker",
+                "permalink": "/docs/developpers/apis/ASR/dockerrun"
+              }
+            },
+            {
+              "unversionedId": "developpers/apis/ASR/dockerrun",
+              "id": "developpers/apis/ASR/dockerrun",
+              "title": "Automatic Speech Recognition",
+              "description": "LinTO-platform-stt can either be used as a standalone transcription service or deployed within a micro-services infrastructure using a message broker connector.",
+              "source": "@site/docs/developpers/apis/ASR/dockerrun.md",
+              "sourceDirName": "developpers/apis/ASR",
+              "slug": "/developpers/apis/ASR/dockerrun",
+              "permalink": "/docs/developpers/apis/ASR/dockerrun",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/apis/ASR/dockerrun.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Run with Docker",
+                "sidebar_position": 1
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "LinTO Platform STT",
+                "permalink": "/docs/developpers/apis/ASR/"
+              },
+              "next": {
+                "title": "Models download",
+                "permalink": "/docs/developpers/apis/ASR/models"
+              }
+            },
+            {
+              "unversionedId": "developpers/apis/ASR/models",
+              "id": "developpers/apis/ASR/models",
+              "title": "Automatic Speech Recognition Models",
+              "description": "By LINAGORA - French, English, Arabic",
+              "source": "@site/docs/developpers/apis/ASR/models.md",
+              "sourceDirName": "developpers/apis/ASR",
+              "slug": "/developpers/apis/ASR/models",
+              "permalink": "/docs/developpers/apis/ASR/models",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/apis/ASR/models.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "Models download",
+                "sidebar_position": 2
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Run with Docker",
+                "permalink": "/docs/developpers/apis/ASR/dockerrun"
+              },
+              "next": {
+                "title": "Run with LinTO platform server",
+                "permalink": "/docs/developpers/apis/ASR/platformrun"
+              }
+            },
+            {
+              "unversionedId": "developpers/apis/ASR/platformrun",
+              "id": "developpers/apis/ASR/platformrun",
+              "title": "Transcription services on LinTO platform server",
+              "description": "If you already deployed a LinTO platform server instance, and as the platform leverages the usage of transcription services, you already have all the tools required to spawn new Transcription services for any needs as scalable docker swarm services. You might simply use your LinTO Platform Service Manager API to achieve this. Your LinTO platform server also embeds a full-figured NLU leveraging a custom deployment of Voyages SNCF TOCK for any language understanding that relates to chatbots or virtual agents.",
+              "source": "@site/docs/developpers/apis/ASR/platformrun.md",
+              "sourceDirName": "developpers/apis/ASR",
+              "slug": "/developpers/apis/ASR/platformrun",
+              "permalink": "/docs/developpers/apis/ASR/platformrun",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/apis/ASR/platformrun.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_label": "Run with LinTO platform server",
+                "sidebar_position": 3
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Models download",
+                "permalink": "/docs/developpers/apis/ASR/models"
+              },
+              "next": {
+                "title": "Natural Language Processing",
+                "permalink": "/docs/developpers/apis/NLP/"
+              }
+            },
+            {
+              "unversionedId": "developpers/apis/NLP/NLP",
+              "id": "developpers/apis/NLP/NLP",
+              "title": "Natural Language Processing",
+              "description": "Documentation currently available with source code on GitHub.",
+              "source": "@site/docs/developpers/apis/NLP/NLP.md",
+              "sourceDirName": "developpers/apis/NLP",
+              "slug": "/developpers/apis/NLP/",
+              "permalink": "/docs/developpers/apis/NLP/",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/apis/NLP/NLP.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Run with LinTO platform server",
+                "permalink": "/docs/developpers/apis/ASR/platformrun"
+              },
+              "next": {
+                "title": "Text To Speech",
+                "permalink": "/docs/developpers/apis/TTS/"
+              }
+            },
+            {
+              "unversionedId": "developpers/apis/TTS/TTS",
+              "id": "developpers/apis/TTS/TTS",
+              "title": "Text To Speech",
+              "description": "LinTO Text To Speech APIs will get a release by November 2022.",
+              "source": "@site/docs/developpers/apis/TTS/TTS.md",
+              "sourceDirName": "developpers/apis/TTS",
+              "slug": "/developpers/apis/TTS/",
+              "permalink": "/docs/developpers/apis/TTS/",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/apis/TTS/TTS.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Natural Language Processing",
+                "permalink": "/docs/developpers/apis/NLP/"
+              },
+              "next": {
+                "title": "Virtual agents and smart assistants",
+                "permalink": "/docs/developpers/agent/"
+              }
+            },
+            {
+              "unversionedId": "developpers/developpers",
+              "id": "developpers/developpers",
+              "title": "LinTO - Open Source Voicetech framework",
+              "description": "Licence",
+              "source": "@site/docs/developpers/developpers.md",
+              "sourceDirName": "developpers",
+              "slug": "/developpers/",
+              "permalink": "/docs/developpers/",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/developpers.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "About",
+                "sidebar_position": 1
+              },
+              "sidebar": "devSidebar",
+              "next": {
+                "title": "On premises Cognitive APIs",
+                "permalink": "/docs/developpers/apis/"
+              }
+            },
+            {
+              "unversionedId": "developpers/meeting/meeting",
+              "id": "developpers/meeting/meeting",
+              "title": "LinTO for meetings & Smart Scribe",
+              "description": "Digital workspaces are a source for important data lakes in which intelligent tools, boosted by machine learning, play an increasingly important role in extracting content, meaning and value.",
+              "source": "@site/docs/developpers/meeting/meeting.md",
+              "sourceDirName": "developpers/meeting",
+              "slug": "/developpers/meeting/",
+              "permalink": "/docs/developpers/meeting/",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/meeting/meeting.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_label": "LinTO for meetings",
+                "sidebar_position": 4
+              },
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Published skills and other Node-RED nodes",
+                "permalink": "/docs/developpers/agent/skills/list"
+              },
+              "next": {
+                "title": "External ressources",
+                "permalink": "/docs/external/"
+              }
+            },
+            {
+              "unversionedId": "external/compiledartefacts",
+              "id": "external/compiledartefacts",
+              "title": "Compiled artefact",
+              "description": "Such as raspberry Pi Images",
+              "source": "@site/docs/external/compiledartefacts.md",
+              "sourceDirName": "external",
+              "slug": "/external/compiledartefacts",
+              "permalink": "/docs/external/compiledartefacts",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/external/compiledartefacts.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "external/docker",
+              "id": "external/docker",
+              "title": "Docker images",
+              "description": "LinTO's Docker Hub - Available Docker images overview",
+              "source": "@site/docs/external/docker.md",
+              "sourceDirName": "external",
+              "slug": "/external/docker",
+              "permalink": "/docs/external/docker",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/external/docker.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "External ressources",
+                "permalink": "/docs/external/"
+              },
+              "next": {
+                "title": "Github source repositories",
+                "permalink": "/docs/external/repos"
+              }
+            },
+            {
+              "unversionedId": "external/external",
+              "id": "external/external",
+              "title": "External ressources",
+              "description": "Source code and built artifacts",
+              "source": "@site/docs/external/external.md",
+              "sourceDirName": "external",
+              "slug": "/external/",
+              "permalink": "/docs/external/",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/external/external.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "LinTO for meetings",
+                "permalink": "/docs/developpers/meeting/"
+              },
+              "next": {
+                "title": "Docker images",
+                "permalink": "/docs/external/docker"
+              }
+            },
+            {
+              "unversionedId": "external/repos",
+              "id": "external/repos",
+              "title": "Github source repositories",
+              "description": "LinTO's Github - Repositories overview",
+              "source": "@site/docs/external/repos.md",
+              "sourceDirName": "external",
+              "slug": "/external/repos",
+              "permalink": "/docs/external/repos",
+              "draft": false,
+              "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/external/repos.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "devSidebar",
+              "previous": {
+                "title": "Docker images",
+                "permalink": "/docs/external/docker"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "devSidebar": [
+              {
+                "type": "doc",
+                "id": "developpers/developpers",
+                "label": "About"
+              },
+              {
+                "type": "category",
+                "label": "On premises Cognitive APIs",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "LinTO Platform STT",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "developpers/apis/ASR/dockerrun",
+                        "label": "Run with Docker"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "developpers/apis/ASR/models",
+                        "label": "Models download"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "developpers/apis/ASR/platformrun",
+                        "label": "Run with LinTO platform server"
+                      }
+                    ],
+                    "link": {
+                      "type": "doc",
+                      "id": "developpers/apis/ASR/ASR"
+                    }
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Natural Language Processing",
+                    "id": "developpers/apis/NLP/NLP"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Text To Speech",
+                    "id": "developpers/apis/TTS/TTS"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "developpers/apis/apis"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Virtual agents and smart assistants",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "LinTO Server Platform",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "developpers/agent/server/infrastructure",
+                        "label": "Prepare infrastructure"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "developpers/agent/server/stack_deploy"
+                      },
+                      {
+                        "type": "category",
+                        "label": "Post install walkthrough",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "category",
+                            "label": "Transcription service(s) management",
+                            "collapsible": true,
+                            "collapsed": true,
+                            "items": [
+                              {
+                                "type": "doc",
+                                "id": "developpers/agent/server/post_install/service-manager/acoustic_model"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "developpers/agent/server/post_install/service-manager/command_service"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "developpers/agent/server/post_install/service-manager/lv_service"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "developpers/agent/server/post_install/service-manager/streaming_service_create"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "developpers/agent/server/post_install/service-manager/streaming_service_usage"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "developpers/agent/server/post_install/service-manager/stt_manager_how2use"
+                              }
+                            ],
+                            "link": {
+                              "type": "doc",
+                              "id": "developpers/agent/server/post_install/service-manager/service-manager"
+                            }
+                          }
+                        ],
+                        "link": {
+                          "type": "doc",
+                          "id": "developpers/agent/server/post_install/post_install"
+                        }
+                      }
+                    ],
+                    "link": {
+                      "type": "doc",
+                      "id": "developpers/agent/server/server"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "LinTO Clients",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "label": "HTTP authentication",
+                        "id": "developpers/agent/clients/http/http"
+                      },
+                      {
+                        "type": "doc",
+                        "label": "MQTT operating protocol",
+                        "id": "developpers/agent/clients/mqtt/mqtt"
+                      },
+                      {
+                        "type": "doc",
+                        "label": "Custom Wake-Up Word",
+                        "id": "developpers/agent/clients/custom_hotwords/custom_hotwords"
+                      },
+                      {
+                        "type": "category",
+                        "label": "LinTO Agents on Webpages",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "developpers/agent/clients/web/widget"
+                          }
+                        ],
+                        "link": {
+                          "type": "doc",
+                          "id": "developpers/agent/clients/web/web"
+                        }
+                      },
+                      {
+                        "type": "doc",
+                        "id": "developpers/agent/clients/android"
+                      },
+                      {
+                        "type": "category",
+                        "label": "Raspberry Pi",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "developpers/agent/clients/raspberry/download",
+                            "label": "Raspberry prebuilt images"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "developpers/agent/clients/raspberry/osgenerator"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "developpers/agent/clients/raspberry/hotword"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "developpers/agent/clients/raspberry/rpi_prebuilts"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "developpers/agent/clients/raspberry/rpi_sources"
+                          }
+                        ],
+                        "link": {
+                          "type": "doc",
+                          "id": "developpers/agent/clients/raspberry/raspberry"
+                        }
+                      }
+                    ],
+                    "link": {
+                      "type": "doc",
+                      "id": "developpers/agent/clients/clients"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "LinTO Skills",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "category",
+                        "label": "How to develop ?",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "developpers/agent/skills/devguide/make_my_skills",
+                            "label": "Code your actions"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "developpers/agent/skills/devguide/format",
+                            "label": "Declare intentions and command trigger phrases"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "developpers/agent/skills/devguide/install_my_skills",
+                            "label": "Deploy a skill"
+                          }
+                        ],
+                        "link": {
+                          "type": "doc",
+                          "id": "developpers/agent/skills/devguide/devguide"
+                        }
+                      },
+                      {
+                        "type": "doc",
+                        "id": "developpers/agent/skills/components"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "developpers/agent/skills/list"
+                      }
+                    ],
+                    "link": {
+                      "type": "doc",
+                      "id": "developpers/agent/skills/skills"
+                    }
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "developpers/agent/agent"
+                }
+              },
+              {
+                "type": "doc",
+                "label": "LinTO for meetings",
+                "id": "developpers/meeting/meeting"
+              },
+              {
+                "type": "category",
+                "label": "Ressources",
+                "link": {
+                  "type": "doc",
+                  "id": "external/external"
+                },
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "external/docker"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "external/repos"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ],
+            "consumersSidebar": [
+              {
+                "type": "doc",
+                "id": "consumers/consumers"
+              },
+              {
+                "type": "doc",
+                "label": "Cognitive APIs",
+                "id": "consumers/apis/apis"
+              },
+              {
+                "type": "doc",
+                "label": "Conversation Manager",
+                "id": "consumers/conversation-manager/conversation-manager"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [
+        {
+          "id": "tadhack",
+          "metadata": {
+            "permalink": "/tutorials/tadhack",
+            "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/tutorials/tutorials/2022-09-30-tadhack/index.md",
+            "source": "@site/tutorials/2022-09-30-tadhack/index.md",
+            "title": "LINAGORA & Le Voice Lab : TADHACK France 2022",
+            "description": "Locaux",
+            "date": "2022-09-30T00:00:00.000Z",
+            "formattedDate": "September 30, 2022",
+            "tags": [
+              {
+                "label": "linto",
+                "permalink": "/tutorials/tags/linto"
+              },
+              {
+                "label": "tadhack",
+                "permalink": "/tutorials/tags/tadhack"
+              },
+              {
+                "label": "voicelab",
+                "permalink": "/tutorials/tags/voicelab"
+              }
+            ],
+            "readingTime": 2.995,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Damien Laine",
+                "title": "LinTO contributor",
+                "url": "https://github.com/damienlaine",
+                "imageURL": "https://media-exp1.licdn.com/dms/image/C4E03AQHP5S70gZiXfQ/profile-displayphoto-shrink_800_800/0/1624143018841?e=1669248000&v=beta&t=WXwZwOpn3VQtl-MOisHB6nQh84TmTYr2EvYdRK4modE",
+                "key": "damienlaine"
+              }
+            ],
+            "frontMatter": {
+              "slug": "tadhack",
+              "title": "LINAGORA & Le Voice Lab : TADHACK France 2022",
+              "authors": [
+                "damienlaine"
+              ],
+              "tags": [
+                "linto",
+                "tadhack",
+                "voicelab"
+              ]
+            },
+            "nextItem": {
+              "title": "About tutorials",
+              "permalink": "/tutorials/tutorials_intro"
+            }
+          },
+          "content": "![Locaux](./france.png)\n\nChers hackers, [LINAGORA](https://www.linagora.com) et [Le Voice Lab](http://www.levoicelab.org/) aurons le plaisir de vous acceuillir dans **les locaux LINAGORA de la Défence** pour cette édition 2022 du [TADHACK France](https://tadhack.com/2022/global/tadhack-global-france/)\n\n:::tip Rendez-vous les 15-16 octobre 2022\n```\nBureaux de Linagora\n100, terrasse Boieldieu, 92042\nPARIS LA DEFENSE CEDEX\n```\n:::\n\n:::tip Venez échanger avec les autres participants, formez vos équipes et échangez dès maintenant avec les **apporteurs de technologies** du hackathon\nRejoignez le serveur Discord dédié en utilisant [ce lien : https://discord.gg/ZFKUThJnjs](https://discord.gg/ZFKUThJnjs)\n:::\n\n![sponsors](./sponsors.png)\n\n\n## Découvrez LinTO\n\nLa **plus grande base de code de technologies vocales Open Source du monde** pour **développer votre innovation**.\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/AmeaZXFtsLY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\n## Resources à disposition pour le TADHACK 2022\n\n- Un support et un accompagnement pour la découverte et l'utilisation de nos technologie et de notre [documentation](/docs/developpers)\n\n- Une plateforme LinTO Serveur **déja en place** pour **déployer immédiatement** des **agents vocaux intelligents** directement dans des pages / application web. Nous souhaitons ainsi vous permettre de **vous concentrer sur la valeur de votre proposition** sans de fastidieuses tâches d'administration serveur.\n\n- Un accès complet aux **Cognitives APIs** de LinTO pour traiter facilement de fichiers ou de streaming\n\n\n[Live Demo : l'agent vocal LinTO dans une page web](https://linagora.com/fr/produits/linto/) \n\n\n### Cognitive APIs\n\nUne collection d'APIs proposées de manière pratique sous forme d'images Docker prêtes à l'emploi. Ces images Docker peuvent être exécutées de manière autonome pour le développement et les tests avec des points d'accès HTTP et WS intégrés.\n\nNos API, qui **gèrent des requêtes HTTP synchrones**, peuvent également être invoquées par le biais d'un **task-broker basé sur Celery** pour le mode asynchrone/travail. Cette fonctionnalité vous permet de développer vos propres services hautement disponibles.\n\n- Reconnaissance automatique de la parole (transcription de fichiers multimédias et streaming)\n- Text To Speech (synthèse vocale)\n- Compréhension du langage naturel\n- Ponctuation automatique des textes\n- Diarisation et identification du locuteur\n\n[Documentation dédiée](/docs/developpers/apis)\n\n\n### Virtual agents & Smart Assistants - In the browser\n\nSolution complète de bout-en-bout pour concevoir et opérer des **assistants intelligents (assistants vocaux)** et des agents d'intelligence conversationnelle (type chatbots, callbots...). **Alternative complète** aux outils dédiés aux développeurs d’applications d'intelligence conversationnelle, tels que **DialogFlow de Google, Azure Bot de Microsoft ou encore IBM Watson**.\n\n- Chatbots / Voicebots avec mot réveil personnalisé **sur une page Web**\n- Compréhension du langage naturel (NLU) et ASR (Automatic Speech Recognition)\n- Framework de développement de compétences et d'actions (Dialogflow / IBM Watson Alternative)\n- Smart Speaker Engine / moteur d'assistant intelligent\n- Gestion de flotte de terminaux vocaux (numéros de série / identifiants)\n- Gestion des installations en utilisant le contrôle vocal dans votre bureau / à la maison\n- Accès vocal aux applications ou pages Web de vos clients finaux.\n- **Mots réveil 100% logiciel** (Alexa, Ok Google...)\n- Clients Android et ARM (Raspberry Pi)\n\n[Documentation dédiée](/docs/developpers/agent)\n\n### LinTO Smart Meetings\n\nCe sujet combine et exploite notre outil Smart Assistants et nos API cognitives. **Nos API ont été initialement développées pour des solutions collaboratives impliquant de nombreux utilisateurs et intervenants**. Sur la base de cette forte expertise du domaine, nous avons décidé de pousser l'innovation plus loin avec notre propre plateforme open source de Scribe Virtuel (LinTO Conversation Manager). Déployée sur infrastructures propres, les utilisateurs peuvent télécharger leurs réunions, enregistrements, vidéoconférences Jitsi avec sous-titres LinTO... les partager, les annoter, les corriger et exploiter facilement leur contenu à l'aide d'une extraction intelligente de l'information.\n\n- Sous-titrage en direct pour visioconférence (Jitsi)\n- Transcription multilocuteurs, annotation, extraction d'informations significatives...\n- Open Source Virtual-Scribe : Gestionnaire de conversation LinTO\n\n[Documentation dédiée](/docs/developpers/meeting)"
+        },
+        {
+          "id": "tutorials_intro",
+          "metadata": {
+            "permalink": "/tutorials/tutorials_intro",
+            "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/tutorials/tutorials/2022-09-27-welcome/index.md",
+            "source": "@site/tutorials/2022-09-27-welcome/index.md",
+            "title": "About tutorials",
+            "description": "You'll find here specific tutorials for Business specific use-cases... stay tuned !",
+            "date": "2022-09-27T00:00:00.000Z",
+            "formattedDate": "September 27, 2022",
+            "tags": [
+              {
+                "label": "linto",
+                "permalink": "/tutorials/tags/linto"
+              }
+            ],
+            "readingTime": 0.06,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Damien Laine",
+                "title": "LinTO contributor",
+                "url": "https://github.com/damienlaine",
+                "imageURL": "https://media-exp1.licdn.com/dms/image/C4E03AQHP5S70gZiXfQ/profile-displayphoto-shrink_800_800/0/1624143018841?e=1669248000&v=beta&t=WXwZwOpn3VQtl-MOisHB6nQh84TmTYr2EvYdRK4modE",
+                "key": "damienlaine"
+              }
+            ],
+            "frontMatter": {
+              "slug": "tutorials_intro",
+              "title": "About tutorials",
+              "authors": [
+                "damienlaine"
+              ],
+              "tags": [
+                "linto"
+              ]
+            },
+            "prevItem": {
+              "title": "LINAGORA & Le Voice Lab : TADHACK France 2022",
+              "permalink": "/tutorials/tadhack"
+            }
+          },
+          "content": "You'll find here specific tutorials for **Business specific use-cases**... stay tuned !"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "items": [
+            "tadhack",
+            "tutorials_intro"
+          ],
+          "metadata": {
+            "permalink": "/tutorials",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 2,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          }
+        }
+      ],
+      "blogTags": {
+        "/tutorials/tags/linto": {
+          "label": "linto",
+          "items": [
+            "tadhack",
+            "tutorials_intro"
+          ],
+          "permalink": "/tutorials/tags/linto",
+          "pages": [
+            {
+              "items": [
+                "tadhack",
+                "tutorials_intro"
+              ],
+              "metadata": {
+                "permalink": "/tutorials/tags/linto",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/tutorials/tags/tadhack": {
+          "label": "tadhack",
+          "items": [
+            "tadhack"
+          ],
+          "permalink": "/tutorials/tags/tadhack",
+          "pages": [
+            {
+              "items": [
+                "tadhack"
+              ],
+              "metadata": {
+                "permalink": "/tutorials/tags/tadhack",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/tutorials/tags/voicelab": {
+          "label": "voicelab",
+          "items": [
+            "tadhack"
+          ],
+          "permalink": "/tutorials/tags/voicelab",
+          "pages": [
+            {
+              "items": [
+                "tadhack"
+              ],
+              "metadata": {
+                "permalink": "/tutorials/tags/voicelab",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        }
+      },
+      "blogTagsListPath": "/tutorials/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

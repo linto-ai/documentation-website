@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developpers/agent/agent",
+  "id": "developpers/agent/agent",
+  "title": "Virtual agents and smart assistants",
+  "description": "Overview of LinTO's client-server architecture",
+  "source": "@site/docs/developpers/agent/agent.md",
+  "sourceDirName": "developpers/agent",
+  "slug": "/developpers/agent/",
+  "permalink": "/fr/docs/developpers/agent/",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/agent.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Text To Speech",
+    "permalink": "/fr/docs/developpers/apis/TTS/"
+  },
+  "next": {
+    "title": "LinTO Server Platform",
+    "permalink": "/fr/docs/developpers/agent/server/"
+  }
+}

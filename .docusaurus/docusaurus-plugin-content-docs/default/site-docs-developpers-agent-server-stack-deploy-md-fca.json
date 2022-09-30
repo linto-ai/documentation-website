@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developpers/agent/server/stack_deploy",
+  "id": "developpers/agent/server/stack_deploy",
+  "title": "Deploy LinTO Platform Server",
+  "description": "LinTO Platform Server stack is meant to get deployed on a Docker Swarm cluster. Please read thouroughly the infrastructure setup guide and the following documentation BEFORE you run the startup script.",
+  "source": "@site/docs/developpers/agent/server/stack_deploy.md",
+  "sourceDirName": "developpers/agent/server",
+  "slug": "/developpers/agent/server/stack_deploy",
+  "permalink": "/fr/docs/developpers/agent/server/stack_deploy",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/server/stack_deploy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Prepare infrastructure",
+    "permalink": "/fr/docs/developpers/agent/server/infrastructure"
+  },
+  "next": {
+    "title": "Post install walkthrough",
+    "permalink": "/fr/docs/developpers/agent/server/post_install/"
+  }
+}

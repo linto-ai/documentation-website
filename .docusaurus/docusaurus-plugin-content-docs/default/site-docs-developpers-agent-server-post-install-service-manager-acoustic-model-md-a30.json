@@ -1,0 +1,24 @@
+{
+  "unversionedId": "developpers/agent/server/post_install/service-manager/acoustic_model",
+  "id": "developpers/agent/server/post_install/service-manager/acoustic_model",
+  "title": "Create an acoustic model",
+  "description": "Acoustic model",
+  "source": "@site/docs/developpers/agent/server/post_install/service-manager/acoustic_model.md",
+  "sourceDirName": "developpers/agent/server/post_install/service-manager",
+  "slug": "/developpers/agent/server/post_install/service-manager/acoustic_model",
+  "permalink": "/fr/docs/developpers/agent/server/post_install/service-manager/acoustic_model",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/server/post_install/service-manager/acoustic_model.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Transcription service(s) management",
+    "permalink": "/fr/docs/developpers/agent/server/post_install/service-manager/"
+  },
+  "next": {
+    "title": "Deploy a command transcription service",
+    "permalink": "/fr/docs/developpers/agent/server/post_install/service-manager/command_service"
+  }
+}

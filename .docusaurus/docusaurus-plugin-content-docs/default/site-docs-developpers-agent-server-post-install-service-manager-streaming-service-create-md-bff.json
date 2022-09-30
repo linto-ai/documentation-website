@@ -1,0 +1,24 @@
+{
+  "unversionedId": "developpers/agent/server/post_install/service-manager/streaming_service_create",
+  "id": "developpers/agent/server/post_install/service-manager/streaming_service_create",
+  "title": "Deploy a Large Vocabulary Streaming Transcription service",
+  "description": "A streaming transcription service deploys a API that accept an audio stream and return a real-time transcription. \"Large vocabulary\" implies that the transcription won't be limited to preset sentences and intend to cover an entire language..",
+  "source": "@site/docs/developpers/agent/server/post_install/service-manager/streaming_service_create.md",
+  "sourceDirName": "developpers/agent/server/post_install/service-manager",
+  "slug": "/developpers/agent/server/post_install/service-manager/streaming_service_create",
+  "permalink": "/fr/docs/developpers/agent/server/post_install/service-manager/streaming_service_create",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/server/post_install/service-manager/streaming_service_create.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Deploy a Large vocabulary file transcription service",
+    "permalink": "/fr/docs/developpers/agent/server/post_install/service-manager/lv_service"
+  },
+  "next": {
+    "title": "Streaming Transcription service usage",
+    "permalink": "/fr/docs/developpers/agent/server/post_install/service-manager/streaming_service_usage"
+  }
+}

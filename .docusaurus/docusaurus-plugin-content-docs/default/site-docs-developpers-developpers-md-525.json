@@ -1,0 +1,24 @@
+{
+  "unversionedId": "developpers/developpers",
+  "id": "developpers/developpers",
+  "title": "LinTO - Open Source Voicetech framework",
+  "description": "Licence",
+  "source": "@site/docs/developpers/developpers.md",
+  "sourceDirName": "developpers",
+  "slug": "/developpers/",
+  "permalink": "/fr/docs/developpers/",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/developpers.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "About",
+    "sidebar_position": 1
+  },
+  "sidebar": "devSidebar",
+  "next": {
+    "title": "On premises Cognitive APIs",
+    "permalink": "/fr/docs/developpers/apis/"
+  }
+}

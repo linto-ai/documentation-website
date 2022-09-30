@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developpers/agent/clients/raspberry/rpi_prebuilts",
+  "id": "developpers/agent/clients/raspberry/rpi_prebuilts",
+  "title": "Prebuilts binaries for ARM",
+  "description": "Prebuilts are all in one folder module compiled using pyInstaller so you don't have to bother gathering all the dependencies.",
+  "source": "@site/docs/developpers/agent/clients/raspberry/rpi_prebuilts.md",
+  "sourceDirName": "developpers/agent/clients/raspberry",
+  "slug": "/developpers/agent/clients/raspberry/rpi_prebuilts",
+  "permalink": "/fr/docs/developpers/agent/clients/raspberry/rpi_prebuilts",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/clients/raspberry/rpi_prebuilts.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "On device Wake-Word Spotting",
+    "permalink": "/fr/docs/developpers/agent/clients/raspberry/hotword"
+  },
+  "next": {
+    "title": "Sources",
+    "permalink": "/fr/docs/developpers/agent/clients/raspberry/rpi_sources"
+  }
+}

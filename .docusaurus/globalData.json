@@ -1,0 +1,273 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/fr/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/fr/docs",
+          "mainDocId": "developpers/developpers",
+          "docs": [
+            {
+              "id": "consumers/apis/apis",
+              "path": "/fr/docs/consumers/apis/",
+              "sidebar": "consumersSidebar"
+            },
+            {
+              "id": "consumers/consumers",
+              "path": "/fr/docs/consumers/",
+              "sidebar": "consumersSidebar"
+            },
+            {
+              "id": "consumers/conversation-manager/conversation-manager",
+              "path": "/fr/docs/consumers/conversation-manager/",
+              "sidebar": "consumersSidebar"
+            },
+            {
+              "id": "developpers/agent/agent",
+              "path": "/fr/docs/developpers/agent/",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/clients/android",
+              "path": "/fr/docs/developpers/agent/clients/android",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/clients/clients",
+              "path": "/fr/docs/developpers/agent/clients/",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/clients/custom_hotwords/custom_hotwords",
+              "path": "/fr/docs/developpers/agent/clients/custom_hotwords/",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/clients/http/http",
+              "path": "/fr/docs/developpers/agent/clients/http/",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/clients/mqtt/mqtt",
+              "path": "/fr/docs/developpers/agent/clients/mqtt/",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/clients/raspberry/download",
+              "path": "/fr/docs/developpers/agent/clients/raspberry/download",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/clients/raspberry/hotword",
+              "path": "/fr/docs/developpers/agent/clients/raspberry/hotword",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/clients/raspberry/osgenerator",
+              "path": "/fr/docs/developpers/agent/clients/raspberry/osgenerator",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/clients/raspberry/raspberry",
+              "path": "/fr/docs/developpers/agent/clients/raspberry/",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/clients/raspberry/rpi_prebuilts",
+              "path": "/fr/docs/developpers/agent/clients/raspberry/rpi_prebuilts",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/clients/raspberry/rpi_sources",
+              "path": "/fr/docs/developpers/agent/clients/raspberry/rpi_sources",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/clients/web/web",
+              "path": "/fr/docs/developpers/agent/clients/web/",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/clients/web/widget",
+              "path": "/fr/docs/developpers/agent/clients/web/widget",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/server/infrastructure",
+              "path": "/fr/docs/developpers/agent/server/infrastructure",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/server/post_install/post_install",
+              "path": "/fr/docs/developpers/agent/server/post_install/",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/server/post_install/service-manager/acoustic_model",
+              "path": "/fr/docs/developpers/agent/server/post_install/service-manager/acoustic_model",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/server/post_install/service-manager/command_service",
+              "path": "/fr/docs/developpers/agent/server/post_install/service-manager/command_service",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/server/post_install/service-manager/lv_service",
+              "path": "/fr/docs/developpers/agent/server/post_install/service-manager/lv_service",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/server/post_install/service-manager/service-manager",
+              "path": "/fr/docs/developpers/agent/server/post_install/service-manager/",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/server/post_install/service-manager/streaming_service_create",
+              "path": "/fr/docs/developpers/agent/server/post_install/service-manager/streaming_service_create",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/server/post_install/service-manager/streaming_service_usage",
+              "path": "/fr/docs/developpers/agent/server/post_install/service-manager/streaming_service_usage",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/server/post_install/service-manager/stt_manager_how2use",
+              "path": "/fr/docs/developpers/agent/server/post_install/service-manager/stt_manager_how2use",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/server/server",
+              "path": "/fr/docs/developpers/agent/server/",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/server/stack_deploy",
+              "path": "/fr/docs/developpers/agent/server/stack_deploy",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/skills/components",
+              "path": "/fr/docs/developpers/agent/skills/components",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/skills/devguide/devguide",
+              "path": "/fr/docs/developpers/agent/skills/devguide/",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/skills/devguide/format",
+              "path": "/fr/docs/developpers/agent/skills/devguide/format",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/skills/devguide/install_my_skills",
+              "path": "/fr/docs/developpers/agent/skills/devguide/install_my_skills",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/skills/devguide/make_my_skills",
+              "path": "/fr/docs/developpers/agent/skills/devguide/make_my_skills",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/skills/list",
+              "path": "/fr/docs/developpers/agent/skills/list",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/agent/skills/skills",
+              "path": "/fr/docs/developpers/agent/skills/",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/apis/apis",
+              "path": "/fr/docs/developpers/apis/",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/apis/ASR/ASR",
+              "path": "/fr/docs/developpers/apis/ASR/",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/apis/ASR/dockerrun",
+              "path": "/fr/docs/developpers/apis/ASR/dockerrun",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/apis/ASR/models",
+              "path": "/fr/docs/developpers/apis/ASR/models",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/apis/ASR/platformrun",
+              "path": "/fr/docs/developpers/apis/ASR/platformrun",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/apis/NLP/NLP",
+              "path": "/fr/docs/developpers/apis/NLP/",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/apis/TTS/TTS",
+              "path": "/fr/docs/developpers/apis/TTS/",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/developpers",
+              "path": "/fr/docs/developpers/",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "developpers/meeting/meeting",
+              "path": "/fr/docs/developpers/meeting/",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "external/compiledartefacts",
+              "path": "/fr/docs/external/compiledartefacts"
+            },
+            {
+              "id": "external/docker",
+              "path": "/fr/docs/external/docker",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "external/external",
+              "path": "/fr/docs/external/",
+              "sidebar": "devSidebar"
+            },
+            {
+              "id": "external/repos",
+              "path": "/fr/docs/external/repos",
+              "sidebar": "devSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "devSidebar": {
+              "link": {
+                "path": "/fr/docs/developpers/",
+                "label": "About"
+              }
+            },
+            "consumersSidebar": {
+              "link": {
+                "path": "/fr/docs/consumers/",
+                "label": "consumers/consumers"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

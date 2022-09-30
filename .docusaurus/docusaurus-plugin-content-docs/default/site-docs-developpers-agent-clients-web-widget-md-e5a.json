@@ -1,0 +1,24 @@
+{
+  "unversionedId": "developpers/agent/clients/web/widget",
+  "id": "developpers/agent/clients/web/widget",
+  "title": "LinTO Web UI - User documentation",
+  "description": "LinTO UI is a javascript library allowing you to use the customizable features of LinTO intelligent agents directly in your web pages.",
+  "source": "@site/docs/developpers/agent/clients/web/widget.md",
+  "sourceDirName": "developpers/agent/clients/web",
+  "slug": "/developpers/agent/clients/web/widget",
+  "permalink": "/fr/docs/developpers/agent/clients/web/widget",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/clients/web/widget.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "LinTO Agents on Webpages",
+    "permalink": "/fr/docs/developpers/agent/clients/web/"
+  },
+  "next": {
+    "title": "Android",
+    "permalink": "/fr/docs/developpers/agent/clients/android"
+  }
+}

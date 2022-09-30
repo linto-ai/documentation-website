@@ -1,0 +1,24 @@
+{
+  "unversionedId": "developpers/agent/skills/components",
+  "id": "developpers/agent/skills/components",
+  "title": "Node-RED LinTO Framework",
+  "description": "LinTO-Components repository contains the framework code for building LinTO Bricks that would plug into Node-Red. It enables its users to develop LinTO compatible skills, leveraging a set of base Node JS classes inside their own code.",
+  "source": "@site/docs/developpers/agent/skills/components.md",
+  "sourceDirName": "developpers/agent/skills",
+  "slug": "/developpers/agent/skills/components",
+  "permalink": "/fr/docs/developpers/agent/skills/components",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/skills/components.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Deploy a skill",
+    "permalink": "/fr/docs/developpers/agent/skills/devguide/install_my_skills"
+  },
+  "next": {
+    "title": "Published skills and other Node-RED nodes",
+    "permalink": "/fr/docs/developpers/agent/skills/list"
+  }
+}

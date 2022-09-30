@@ -1,0 +1,28 @@
+{
+  "unversionedId": "developpers/meeting/meeting",
+  "id": "developpers/meeting/meeting",
+  "title": "LinTO for meetings & Smart Scribe",
+  "description": "Digital workspaces are a source for important data lakes in which intelligent tools, boosted by machine learning, play an increasingly important role in extracting content, meaning and value.",
+  "source": "@site/docs/developpers/meeting/meeting.md",
+  "sourceDirName": "developpers/meeting",
+  "slug": "/developpers/meeting/",
+  "permalink": "/fr/docs/developpers/meeting/",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/meeting/meeting.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_label": "LinTO for meetings",
+    "sidebar_position": 4
+  },
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Published skills and other Node-RED nodes",
+    "permalink": "/fr/docs/developpers/agent/skills/list"
+  },
+  "next": {
+    "title": "External ressources",
+    "permalink": "/fr/docs/external/"
+  }
+}

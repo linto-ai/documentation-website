@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developpers/agent/clients/raspberry/hotword",
+  "id": "developpers/agent/clients/raspberry/hotword",
+  "title": "On device Wake-Word Spotting",
+  "description": "Wakeword",
+  "source": "@site/docs/developpers/agent/clients/raspberry/hotword.md",
+  "sourceDirName": "developpers/agent/clients/raspberry",
+  "slug": "/developpers/agent/clients/raspberry/hotword",
+  "permalink": "/fr/docs/developpers/agent/clients/raspberry/hotword",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/clients/raspberry/hotword.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "OS Generator for LinTO on Raspberry Pi",
+    "permalink": "/fr/docs/developpers/agent/clients/raspberry/osgenerator"
+  },
+  "next": {
+    "title": "Prebuilts binaries for ARM",
+    "permalink": "/fr/docs/developpers/agent/clients/raspberry/rpi_prebuilts"
+  }
+}

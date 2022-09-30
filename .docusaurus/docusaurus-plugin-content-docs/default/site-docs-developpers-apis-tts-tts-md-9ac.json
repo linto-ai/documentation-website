@@ -1,0 +1,24 @@
+{
+  "unversionedId": "developpers/apis/TTS/TTS",
+  "id": "developpers/apis/TTS/TTS",
+  "title": "Text To Speech",
+  "description": "LinTO Text To Speech APIs will get a release by November 2022.",
+  "source": "@site/docs/developpers/apis/TTS/TTS.md",
+  "sourceDirName": "developpers/apis/TTS",
+  "slug": "/developpers/apis/TTS/",
+  "permalink": "/fr/docs/developpers/apis/TTS/",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/apis/TTS/TTS.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Natural Language Processing",
+    "permalink": "/fr/docs/developpers/apis/NLP/"
+  },
+  "next": {
+    "title": "Virtual agents and smart assistants",
+    "permalink": "/fr/docs/developpers/agent/"
+  }
+}
