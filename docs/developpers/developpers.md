@@ -686,7 +686,7 @@ As we provide our technology as hosted services (SaaS) maybe you're looking afte
 LinTO source code is available on our GitHub, splitted into multiple sub-projects that are related to specific services, tools or general utility softwares.
 > [Source repositories](repos). If you wish to use this source code in your projects or contribute to it, you might use GitHub pull-request feature or reach us through GitHub issues. 
 
-You can also reach the LinTO community on our Discord server : https://discord.gg/WkphkBgRWW
+You can also reach the LinTO community on our Discord server : [https://discord.gg/jvNK3FXv3d](https://discord.gg/jvNK3FXv3d)
 
 ## Developper documentation
 
