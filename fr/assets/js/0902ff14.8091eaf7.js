@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknewdoc=self.webpackChunknewdoc||[]).push([[3113],{6124:t=>{t.exports=JSON.parse('{"label":"linto","permalink":"/fr/tutorials/tags/linto","allTagsPath":"/fr/tutorials/tags","count":2}')}}]);

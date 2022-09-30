@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://doc.linto.ai/fr/tutorials</id>
+    <title>LinTO documentation Blog</title>
+    <updated>2022-09-30T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://doc.linto.ai/fr/tutorials"/>
+    <subtitle>LinTO documentation Blog</subtitle>
+    <icon>https://doc.linto.ai/fr/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[LINAGORA Welcomes TADHACK]]></title>
+        <id>tadhack</id>
+        <link href="https://doc.linto.ai/fr/tutorials/tadhack"/>
+        <updated>2022-09-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chers hackeurs et hackers]]></summary>
+        <content type="html"><![CDATA[<p>Chers hackeurs et hackers</p><h1>Découvrez LinTO</h1><p>Solution complète de bout-en-bout pour concevoir et opérer des <strong>assistants intelligents (assistants vocaux)</strong> et des agents d'intelligence conversationnelle (type chatbots, callbots...). <strong>Alternative complète</strong> aux outils dédiés aux développeurs d’applications d'intelligence conversationnelle, tels que DialogFlow de Google, Azure Bot de Microsoft ou encore Watson.</p><p>Pour cette occasion particulière</p>]]></content>
+        <author>
+            <name>Damien Laine</name>
+            <uri>https://github.com/damienlaine</uri>
+        </author>
+        <category label="linto" term="linto"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[About tutorials]]></title>
+        <id>tutorials_intro</id>
+        <link href="https://doc.linto.ai/fr/tutorials/tutorials_intro"/>
+        <updated>2022-09-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[You'll find here specific tutorials for Business specific use-cases... stay tuned !]]></summary>
+        <content type="html"><![CDATA[<p>You'll find here specific tutorials for <strong>Business specific use-cases</strong>... stay tuned !</p>]]></content>
+        <author>
+            <name>Damien Laine</name>
+            <uri>https://github.com/damienlaine</uri>
+        </author>
+        <category label="linto" term="linto"/>
+    </entry>
+</feed>

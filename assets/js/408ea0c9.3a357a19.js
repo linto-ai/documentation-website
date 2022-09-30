@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknewdoc=self.webpackChunknewdoc||[]).push([[8669],{2700:e=>{e.exports=JSON.parse('[{"label":"linto","permalink":"/tutorials/tags/linto","count":2}]')}}]);

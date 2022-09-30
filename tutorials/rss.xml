@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>LinTO documentation Blog</title>
+        <link>https://doc.linto.ai/tutorials</link>
+        <description>LinTO documentation Blog</description>
+        <lastBuildDate>Fri, 30 Sep 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[LINAGORA Welcomes TADHACK]]></title>
+            <link>https://doc.linto.ai/tutorials/tadhack</link>
+            <guid>tadhack</guid>
+            <pubDate>Fri, 30 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chers hackeurs et hackers]]></description>
+            <content:encoded><![CDATA[<p>Chers hackeurs et hackers</p><h1>Découvrez LinTO</h1><p>Solution complète de bout-en-bout pour concevoir et opérer des <strong>assistants intelligents (assistants vocaux)</strong> et des agents d'intelligence conversationnelle (type chatbots, callbots...). <strong>Alternative complète</strong> aux outils dédiés aux développeurs d’applications d'intelligence conversationnelle, tels que DialogFlow de Google, Azure Bot de Microsoft ou encore Watson.</p><p>Pour cette occasion particulière</p>]]></content:encoded>
+            <category>linto</category>
+        </item>
+        <item>
+            <title><![CDATA[About tutorials]]></title>
+            <link>https://doc.linto.ai/tutorials/tutorials_intro</link>
+            <guid>tutorials_intro</guid>
+            <pubDate>Tue, 27 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[You'll find here specific tutorials for Business specific use-cases... stay tuned !]]></description>
+            <content:encoded><![CDATA[<p>You'll find here specific tutorials for <strong>Business specific use-cases</strong>... stay tuned !</p>]]></content:encoded>
+            <category>linto</category>
+        </item>
+    </channel>
+</rss>
