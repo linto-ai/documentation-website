@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknewdoc=self.webpackChunknewdoc||[]).push([[8285],{8530:e=>{e.exports=JSON.parse('{"permalink":"/fr/tutorials/tags/voicelab","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

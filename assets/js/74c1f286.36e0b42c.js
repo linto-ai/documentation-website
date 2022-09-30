@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknewdoc=self.webpackChunknewdoc||[]).push([[9815],{6e3:e=>{e.exports=JSON.parse('{"permalink":"/tutorials/tags/tadhack","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknewdoc=self.webpackChunknewdoc||[]).push([[5599],{3690:a=>{a.exports=JSON.parse('{"label":"voicelab","permalink":"/tutorials/tags/voicelab","allTagsPath":"/tutorials/tags","count":1}')}}]);

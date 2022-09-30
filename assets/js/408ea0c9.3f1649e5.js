@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknewdoc=self.webpackChunknewdoc||[]).push([[8669],{2700:a=>{a.exports=JSON.parse('[{"label":"linto","permalink":"/tutorials/tags/linto","count":2},{"label":"tadhack","permalink":"/tutorials/tags/tadhack","count":1},{"label":"voicelab","permalink":"/tutorials/tags/voicelab","count":1}]')}}]);

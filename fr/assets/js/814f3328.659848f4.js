@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknewdoc=self.webpackChunknewdoc||[]).push([[2535],{5641:t=>{t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"LINAGORA Welcomes TADHACK","permalink":"/fr/tutorials/tadhack"},{"title":"About tutorials","permalink":"/fr/tutorials/tutorials_intro"}]}')}}]);

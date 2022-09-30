@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknewdoc=self.webpackChunknewdoc||[]).push([[2535],{5641:t=>{t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"LINAGORA & Le Voice Lab : TADHACK France 2022","permalink":"/fr/tutorials/tadhack"},{"title":"About tutorials","permalink":"/fr/tutorials/tutorials_intro"}]}')}}]);
