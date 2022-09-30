@@ -1,0 +1,28 @@
+{
+  "unversionedId": "developpers/apis/ASR/ASR",
+  "id": "developpers/apis/ASR/ASR",
+  "title": "LinTO Platform STT (aka LinSTT) Automatic Speech Recognition",
+  "description": "What is an ASR system?",
+  "source": "@site/docs/developpers/apis/ASR/ASR.md",
+  "sourceDirName": "developpers/apis/ASR",
+  "slug": "/developpers/apis/ASR/",
+  "permalink": "/fr/docs/developpers/apis/ASR/",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/apis/ASR/ASR.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "LinTO Platform STT",
+    "sidebar_position": 1
+  },
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "On premises Cognitive APIs",
+    "permalink": "/fr/docs/developpers/apis/"
+  },
+  "next": {
+    "title": "Run with Docker",
+    "permalink": "/fr/docs/developpers/apis/ASR/dockerrun"
+  }
+}

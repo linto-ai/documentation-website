@@ -1,0 +1,28 @@
+{
+  "unversionedId": "developpers/apis/ASR/platformrun",
+  "id": "developpers/apis/ASR/platformrun",
+  "title": "Transcription services on LinTO platform server",
+  "description": "If you already deployed a LinTO platform server instance, and as the platform leverages the usage of transcription services, you already have all the tools required to spawn new Transcription services for any needs as scalable docker swarm services. You might simply use your LinTO Platform Service Manager API to achieve this. Your LinTO platform server also embeds a full-figured NLU leveraging a custom deployment of Voyages SNCF TOCK for any language understanding that relates to chatbots or virtual agents.",
+  "source": "@site/docs/developpers/apis/ASR/platformrun.md",
+  "sourceDirName": "developpers/apis/ASR",
+  "slug": "/developpers/apis/ASR/platformrun",
+  "permalink": "/fr/docs/developpers/apis/ASR/platformrun",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/apis/ASR/platformrun.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_label": "Run with LinTO platform server",
+    "sidebar_position": 3
+  },
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Models download",
+    "permalink": "/fr/docs/developpers/apis/ASR/models"
+  },
+  "next": {
+    "title": "Natural Language Processing",
+    "permalink": "/fr/docs/developpers/apis/NLP/"
+  }
+}

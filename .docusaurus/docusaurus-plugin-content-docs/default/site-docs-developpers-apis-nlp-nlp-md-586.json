@@ -1,0 +1,24 @@
+{
+  "unversionedId": "developpers/apis/NLP/NLP",
+  "id": "developpers/apis/NLP/NLP",
+  "title": "Natural Language Processing",
+  "description": "Documentation currently available with source code on GitHub.",
+  "source": "@site/docs/developpers/apis/NLP/NLP.md",
+  "sourceDirName": "developpers/apis/NLP",
+  "slug": "/developpers/apis/NLP/",
+  "permalink": "/fr/docs/developpers/apis/NLP/",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/apis/NLP/NLP.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Run with LinTO platform server",
+    "permalink": "/fr/docs/developpers/apis/ASR/platformrun"
+  },
+  "next": {
+    "title": "Text To Speech",
+    "permalink": "/fr/docs/developpers/apis/TTS/"
+  }
+}

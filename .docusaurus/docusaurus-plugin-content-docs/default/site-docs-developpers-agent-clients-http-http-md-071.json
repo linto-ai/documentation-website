@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developpers/agent/clients/http/http",
+  "id": "developpers/agent/clients/http/http",
+  "title": "HTTP authentication",
+  "description": "LinTO clients communicate with different server API in order to obtain authentication and maintain a secure connexion with the services.",
+  "source": "@site/docs/developpers/agent/clients/http/http.md",
+  "sourceDirName": "developpers/agent/clients/http",
+  "slug": "/developpers/agent/clients/http/",
+  "permalink": "/fr/docs/developpers/agent/clients/http/",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/clients/http/http.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "LinTO Clients",
+    "permalink": "/fr/docs/developpers/agent/clients/"
+  },
+  "next": {
+    "title": "MQTT operating protocol",
+    "permalink": "/fr/docs/developpers/agent/clients/mqtt/"
+  }
+}

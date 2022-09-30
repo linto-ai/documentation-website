@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developpers/agent/clients/mqtt/mqtt",
+  "id": "developpers/agent/clients/mqtt/mqtt",
+  "title": "MQTT operating protocol",
+  "description": "MQTT is the primary mean of communication between LinTO clients and the server platform. Clients publish requests and the server platform dictates behaviors using dedicated topics.",
+  "source": "@site/docs/developpers/agent/clients/mqtt/mqtt.md",
+  "sourceDirName": "developpers/agent/clients/mqtt",
+  "slug": "/developpers/agent/clients/mqtt/",
+  "permalink": "/fr/docs/developpers/agent/clients/mqtt/",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/clients/mqtt/mqtt.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "HTTP authentication",
+    "permalink": "/fr/docs/developpers/agent/clients/http/"
+  },
+  "next": {
+    "title": "Custom Wake-Up Word",
+    "permalink": "/fr/docs/developpers/agent/clients/custom_hotwords/"
+  }
+}

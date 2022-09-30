@@ -1,0 +1,24 @@
+{
+  "unversionedId": "developpers/agent/server/post_install/service-manager/stt_manager_how2use",
+  "id": "developpers/agent/server/post_install/service-manager/stt_manager_how2use",
+  "title": "Platform Service manager",
+  "description": "Platform Service manager is a service designed to create, update and scale Speech-To-Text service inside your linTo platform. In this documentation you will be provided with:",
+  "source": "@site/docs/developpers/agent/server/post_install/service-manager/stt_manager_how2use.md",
+  "sourceDirName": "developpers/agent/server/post_install/service-manager",
+  "slug": "/developpers/agent/server/post_install/service-manager/stt_manager_how2use",
+  "permalink": "/fr/docs/developpers/agent/server/post_install/service-manager/stt_manager_how2use",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/server/post_install/service-manager/stt_manager_how2use.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Streaming Transcription service usage",
+    "permalink": "/fr/docs/developpers/agent/server/post_install/service-manager/streaming_service_usage"
+  },
+  "next": {
+    "title": "LinTO Clients",
+    "permalink": "/fr/docs/developpers/agent/clients/"
+  }
+}

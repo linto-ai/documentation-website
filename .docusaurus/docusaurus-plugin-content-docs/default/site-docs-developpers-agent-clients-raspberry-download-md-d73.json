@@ -1,0 +1,28 @@
+{
+  "unversionedId": "developpers/agent/clients/raspberry/download",
+  "id": "developpers/agent/clients/raspberry/download",
+  "title": "download",
+  "description": "LinTO Maker Releases",
+  "source": "@site/docs/developpers/agent/clients/raspberry/download.md",
+  "sourceDirName": "developpers/agent/clients/raspberry",
+  "slug": "/developpers/agent/clients/raspberry/download",
+  "permalink": "/fr/docs/developpers/agent/clients/raspberry/download",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/clients/raspberry/download.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Raspberry prebuilt images",
+    "sidebar_position": 1
+  },
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Raspberry Pi",
+    "permalink": "/fr/docs/developpers/agent/clients/raspberry/"
+  },
+  "next": {
+    "title": "OS Generator for LinTO on Raspberry Pi",
+    "permalink": "/fr/docs/developpers/agent/clients/raspberry/osgenerator"
+  }
+}

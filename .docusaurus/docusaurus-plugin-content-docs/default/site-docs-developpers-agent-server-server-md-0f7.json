@@ -1,0 +1,28 @@
+{
+  "unversionedId": "developpers/agent/server/server",
+  "id": "developpers/agent/server/server",
+  "title": "LinTO Server Platform",
+  "description": "",
+  "source": "@site/docs/developpers/agent/server/server.md",
+  "sourceDirName": "developpers/agent/server",
+  "slug": "/developpers/agent/server/",
+  "permalink": "/fr/docs/developpers/agent/server/",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/server/server.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "LinTO Server Platform",
+    "sidebar_position": 1
+  },
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Virtual agents and smart assistants",
+    "permalink": "/fr/docs/developpers/agent/"
+  },
+  "next": {
+    "title": "Prepare infrastructure",
+    "permalink": "/fr/docs/developpers/agent/server/infrastructure"
+  }
+}

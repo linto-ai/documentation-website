@@ -1,0 +1,24 @@
+{
+  "unversionedId": "developpers/agent/server/post_install/service-manager/command_service",
+  "id": "developpers/agent/server/post_install/service-manager/command_service",
+  "title": "Deploy a command transcription service",
+  "description": "Command transcription service",
+  "source": "@site/docs/developpers/agent/server/post_install/service-manager/command_service.md",
+  "sourceDirName": "developpers/agent/server/post_install/service-manager",
+  "slug": "/developpers/agent/server/post_install/service-manager/command_service",
+  "permalink": "/fr/docs/developpers/agent/server/post_install/service-manager/command_service",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/server/post_install/service-manager/command_service.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Create an acoustic model",
+    "permalink": "/fr/docs/developpers/agent/server/post_install/service-manager/acoustic_model"
+  },
+  "next": {
+    "title": "Deploy a Large vocabulary file transcription service",
+    "permalink": "/fr/docs/developpers/agent/server/post_install/service-manager/lv_service"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "developpers/agent/skills/devguide/make_my_skills",
+  "id": "developpers/agent/skills/devguide/make_my_skills",
+  "title": "Make a skill do something",
+  "description": "Prerequisites",
+  "source": "@site/docs/developpers/agent/skills/devguide/make_my_skills.md",
+  "sourceDirName": "developpers/agent/skills/devguide",
+  "slug": "/developpers/agent/skills/devguide/make_my_skills",
+  "permalink": "/fr/docs/developpers/agent/skills/devguide/make_my_skills",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/skills/devguide/make_my_skills.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Code your actions",
+    "sidebar_position": 1
+  },
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "How to develop ?",
+    "permalink": "/fr/docs/developpers/agent/skills/devguide/"
+  },
+  "next": {
+    "title": "Declare intentions and command trigger phrases",
+    "permalink": "/fr/docs/developpers/agent/skills/devguide/format"
+  }
+}

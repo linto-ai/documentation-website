@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developpers/agent/clients/web/web",
+  "id": "developpers/agent/clients/web/web",
+  "title": "LinTO Agents on Webpages",
+  "description": "A full figured LinTO client designed for building custom voice interactions on a webpage.",
+  "source": "@site/docs/developpers/agent/clients/web/web.md",
+  "sourceDirName": "developpers/agent/clients/web",
+  "slug": "/developpers/agent/clients/web/",
+  "permalink": "/fr/docs/developpers/agent/clients/web/",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/clients/web/web.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Custom Wake-Up Word",
+    "permalink": "/fr/docs/developpers/agent/clients/custom_hotwords/"
+  },
+  "next": {
+    "title": "LinTO Web UI - User documentation",
+    "permalink": "/fr/docs/developpers/agent/clients/web/widget"
+  }
+}

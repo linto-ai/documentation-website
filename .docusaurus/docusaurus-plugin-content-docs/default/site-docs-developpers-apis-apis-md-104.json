@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developpers/apis/apis",
+  "id": "developpers/apis/apis",
+  "title": "On premises Cognitive APIs",
+  "description": "This documentation is suitable for developpers who wants to benchmark and deploy simple HTTP endpoints for cognitive tasks on audio or text entries.",
+  "source": "@site/docs/developpers/apis/apis.md",
+  "sourceDirName": "developpers/apis",
+  "slug": "/developpers/apis/",
+  "permalink": "/fr/docs/developpers/apis/",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/apis/apis.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "About",
+    "permalink": "/fr/docs/developpers/"
+  },
+  "next": {
+    "title": "LinTO Platform STT",
+    "permalink": "/fr/docs/developpers/apis/ASR/"
+  }
+}

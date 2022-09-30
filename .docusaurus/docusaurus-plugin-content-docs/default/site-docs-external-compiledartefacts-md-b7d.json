@@ -1,0 +1,15 @@
+{
+  "unversionedId": "external/compiledartefacts",
+  "id": "external/compiledartefacts",
+  "title": "Compiled artefact",
+  "description": "Such as raspberry Pi Images",
+  "source": "@site/docs/external/compiledartefacts.md",
+  "sourceDirName": "external",
+  "slug": "/external/compiledartefacts",
+  "permalink": "/fr/docs/external/compiledartefacts",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/external/compiledartefacts.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

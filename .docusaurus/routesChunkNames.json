@@ -1,0 +1,279 @@
+{
+  "/fr/markdown-page-6c6": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "7f0f3a1c"
+    },
+    "content": "393be207"
+  },
+  "/fr/tutorials-b1c": {
+    "__comp": "a6aa9e1f",
+    "__context": {
+      "plugin": "3909a632"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "95186366"
+      },
+      {
+        "content": "00bd6749"
+      }
+    ],
+    "metadata": "5848e211"
+  },
+  "/fr/tutorials/archive-40c": {
+    "__comp": "9e4087bc",
+    "__context": {
+      "plugin": "3909a632"
+    },
+    "archive": "1933e0da"
+  },
+  "/fr/tutorials/tadhack-15a": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "3909a632"
+    },
+    "sidebar": "814f3328",
+    "content": "73e040d0"
+  },
+  "/fr/tutorials/tags-2a1": {
+    "__comp": "01a85c17",
+    "__context": {
+      "plugin": "3909a632"
+    },
+    "sidebar": "814f3328",
+    "tags": "95b0d855"
+  },
+  "/fr/tutorials/tags/linto-ac8": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "3909a632"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "95186366"
+      },
+      {
+        "content": "00bd6749"
+      }
+    ],
+    "tag": "0902ff14",
+    "listMetadata": "0838f7a8"
+  },
+  "/fr/tutorials/tutorials_intro-a38": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "3909a632"
+    },
+    "sidebar": "814f3328",
+    "content": "25f9b12b"
+  },
+  "/fr/docs-b5d": {
+    "__comp": "1be78505",
+    "__context": {
+      "plugin": "9e7c58c2"
+    },
+    "versionMetadata": "935f2afb"
+  },
+  "/fr/docs/consumers-b7b": {
+    "__comp": "17896441",
+    "content": "d123f44a"
+  },
+  "/fr/docs/consumers/apis-458": {
+    "__comp": "17896441",
+    "content": "b1bec7c2"
+  },
+  "/fr/docs/consumers/conversation-manager-7fc": {
+    "__comp": "17896441",
+    "content": "7a9e5183"
+  },
+  "/fr/docs/developpers-963": {
+    "__comp": "17896441",
+    "content": "525a0b4e"
+  },
+  "/fr/docs/developpers/agent-182": {
+    "__comp": "17896441",
+    "content": "5cf3169b"
+  },
+  "/fr/docs/developpers/agent/clients-902": {
+    "__comp": "17896441",
+    "content": "ed59a924"
+  },
+  "/fr/docs/developpers/agent/clients/android-a07": {
+    "__comp": "17896441",
+    "content": "f8f623b2"
+  },
+  "/fr/docs/developpers/agent/clients/custom_hotwords-56a": {
+    "__comp": "17896441",
+    "content": "93b55584"
+  },
+  "/fr/docs/developpers/agent/clients/http-1a7": {
+    "__comp": "17896441",
+    "content": "0718988a"
+  },
+  "/fr/docs/developpers/agent/clients/mqtt-702": {
+    "__comp": "17896441",
+    "content": "9a6ec4c5"
+  },
+  "/fr/docs/developpers/agent/clients/raspberry-6c0": {
+    "__comp": "17896441",
+    "content": "10e3c508"
+  },
+  "/fr/docs/developpers/agent/clients/raspberry/download-f75": {
+    "__comp": "17896441",
+    "content": "d734d010"
+  },
+  "/fr/docs/developpers/agent/clients/raspberry/hotword-e6b": {
+    "__comp": "17896441",
+    "content": "b2375a81"
+  },
+  "/fr/docs/developpers/agent/clients/raspberry/osgenerator-126": {
+    "__comp": "17896441",
+    "content": "253d2671"
+  },
+  "/fr/docs/developpers/agent/clients/raspberry/rpi_prebuilts-c49": {
+    "__comp": "17896441",
+    "content": "199b6dc5"
+  },
+  "/fr/docs/developpers/agent/clients/raspberry/rpi_sources-efc": {
+    "__comp": "17896441",
+    "content": "2914ebcb"
+  },
+  "/fr/docs/developpers/agent/clients/web-f74": {
+    "__comp": "17896441",
+    "content": "25406484"
+  },
+  "/fr/docs/developpers/agent/clients/web/widget-f06": {
+    "__comp": "17896441",
+    "content": "e5aebe8d"
+  },
+  "/fr/docs/developpers/agent/server-01e": {
+    "__comp": "17896441",
+    "content": "0f7c773e"
+  },
+  "/fr/docs/developpers/agent/server/infrastructure-39c": {
+    "__comp": "17896441",
+    "content": "968c9836"
+  },
+  "/fr/docs/developpers/agent/server/post_install-c86": {
+    "__comp": "17896441",
+    "content": "8eab59a0"
+  },
+  "/fr/docs/developpers/agent/server/post_install/service-manager-8a6": {
+    "__comp": "17896441",
+    "content": "9b55942d"
+  },
+  "/fr/docs/developpers/agent/server/post_install/service-manager/acoustic_model-044": {
+    "__comp": "17896441",
+    "content": "a309588a"
+  },
+  "/fr/docs/developpers/agent/server/post_install/service-manager/command_service-e3e": {
+    "__comp": "17896441",
+    "content": "636c09a8"
+  },
+  "/fr/docs/developpers/agent/server/post_install/service-manager/lv_service-a24": {
+    "__comp": "17896441",
+    "content": "111180b1"
+  },
+  "/fr/docs/developpers/agent/server/post_install/service-manager/streaming_service_create-d48": {
+    "__comp": "17896441",
+    "content": "bff4e6a3"
+  },
+  "/fr/docs/developpers/agent/server/post_install/service-manager/streaming_service_usage-130": {
+    "__comp": "17896441",
+    "content": "5925e77e"
+  },
+  "/fr/docs/developpers/agent/server/post_install/service-manager/stt_manager_how2use-6db": {
+    "__comp": "17896441",
+    "content": "f88ab944"
+  },
+  "/fr/docs/developpers/agent/server/stack_deploy-446": {
+    "__comp": "17896441",
+    "content": "fca256d4"
+  },
+  "/fr/docs/developpers/agent/skills-ab9": {
+    "__comp": "17896441",
+    "content": "4c05b426"
+  },
+  "/fr/docs/developpers/agent/skills/components-9ae": {
+    "__comp": "17896441",
+    "content": "c6875aea"
+  },
+  "/fr/docs/developpers/agent/skills/devguide-5ef": {
+    "__comp": "17896441",
+    "content": "704e88d3"
+  },
+  "/fr/docs/developpers/agent/skills/devguide/format-695": {
+    "__comp": "17896441",
+    "content": "28793381"
+  },
+  "/fr/docs/developpers/agent/skills/devguide/install_my_skills-1c1": {
+    "__comp": "17896441",
+    "content": "8e5ee3a0"
+  },
+  "/fr/docs/developpers/agent/skills/devguide/make_my_skills-fae": {
+    "__comp": "17896441",
+    "content": "6533235c"
+  },
+  "/fr/docs/developpers/agent/skills/list-448": {
+    "__comp": "17896441",
+    "content": "9a6a5371"
+  },
+  "/fr/docs/developpers/apis-2aa": {
+    "__comp": "17896441",
+    "content": "10499b89"
+  },
+  "/fr/docs/developpers/apis/ASR-ce7": {
+    "__comp": "17896441",
+    "content": "a01203e8"
+  },
+  "/fr/docs/developpers/apis/ASR/dockerrun-345": {
+    "__comp": "17896441",
+    "content": "70f2e406"
+  },
+  "/fr/docs/developpers/apis/ASR/models-428": {
+    "__comp": "17896441",
+    "content": "4497763f"
+  },
+  "/fr/docs/developpers/apis/ASR/platformrun-462": {
+    "__comp": "17896441",
+    "content": "bc473938"
+  },
+  "/fr/docs/developpers/apis/NLP-2ec": {
+    "__comp": "17896441",
+    "content": "58680d5d"
+  },
+  "/fr/docs/developpers/apis/TTS-d39": {
+    "__comp": "17896441",
+    "content": "9ac36087"
+  },
+  "/fr/docs/developpers/meeting-3ee": {
+    "__comp": "17896441",
+    "content": "58bedbaa"
+  },
+  "/fr/docs/external-7d5": {
+    "__comp": "17896441",
+    "content": "87468e57"
+  },
+  "/fr/docs/external/compiledartefacts-89d": {
+    "__comp": "17896441",
+    "content": "b7dd960a"
+  },
+  "/fr/docs/external/docker-fdc": {
+    "__comp": "17896441",
+    "content": "29a41de6"
+  },
+  "/fr/docs/external/repos-a7b": {
+    "__comp": "17896441",
+    "content": "e8ae3c45"
+  },
+  "/fr/-22c": {
+    "__comp": "c4f5d8e4",
+    "__context": {
+      "plugin": "7f0f3a1c"
+    },
+    "config": "5e9f5e1a"
+  }
+}

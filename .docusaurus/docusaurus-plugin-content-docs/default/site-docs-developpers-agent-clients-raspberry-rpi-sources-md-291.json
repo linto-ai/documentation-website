@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developpers/agent/clients/raspberry/rpi_sources",
+  "id": "developpers/agent/clients/raspberry/rpi_sources",
+  "title": "Sources",
+  "description": "The Raspberry LinTO client is based on different modules that serve different purposes:",
+  "source": "@site/docs/developpers/agent/clients/raspberry/rpi_sources.md",
+  "sourceDirName": "developpers/agent/clients/raspberry",
+  "slug": "/developpers/agent/clients/raspberry/rpi_sources",
+  "permalink": "/fr/docs/developpers/agent/clients/raspberry/rpi_sources",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/clients/raspberry/rpi_sources.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Prebuilts binaries for ARM",
+    "permalink": "/fr/docs/developpers/agent/clients/raspberry/rpi_prebuilts"
+  },
+  "next": {
+    "title": "LinTO Skills",
+    "permalink": "/fr/docs/developpers/agent/skills/"
+  }
+}

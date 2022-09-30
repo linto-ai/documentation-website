@@ -1,0 +1,24 @@
+{
+  "unversionedId": "consumers/consumers",
+  "id": "consumers/consumers",
+  "title": "About",
+  "description": "LinTO Cognitive APIs services will go live soon.",
+  "source": "@site/docs/consumers/consumers.md",
+  "sourceDirName": "consumers",
+  "slug": "/consumers/",
+  "permalink": "/fr/docs/consumers/",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/consumers/consumers.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "displayed_sidebar": "consumersSidebar",
+    "sidebar_position": 1
+  },
+  "sidebar": "consumersSidebar",
+  "next": {
+    "title": "Cognitive APIs",
+    "permalink": "/fr/docs/consumers/apis/"
+  }
+}

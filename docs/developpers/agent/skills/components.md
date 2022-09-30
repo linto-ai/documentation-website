@@ -1,0 +1,638 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Node-RED LinTO Framework
+[LinTO-Components](https://github.com/linto-ai/linto-skills-components) repository contains the framework code for building LinTO Bricks that would plug into Node-Red. It enables its users to develop **LinTO compatible skills**, leveraging a set of base Node JS __classes__ inside their own code.
+
+Here's a list of the main types of components
+
+*  **Nodes** : Default classes for a desired type of Node-red node (CoreNode, DictionaryNode, SkillNode...)
+*  **Components** : Utility toolbox for LinTO (classes, inheritance...)
+*  **Connect** : Defferents means of feeding LinTO Node-Red nodes with Events, Wires...
+*  **Exception** : Exceptions related to linto-components
+
+:::tip
+This documentation is pretty rough, you might dig in the code of provided [LinTO-skills, templates and examples](https://github.com/linto-ai/linto-skills-template) to understand how it works
+:::
+
+## Installation
+
+:::warning
+Eventhough this NPM module can be installed in any Node-Red instance with `npm i @linto-ai/linto-components -s`, you're much rather willing to install a complete LinTO platform server in order to use the provided features.
+::::=
+
+## Nodes
+The component **Nodes** regroups specific nodes for LinTO, those will be available in the LinTO-Admin Node-Red interface as palette drag'n drop bricks.
+
+Here's a list of all type of Node-red nodes offered by the **linto-components** package :
+- Node
+- Core-Node
+- Core-Event-Node
+- Dictionary-Node
+- Skill-Node
+
+### Node types :
+
+<Tabs>
+  <TabItem value="LinTO Node" label="LinTO Node" default>
+    LinTO-Node is the classic Node-RED's style drag'n dropable node, loaded for LinTO needs.
+
+```js
+const  LintoNode = require('linto-components').nodes.lintoNode
+class  MyLintoNode  extends  LintoNode {
+    constructor(RED, node, config) {
+        super(node, config)
+        ...
+    }
+}
+```
+  </TabItem>
+  <TabItem value="LinTO Core Node" label="LinTO Core Node">
+
+```js
+const  LintoCoreNode = require('linto-components').nodes.lintoCoreNode
+class  MyLintoCoreNode  extends  LintoSkillNode {
+    constructor(RED, node, config) {
+        super(node, config)
+        ...
+        this.init()
+    }
+
+    async  init(){
+        let  serviceFunc = await  this.loadModule(`${**dirname}/api/${this.config.node.api}`) // Not require
+        this.wireNode.onMessageSend(this, serviceFunc)
+    }
+}
+```
+
+  </TabItem>
+  <TabItem value="LinTO Core Event Node" label="LinTO Core Event Node">
+
+```js
+const  LintoCoreEventNode = require('linto-components').nodes.lintoCoreEventNode
+class  MyLintoCoreNode  extends  LintoSkillNode {
+    constructor(RED, node, config) {
+        super(RED, node, config)
+        ...
+        this.init()
+    }
+
+    // In node function skill
+    this.notifyEventError('mqtt-Topic', {text : 'LinTo text'}, { message: err.message, code: 500 })
+}
+```
+
+  </TabItem>
+    <TabItem value="LinTO Connect Core Node" label="LinTO Connect Core Node">
+
+Linto-Core-Connect nodes are extended from lintoCoreNode, they load the component mqtt by default. The ConnectCoreNode destroy their mqtt connection when the node is remove.
+
+```js
+const  LintoConnectCoreNode = require('linto-components').nodes.lintoConnectCoreNode
+class  MyLinTODictionary  extends  LintoConnectCoreNode {
+    constructor(RED, node, config) {
+        super(node, config)
+        ...
+    }
+}
+```
+</TabItem>
+
+<TabItem value="LinTO Dictionary Core Node" label="LinTO Dictionary Core Node">
+
+Linto-Core-Dictionary nodes are extended from lintoCoreNode, they add one check on the required data for a dictionary
+
+```js
+const  LintoDictionaryCoreNode = require('linto-components').nodes.lintoDictionaryCoreNode
+class  MyLinTODictionary  extends  LintoDictionaryCoreNode {
+    constructor(RED, node, config) {
+        super(RED, node, config) // will check config.name and config.data are not empty
+        ...
+    }
+}
+```
+
+</TabItem>
+  
+<TabItem value="LinTO Skill Node" label="LinTO Skill Node">
+
+Each new skill-node will enable LinTO to proceed a new action.
+
+The skill node manage different autoload function
+The node also load by default `Wire-Event` component
+
+```js
+const  LintoSkillNode = require('../linto-components').nodes.lintoSkillNode
+class  MyLintoSkill  extends  LintoSkillNode {
+    constructor(RED, node, config) {
+        super(RED, node, config, dirname)
+        ...
+        this.init()
+    }
+
+    async  init() {
+        await  this.configure() // Allow folder controllers, events and data to be loaded
+    }
+}
+```
+
+</TabItem>
+
+
+</Tabs>
+
+
+
+
+## Payload toolboxes
+Those are generic utility tools to use within your custom skills and work with specific **LinTO Typed payloads into Node-Red**
+
+### Components specs and usage :
+<Tabs>
+
+<TabItem value="Payload Action" label="Payload Action">
+
+Toolbox that provide utility function to read the payload generated by the node linto-red-event-emitter
+
+```js
+const { payloadAction } = require('linto-components').components
+...
+//In constructor class
+this.payloadAction = payloadAction
+```
+
+#### Methods
+
+```js
+extractEntityFromPrefix
+Search the first entity in the payload matching the searched prefix
+
+Arguments :
+
+{Object} payload : input message
+{String} searchedPrefix : searched prefix
+{Object} : Return, extracted entity from the payload, else undefined
+
+extractEntityFromName
+Search the first entity in the payload matching the searched name
+
+Arguments :
+
+{Object} payload : input message
+{String} searchedName : searched name entity
+{Object} : Return, extracted entity from the payload, else undefined
+
+checkEntitiesRequire
+Check if all required entities are provided by the payload
+
+Arguments :
+
+{Object} payload : input message
+{Array{string}} requireEntities : required entities
+{Boolean} : Return, true if required entities are found in the payload, else false
+
+checkEntityRequire
+Check if one entity required is provided by the payload
+
+Arguments :
+
+{Object} payload : input message
+{Array{string}} searchedPrefix : required prefix of entities
+{Boolean} : Return, true if one entity require are find, else false
+```
+
+</TabItem>
+
+<TabItem value="Red Action" label="Red Action">
+
+Toolbox which provides functionality to get information about a workflow
+
+```js
+const { redAction } = require('linto-components').components
+...
+//In constructor class
+this.redAction = redAction
+```
+#### Methods
+
+```js
+getNodeFromId
+Find a node based on the searched id
+
+Arguments :
+
+{String} flowId : searched flow id
+{String} nodeId : searched node id
+{Object} : Return, node found, else undefined
+
+getFirstNodeFromName
+Find the first node based on the searched name
+
+Arguments :
+
+{String} flowId : searched flow id
+{String} nodeName : searched node name
+{Object} : Return, node found, else undefined
+
+getNodesFromName
+Find all node with the matching name
+
+Arguments :
+
+{String} flowId : searched flow id
+{String} nodeName : searched nodes name
+{Array{Object}} : Return, array of node matching name, else an empty array
+
+getLintoSnFromFlow
+Find LinTO serial number
+
+Arguments :
+
+{String} flowId : searched flow id
+{Array{Object}} : Return, array of LinTO serial number, else an empty array
+
+getLintoSnFromFlow
+Get all node from the flow
+
+Arguments :
+
+{String} flowId : searched flow id
+{Array{Object}} : Return an array containing all node from the flow
+```
+
+</TabItem>
+
+<TabItem value="Request" label="Request">
+
+HTTP APIs consumption
+
+```js
+const { request } = require('linto-components').components
+...
+//In constructor class
+this.request = request
+```
+
+#### Methods
+
+```js
+get
+Make a GET request
+
+Arguments :
+
+{String} url : Host to call
+{String} token | optional: Authentication token (headers.authorization)
+{Promise} : Return a promise to handle
+
+post
+Make a POST request
+
+Arguments :
+
+{String} url : Host to call
+{Object} form: Request form data (json)
+{String} token | optional: Authentication token (headers.authorization)
+{Promise} : Return a promise to handle
+```
+
+</TabItem>
+
+<TabItem value="Template" label="Template">
+
+Template HTML for different node type
+
+```js
+const { template } = require('linto-components').components
+...
+//In constructor class
+this.template = template
+```
+
+#### Methods
+
+```js
+settupSkillTemplate
+Generate template format for a skill
+
+Arguments :
+
+{String} paletteName : Node palette name
+{Object} : Return, Json format for the HTML template node settings
+```
+
+
+</TabItem>
+
+<TabItem value="Terminal Out" label="Terminal Out">
+
+Exit node that sends back MQTT payloads to requesting client (Raspberry / Android configured as Device)
+
+```js
+const { terminalOut } = require('linto-components').components
+...
+//In constructor class
+this.terminalOut = terminalOut
+```
+
+#### Methods
+
+```js
+toSay
+Generate output for LinTO say mode
+
+Arguments :
+
+{String} toSay : Text for linto to “say”
+{Object} : Return a readable output for linto say mode
+
+toAsk
+Generate an output for LinTO ask mode
+
+Arguments :
+
+{String} toSay : Text for LinTO to “ask”
+{Objet} data : Data to keep for the next LinTO command
+{Object} : Return a readable output for LinTO ask mode
+
+toUi
+
+Developpement staled on this | To send things to display, needs to get intrepreted by LinTO clients
+```
+
+</TabItem>
+
+<TabItem value="Wire Event" label="Wire Event">
+
+Handle event with RED.events and provide utility function to work with the RED event emitter.
+Node-red LinTO bricks usualy uses this pattern to communicate instead of Node-Red explicit wires
+
+```js
+const { wireEvent } = require('linto-components').components
+...
+//In constructor class
+this.wireEvent = wireEvent.init(RED)
+```
+
+#### Methods
+
+```js
+init
+Initialize RED.events for wire-event components
+
+Arguments :
+
+{Object} RED : RED object from node
+{Object} : Return, initialized wire-event setup (this)
+
+getBaseName
+Get the base name of wire-event using to create events
+
+{String} : Return, event base name
+
+subscribe
+Create an event (eventBaseName-flowId-eventName)
+
+Arguments :
+
+{String} flowId : Node flow id
+{String} eventName : Event name
+{Function} handler : Function to trigger on event
+subscribeWithStatus
+Create an event (eventBaseName-flowId-eventName). Node will showcase a status error or success.
+
+Arguments : Has to be called with .call(this) in a node class
+
+{String} flowId : Node flow id
+{String} eventName : Event name
+{Function} handler : Function to trigger on event
+notify
+Emit an RED.events.
+
+Arguments : No args can be given
+
+{String} eventName : Name of the event to emit
+{Object} args_1 : Any argument to emit
+{Object} args_N : Any argument to emit
+unsubscribe
+Remove all listeners related to the event
+
+Arguments :
+
+{String} eventName : Event name to delete
+isEventFlow
+Verify if the event has been created
+
+Arguments :
+
+{String} eventName : Event name to verify
+{Boolean} : Return, true if the event exist , else false
+```
+</TabItem>
+
+<TabItem value="Wire Node" label="Wire Node">
+
+Some Node-red nodes intended for LinTO might benefit from an explicit Node-Red like linl. This Handles wires connectivity and provides utility function to work with it.
+
+```js
+const { wireNode } = require('linto-components').components
+...
+//In constructor class
+this.wireNode = wireNode.init(RED)
+```
+
+#### Methods
+
+```js
+onMessageSend
+Setup a function when a node message is received and sends result to the next wired node
+
+Arguments :
+
+{Object} registerNode : Node to execute an action on message
+{Object} handler : Function to trigger on message
+{String} successMsg | optional : Message to print on the node
+onMessage
+Setup a function when a node message is received.
+
+Arguments :
+
+{Object} registerNode : Node to execute an action on message
+{Object} handler : Function to trigger on message
+{String} successMsg | optional : Message to print on the node
+nodeSend
+Message send to the next wired node
+
+Arguments :
+
+{Object} registerNode : Node that send data
+{Object} payload : Payload to send
+```
+
+</TabItem>
+
+
+</Tabs>
+
+
+
+  
+## Connect
+Component allowing different external communication
+
+### Connect specs and usage :
+
+<Tabs>
+
+<TabItem value="MQTT" label="MQTT">
+
+Toolbox that handle different MQTT functionalities
+
+```js
+const { mqtt } = require('linto-components').connect
+...
+// In constructor class
+this.mqtt = new  mqtt(this)
+...
+// After component initialisation, mqtt config can be found if the flow has setup a linto-config node
+let  mqttConfig = this.getFlowConfig('confMqtt')
+```
+
+#### Methods
+
+```js
+connect
+Connect to the specified host:port
+
+Arguments :
+
+{Object} flowMqttConfig : MQTT information (host, port, user, password)
+{Promise} : Return, mqtt client connected.
+
+onMessage
+Trigger the handled function on the desired topic when a mqtt message has been receive
+
+Arguments :
+
+{Object} handler : Function to trigger on mqtt message
+{String} topicFilter : Topic to trigger on mqtt message
+publish
+Publish a message to a desired mqtt topic
+
+Arguments :
+
+{String} topic : Topic to publish
+{Object} payload : Json payload to send
+subscribeToLinto
+Subscribe to a LinTO topic
+
+Arguments :
+
+{String} topicScope : Scope to subscribe
+{Array{string}} ids : List of ids to subscribe (can be + for all LinTO)
+{String} topicActi
+```
+
+</TabItem>
+
+<TabItem value="Authenticated Token" label="Authenticated Token">
+
+Authentication toolbox enable user check token
+
+```js
+const { authToken } = require('@linto-ai/linto-components').connect
+...
+// In constructor class
+this.authToken = authToken.init(authServerService)
+...
+// After component initialisation
+let response = await this.authToken.checkToken(auth_token)
+```
+
+#### Methods
+
+```js
+init
+Settings default authentication host
+
+Arguments :
+
+{String} host : Token validator service path
+checkToken
+Verify the user token
+
+Arguments :
+
+{String} token : User token to be validate
+{Promise} : Return, request response.
+```
+
+</TabItem>
+
+
+</Tabs>
+
+
+
+## Exceptions
+  
+<Tabs>
+<TabItem value="Connect" label="Connect">
+
+Exception raised by Connect component
+
+```js
+const { HostUndefined, TopicScopeUndefined, WrongFormat } = require('linto-components').exception.connectException
+...
+throw  new  HostUndefined(exceptionMessage)
+throw  new  TopicScopeUndefined(exceptionMessage)
+throw  new  WrongFormat(exceptionMessage)
+```
+
+</TabItem>
+
+<TabItem value="Node" label="Node">
+
+Exception raised by Node-RED LinTO nodes
+
+```js
+const { InitSkillException, AutoLoadException, UnknownLanguageException } = require('linto-components').exception.nodeException
+...
+throw  new  InitSkillException(exceptionMessage)
+throw  new  AutoLoadException(exceptionMessage)
+throw  new  UnknownLanguageException(exceptionMessage)
+```
+
+</TabItem>
+
+
+<TabItem value="Terminal" label="Terminal">
+
+Exception raised by linto-output issues
+
+```js
+const { ToAskTerminalException, ToSayTerminalException, ToUiTerminalException } = require('linto-components').exception.terminalException
+...
+throw  new  ToAskTerminalException(exceptionMessage)
+throw  new  ToSayTerminalException(exceptionMessage)
+throw  new  ToUiTerminalException(exceptionMessage)
+```
+
+
+</TabItem>
+
+<TabItem value="Wired" label="Wired">
+
+Exception raised by wired nodes issues
+
+```js
+const { WireEventHandlerException } = require('linto-components').exception.wireException
+...
+throw  new  WireEventHandlerException(exceptionMessage)
+```
+
+
+</TabItem>
+</Tabs>
+
+Salut

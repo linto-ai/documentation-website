@@ -1,0 +1,24 @@
+{
+  "unversionedId": "developpers/agent/skills/list",
+  "id": "developpers/agent/skills/list",
+  "title": "Published skills and other Node-RED nodes",
+  "description": "LinTO Framework for Node-Red",
+  "source": "@site/docs/developpers/agent/skills/list.md",
+  "sourceDirName": "developpers/agent/skills",
+  "slug": "/developpers/agent/skills/list",
+  "permalink": "/fr/docs/developpers/agent/skills/list",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/skills/list.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Node-RED LinTO Framework",
+    "permalink": "/fr/docs/developpers/agent/skills/components"
+  },
+  "next": {
+    "title": "LinTO for meetings",
+    "permalink": "/fr/docs/developpers/meeting/"
+  }
+}

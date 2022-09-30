@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developpers/agent/clients/custom_hotwords/custom_hotwords",
+  "id": "developpers/agent/clients/custom_hotwords/custom_hotwords",
+  "title": "Custom Wake-Up Word",
+  "description": "You want to use your own wake-word to call your agent with a sweet or business-related name ? You are at the right place.",
+  "source": "@site/docs/developpers/agent/clients/custom_hotwords/custom_hotwords.md",
+  "sourceDirName": "developpers/agent/clients/custom_hotwords",
+  "slug": "/developpers/agent/clients/custom_hotwords/",
+  "permalink": "/fr/docs/developpers/agent/clients/custom_hotwords/",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/clients/custom_hotwords/custom_hotwords.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "MQTT operating protocol",
+    "permalink": "/fr/docs/developpers/agent/clients/mqtt/"
+  },
+  "next": {
+    "title": "LinTO Agents on Webpages",
+    "permalink": "/fr/docs/developpers/agent/clients/web/"
+  }
+}

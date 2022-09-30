@@ -1,0 +1,28 @@
+{
+  "unversionedId": "developpers/agent/clients/clients",
+  "id": "developpers/agent/clients/clients",
+  "title": "LinTO Clients",
+  "description": "",
+  "source": "@site/docs/developpers/agent/clients/clients.md",
+  "sourceDirName": "developpers/agent/clients",
+  "slug": "/developpers/agent/clients/",
+  "permalink": "/fr/docs/developpers/agent/clients/",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/clients/clients.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "LinTO Clients",
+    "sidebar_position": 2
+  },
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Platform Service manager",
+    "permalink": "/fr/docs/developpers/agent/server/post_install/service-manager/stt_manager_how2use"
+  },
+  "next": {
+    "title": "HTTP authentication",
+    "permalink": "/fr/docs/developpers/agent/clients/http/"
+  }
+}

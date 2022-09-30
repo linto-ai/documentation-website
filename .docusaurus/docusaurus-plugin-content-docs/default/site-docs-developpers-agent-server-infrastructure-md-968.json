@@ -1,0 +1,28 @@
+{
+  "unversionedId": "developpers/agent/server/infrastructure",
+  "id": "developpers/agent/server/infrastructure",
+  "title": "Plan and setup the infrastructure for tests or production",
+  "description": "Learn how to prepare your server infrastructure to deploy LinTO",
+  "source": "@site/docs/developpers/agent/server/infrastructure.md",
+  "sourceDirName": "developpers/agent/server",
+  "slug": "/developpers/agent/server/infrastructure",
+  "permalink": "/fr/docs/developpers/agent/server/infrastructure",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/server/infrastructure.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Prepare infrastructure",
+    "sidebar_position": 1
+  },
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "LinTO Server Platform",
+    "permalink": "/fr/docs/developpers/agent/server/"
+  },
+  "next": {
+    "title": "Deploy LinTO Platform Server",
+    "permalink": "/fr/docs/developpers/agent/server/stack_deploy"
+  }
+}

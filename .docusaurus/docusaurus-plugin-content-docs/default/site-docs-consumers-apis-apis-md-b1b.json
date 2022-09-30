@@ -1,0 +1,28 @@
+{
+  "unversionedId": "consumers/apis/apis",
+  "id": "consumers/apis/apis",
+  "title": "Cognitive APIs",
+  "description": "LinTO Cognitive APIs services will go live soon.",
+  "source": "@site/docs/consumers/apis/apis.md",
+  "sourceDirName": "consumers/apis",
+  "slug": "/consumers/apis/",
+  "permalink": "/fr/docs/consumers/apis/",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/consumers/apis/apis.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_label": "Cognitive APIs",
+    "sidebar_position": 3
+  },
+  "sidebar": "consumersSidebar",
+  "previous": {
+    "title": "About",
+    "permalink": "/fr/docs/consumers/"
+  },
+  "next": {
+    "title": "Conversation Manager",
+    "permalink": "/fr/docs/consumers/conversation-manager/"
+  }
+}

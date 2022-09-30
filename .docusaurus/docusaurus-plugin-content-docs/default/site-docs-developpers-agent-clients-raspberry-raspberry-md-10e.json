@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developpers/agent/clients/raspberry/raspberry",
+  "id": "developpers/agent/clients/raspberry/raspberry",
+  "title": "Raspberry Pi",
+  "description": "Welcome to the LinTO raspberry Maker tutorial.",
+  "source": "@site/docs/developpers/agent/clients/raspberry/raspberry.md",
+  "sourceDirName": "developpers/agent/clients/raspberry",
+  "slug": "/developpers/agent/clients/raspberry/",
+  "permalink": "/fr/docs/developpers/agent/clients/raspberry/",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/clients/raspberry/raspberry.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Android",
+    "permalink": "/fr/docs/developpers/agent/clients/android"
+  },
+  "next": {
+    "title": "Raspberry prebuilt images",
+    "permalink": "/fr/docs/developpers/agent/clients/raspberry/download"
+  }
+}

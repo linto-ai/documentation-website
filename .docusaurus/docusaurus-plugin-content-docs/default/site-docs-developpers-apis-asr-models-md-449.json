@@ -1,0 +1,28 @@
+{
+  "unversionedId": "developpers/apis/ASR/models",
+  "id": "developpers/apis/ASR/models",
+  "title": "Automatic Speech Recognition Models",
+  "description": "By LINAGORA - French, English, Arabic",
+  "source": "@site/docs/developpers/apis/ASR/models.md",
+  "sourceDirName": "developpers/apis/ASR",
+  "slug": "/developpers/apis/ASR/models",
+  "permalink": "/fr/docs/developpers/apis/ASR/models",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/apis/ASR/models.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "Models download",
+    "sidebar_position": 2
+  },
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Run with Docker",
+    "permalink": "/fr/docs/developpers/apis/ASR/dockerrun"
+  },
+  "next": {
+    "title": "Run with LinTO platform server",
+    "permalink": "/fr/docs/developpers/apis/ASR/platformrun"
+  }
+}

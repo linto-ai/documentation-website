@@ -1,0 +1,24 @@
+{
+  "unversionedId": "developpers/agent/server/post_install/service-manager/streaming_service_usage",
+  "id": "developpers/agent/server/post_install/service-manager/streaming_service_usage",
+  "title": "Streaming Transcription service usage",
+  "description": "Streaming speech to text standalone worker. Processes audio streams on an WS endpoint",
+  "source": "@site/docs/developpers/agent/server/post_install/service-manager/streaming_service_usage.md",
+  "sourceDirName": "developpers/agent/server/post_install/service-manager",
+  "slug": "/developpers/agent/server/post_install/service-manager/streaming_service_usage",
+  "permalink": "/fr/docs/developpers/agent/server/post_install/service-manager/streaming_service_usage",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/server/post_install/service-manager/streaming_service_usage.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Deploy a Large Vocabulary Streaming Transcription service",
+    "permalink": "/fr/docs/developpers/agent/server/post_install/service-manager/streaming_service_create"
+  },
+  "next": {
+    "title": "Platform Service manager",
+    "permalink": "/fr/docs/developpers/agent/server/post_install/service-manager/stt_manager_how2use"
+  }
+}
