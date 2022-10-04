@@ -44,10 +44,11 @@ In that guide we plan to make a skill who can answer with **hello** when the int
 
 ## First step, make my event
 
-First step is to create an event **greeting**, simply create a file `greeting.js` in the **events** folder. All of the files in this folder are automatically registred as **intents** where the corresponding skill code will trigger
+Create an event **greeting**, simply create a file `greeting.js` in the **events** folder. All Javascript files in this folder are automatically registred as **intents** where the corresponding skill code will trigger
 
 Secondly make your skill.
 ```js
+// filename : greeting.js
 module.exports = function (msg) {
   // You can add you'r own code also
   return {
@@ -66,10 +67,11 @@ Lastly you can refer to [Install the skill](/docs/developpers/agent/skills/devgu
 
 ### Make a controller
 
-The objective of a controller is to have a clean code. Similar to an event/intent, you need to create a file in **controllers** folder ( ex : `additions.js` ). Any controller file will be automatically loaded.
+The objective of a controller is to have a clean code. Similar to an event/intent, you need to create a file in **controllers** folder ( ex : `addition.js` ). Any controller file will be automatically loaded.
 
 The implementation is similar to an event :
 ```js
+// filename : addition.js
 module.exports = function (a, b) {
   return a + b  // Addition 
 }

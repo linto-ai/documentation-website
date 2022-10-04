@@ -14,7 +14,7 @@ We can make a distinction between two families of elements:
 ![overview](/docs/overview_en.png)
 <center> Figure 1- LinTO Overview</center>
 
-**Server side** services are grouped under the name LinTO plateform. This includes Text-To-Speech (TTS), Natural Language Understanding (NLU), Skills and fleet management (LinTO Admin). See [LinTO Platform](infra)
+**Server side** services are grouped under the name LinTO plateform. This includes Text-To-Speech (TTS), Natural Language Understanding (NLU), Skills and fleet management (LinTO Admin). See [LinTO Platform](/docs/developpers/agent)
 
 **Embedded softwares** :
 
@@ -66,8 +66,8 @@ The operating system for LinTO is based on Raspian Lite (Stretch and Buster).
 
 Two options here:
 
-* Build the OS image using the [os-generator](client/osgenerator).
-* Download the last image [Here](client)
+* Build the OS image using the [os-generator](raspberry/osgenerator).
+* Download the last image [Here](raspberry/download)
 
 Once you have downloaded or generated your image, burn it on the microSD card.
 

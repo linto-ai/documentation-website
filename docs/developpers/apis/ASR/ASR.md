@@ -12,7 +12,7 @@ Generally, Automatic Speech Recognition (ASR) is the task of recognition and tra
 
 ## Main features
 The main features of our speech-to-text transcriber are:
-- Speech decoder using the recent advanced modeling technilogies -- Deep Neural Networks.
+- Speech decoder using the recent advanced modeling technologies -- Deep Neural Networks.
 - Compute the time stamp, i.e. the start and end time, for every word that was recognized.
 - Perform the speaker diarization to assign speech signals to speakers engaged in dialog.
 - The real number of speakers could be provided for high speaker diarization performance.
@@ -23,12 +23,12 @@ The main features of our speech-to-text transcriber are:
 ## Acoustic Model
 The Acoustic Model (AM) is used to represent the relationship between the speech signal and the phonemes that are basic units of sound acoustically realized in a language. Using an annotated speech corpus, this model is trained on a set of audio recordings and their corresponding transcripts.
 
-You can find a description and a download link of the available models here: [Acoustic Models](models)
+You can find a description and a download link of the available models here: [Acoustic Models](ASR/models)
 
 ## Decoding Graph
 The Decoding Graph (DG) aims at capturing automatically the linguistic knowledge (syntax, semantics, etc.) about the target language from a large corpus text and helps to select the best option for a word transcription.
 
-You can download the available graphs from here: [Decoding Graphs](models)
+You can download the available graphs from here: [Decoding Graphs](ASR/models)
 
 ## Diarization (speaker clustering)
 

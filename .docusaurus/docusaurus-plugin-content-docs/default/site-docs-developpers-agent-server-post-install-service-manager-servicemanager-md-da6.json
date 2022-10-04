@@ -1,0 +1,24 @@
+{
+  "unversionedId": "developpers/agent/server/post_install/service-manager/servicemanager",
+  "id": "developpers/agent/server/post_install/service-manager/servicemanager",
+  "title": "Transcription service(s) management",
+  "description": "Our LinTO Platform Service Manager is a service that manages the scalabitily of linTO Platform STT services depending on the number of queries (scale up or down the number of replicas of each service). Docker swarm is used as a container orchestration tool, meaning that it allows the user to manage multiple containers deployed across multiple host machines. Along with that, this service is designed to manage the linTO Platform STT decoding models, i.e. acoustic models and the decoding graph.",
+  "source": "@site/docs/developpers/agent/server/post_install/service-manager/servicemanager.md",
+  "sourceDirName": "developpers/agent/server/post_install/service-manager",
+  "slug": "/developpers/agent/server/post_install/service-manager/servicemanager",
+  "permalink": "/docs/developpers/agent/server/post_install/service-manager/servicemanager",
+  "draft": false,
+  "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/docs/developpers/agent/server/post_install/service-manager/servicemanager.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devSidebar",
+  "previous": {
+    "title": "Deploy a Large vocabulary file transcription service",
+    "permalink": "/docs/developpers/agent/server/post_install/service-manager/lv_service"
+  },
+  "next": {
+    "title": "Deploy a Large Vocabulary Streaming Transcription service",
+    "permalink": "/docs/developpers/agent/server/post_install/service-manager/streaming_service_create"
+  }
+}

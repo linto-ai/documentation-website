@@ -7,7 +7,7 @@ A command transcription service allows to submit audio files to an API that will
 
 * You have a deployed stack with LinTO Platform Service Manager running.
 * You have access to the LinSTT-Service-Manager Swagger at `[LINTO_STACK_DOMAIN]/stt-manager/api-doc/`.
-* You have created an acoustic model for your language. If not see [Create an acoustic model](use_case/acoustic_model)
+* You have created an acoustic model for your language. If not see [Create an acoustic model](acoustic_model)
 
 ## Creating the service
 

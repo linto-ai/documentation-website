@@ -170,7 +170,7 @@ i.e :
 ```
 mkcert "mysuperlintostack.com"
 ```
-3. Move the cert and key .pem file to the `devcerts` folder of this repo. Name it `cert.pem` and `key.pem`
+3. Move the cert and key **.pem** file to the `devcerts` folder of this repo. Name it `cert.pem` and `key.pem`
 4. Update your /etc/hosts accordingly to the chosen domain (or use some dns resolver like dnsmasq)
 5. configure you local network DNS to resolve `LINTO_STACK_DOMAIN` if you want to connect LinTO clients to the local LinTO Platform.
 

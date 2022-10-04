@@ -11,7 +11,7 @@ There are 2 categories of clients:
 - Clients configured to establish a direct MQTT connexion to the plateform (Raspberry or Android clients **using serial number mode**)
 - Clients that request a connexion at every launch (Web or Android clients)
 
-On the former, the client is configured with all the informations needed to direcly subscribe and publish on the MQTT broker.
+On the former, the client is configured with all informations needed to direcly subscribe and publish on the MQTT broker.
 
 On the latest, the authentication is done with an additionnal first step that consist in requesting the connexion information to the authentication API.
 
@@ -25,7 +25,7 @@ The goal of the authentication steps are to provide the client with the followin
 * A authentication token and a refresh token.
 
 :::note Ephemeral MQTT credentials
-After authentication, the LinTO server platform automagically sends ephemeral MQTT credentials to the HTTP authenticating client. When this client goes offline, the specific MQTT topics and credentials where this client was jailed into are destroyed.
+After authentication, the LinTO server platform automatically sends ephemeral MQTT credentials to the HTTP authenticating client. When this client goes offline, the specific MQTT topics and credentials where this client was jailed into are destroyed.
 ::: 
 
 ![client-server communication](/docs/client/client-server.png)

@@ -1,6 +1,6 @@
 # Github source repositories
  [LinTO's Github](https://github.com/lintoai) - Repositories overview
-This Listing was generated using [GitHub API](https://api.github.com/users/linto-ai/repos) on Fri Sep 30 2022
+This Listing was generated using [GitHub API](https://api.github.com/users/linto-ai/repos) on Tue Oct 04 2022
 
 | Name | Description | Topics | Language | Stars |
 |:-|:-|:-|:-|:-|
@@ -17,9 +17,10 @@ This Listing was generated using [GitHub API](https://api.github.com/users/linto
 |[linto-skills-core](https://github.com/linto-ai/linto-skills-core)|Recommanded skills to be used by LinTO|chatbot,javascript,mqtt,nlu,node-red,skills,smart-assistant,tock,transcription|JavaScript|5|
 |[linto-platform-business-logic-server](https://github.com/linto-ai/linto-platform-business-logic-server)|BLS stands for Business Logic Server, this is mainly a wrapper for node-red. This service is the server-side runtime that executes LinTO skills and actions|docker,node-red,nodejs,skills|JavaScript|5|
 |[linto-platform-admin](https://github.com/linto-ai/linto-platform-admin)|The main web interface of the LinTO Platform. Monitor your fleet of voice-enabled endpoints, create workflows, deploy skills...||JavaScript|5|
-|[documentation-website](https://github.com/linto-ai/documentation-website)|doc.linto.ai|documentation|null|5|
+|[documentation-website](https://github.com/linto-ai/documentation-website)|doc.linto.ai|documentation|JavaScript|5|
 |[linto-platform-punctuation](https://github.com/linto-ai/linto-platform-punctuation)|LinTO Platform punctuation service.|asr,ponctuation,punctuation,punctuation-restoration,stt,transcription|Python|5|
 |[linto-wakemeup](https://github.com/linto-ai/linto-wakemeup)|Wake me up is a collaborative interface to make audio sample acquisition and validation.||Vue|4|
+|[linto-platform-diarization](https://github.com/linto-ai/linto-platform-diarization)|Speaker diarization service|asr,linto,speaker-diarization,speaker-identification|Python|4|
 |[linto-command-module](https://github.com/linto-ai/linto-command-module)|LinTO module for keywords and utterances spotting.||Python|3|
 |[linto-platform-overwatch](https://github.com/linto-ai/linto-platform-overwatch)|LinTO Platform's watchtower, provides authentication, persists connected clients MQTT transactions.|docker,monitoring,nodejs|JavaScript|3|
 |[homepage-website](https://github.com/linto-ai/homepage-website)|null||HTML|3|
@@ -27,7 +28,6 @@ This Listing was generated using [GitHub API](https://api.github.com/users/linto
 |[linto-platform-mongodb-migration](https://github.com/linto-ai/linto-platform-mongodb-migration)|Scripts that might migrate LinTO Platform databases content when needed (version bumps, rollbacks...)|docker,migration,mongodb|JavaScript|3|
 |[platform-conversation-manager](https://github.com/linto-ai/platform-conversation-manager)|Transcription and annotation interface for recorded audio or video files|asr,audio-transcription,caption,captioning-videos,stt,subtitle,subtitles,transcription-edition,video-transcription,virtual-scribe|JavaScript|3|
 |[linto-platform-nlp-extractive-summarization](https://github.com/linto-ai/linto-platform-nlp-extractive-summarization)|LinTO's NLP service: Extractive Summarization|automatic-summarisation,automatic-summarization,extractive-summarization,extractive-text-summarization,nlp,nlp-machine-learning|Python|3|
-|[linto-platform-diarization](https://github.com/linto-ai/linto-platform-diarization)|Speaker diarization service|asr,linto,speaker-diarization,speaker-identification|Python|3|
 |[linto-tts-module](https://github.com/linto-ai/linto-tts-module)|Provides a voice to LinTO using PICO||Python|2|
 |[linto-client-stack](https://github.com/linto-ai/linto-client-stack)|LinTO functional modules (GUI, Command Module, Text To Speech...)|gui,raspberry-pi,vocal-assistant|Shell|2|
 |[gpu-ne10-mfcc](https://github.com/linto-ai/gpu-ne10-mfcc)|Some works on accelerating MFCC features extraction with NEON NE10 and Videocore IV on Raspberry Pi|arm,mfcc,raspberry-pi|C++|2|
@@ -64,4 +64,4 @@ This Listing was generated using [GitHub API](https://api.github.com/users/linto
 |[linto-vosk-api](https://github.com/linto-ai/linto-vosk-api)|Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and Node||C++|0|
 |[multi-hand-gesture-dataset](https://github.com/linto-ai/multi-hand-gesture-dataset)|Multi-hand gesture dataset contains 10 annotated hand gestures in VOC Pscal format||null|0|
 
-__Popularity__ : We currently totalize __199__ GitHub stars and __64__ forks 
+__Popularity__ : We currently totalize __200__ GitHub stars and __64__ forks 

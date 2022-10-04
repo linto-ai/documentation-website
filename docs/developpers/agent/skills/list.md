@@ -9,7 +9,7 @@
 All "LinTO core Nodes for Node-Red" built on top of **linto-skills-components** are found in this repo : [linto-skills-core](https://github.com/linto-ai/linto-skills-core)
  * linto-application-in : MQTT-connector listening authenticating clients (they share same application)
  * linto-chatbot : Relays non intent entries to built-in Tock chatbot to get an answer
- * linto-config : Autoconfigured by LinTO-Admin when managing an application
+ * linto-config : Auto configured by LinTO-Admin when managing an application
  * linto-dictionary : Wires to a skill to declare a list of **named entitites** (#cities -> [New York, Berlin, Marseille...])
  * linto-evaluate : Infers Tock NLU API for intent detection (with text from direct input or transcribed commands, see **linto-pipeline-router**)
  * linto-external-application : *Not yet developed - WIP*

@@ -1,15 +1,15 @@
 {
-  "/fr/markdown-page-6c6": {
+  "/fr/markdown-page-1f4": {
     "__comp": "1f391b9e",
     "__context": {
-      "plugin": "7f0f3a1c"
+      "plugin": "1a83dec4"
     },
     "content": "393be207"
   },
-  "/fr/tutorials-b1c": {
+  "/fr/tutorials-19c": {
     "__comp": "a6aa9e1f",
     "__context": {
-      "plugin": "3909a632"
+      "plugin": "0e3980a7"
     },
     "sidebar": "814f3328",
     "items": [
@@ -22,33 +22,33 @@
     ],
     "metadata": "5848e211"
   },
-  "/fr/tutorials/archive-40c": {
+  "/fr/tutorials/archive-aea": {
     "__comp": "9e4087bc",
     "__context": {
-      "plugin": "3909a632"
+      "plugin": "0e3980a7"
     },
     "archive": "1933e0da"
   },
-  "/fr/tutorials/tadhack-15a": {
+  "/fr/tutorials/tadhack-afa": {
     "__comp": "ccc49370",
     "__context": {
-      "plugin": "3909a632"
+      "plugin": "0e3980a7"
     },
     "sidebar": "814f3328",
     "content": "73e040d0"
   },
-  "/fr/tutorials/tags-2a1": {
+  "/fr/tutorials/tags-e36": {
     "__comp": "01a85c17",
     "__context": {
-      "plugin": "3909a632"
+      "plugin": "0e3980a7"
     },
     "sidebar": "814f3328",
     "tags": "95b0d855"
   },
-  "/fr/tutorials/tags/linto-ac8": {
+  "/fr/tutorials/tags/linto-0d1": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "3909a632"
+      "plugin": "0e3980a7"
     },
     "sidebar": "814f3328",
     "items": [
@@ -62,10 +62,10 @@
     "tag": "0902ff14",
     "listMetadata": "0838f7a8"
   },
-  "/fr/tutorials/tags/tadhack-b6d": {
+  "/fr/tutorials/tags/tadhack-f9a": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "3909a632"
+      "plugin": "0e3980a7"
     },
     "sidebar": "814f3328",
     "items": [
@@ -76,10 +76,10 @@
     "tag": "e0998127",
     "listMetadata": "f0aa22f2"
   },
-  "/fr/tutorials/tags/voicelab-26a": {
+  "/fr/tutorials/tags/voicelab-109": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "3909a632"
+      "plugin": "0e3980a7"
     },
     "sidebar": "814f3328",
     "items": [
@@ -90,18 +90,18 @@
     "tag": "b4cd08d0",
     "listMetadata": "4de8679f"
   },
-  "/fr/tutorials/tutorials_intro-a38": {
+  "/fr/tutorials/tutorials_intro-f3e": {
     "__comp": "ccc49370",
     "__context": {
-      "plugin": "3909a632"
+      "plugin": "0e3980a7"
     },
     "sidebar": "814f3328",
     "content": "25f9b12b"
   },
-  "/fr/docs-b5d": {
+  "/fr/docs-6f6": {
     "__comp": "1be78505",
     "__context": {
-      "plugin": "9e7c58c2"
+      "plugin": "bbfd670d"
     },
     "versionMetadata": "935f2afb"
   },
@@ -297,10 +297,10 @@
     "__comp": "17896441",
     "content": "e8ae3c45"
   },
-  "/fr/-22c": {
+  "/fr/-0cd": {
     "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "7f0f3a1c"
+      "plugin": "1a83dec4"
     },
     "config": "5e9f5e1a"
   }

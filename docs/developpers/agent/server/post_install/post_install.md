@@ -41,7 +41,7 @@ To manage STTs processes, the platform relies on a specific service : Platform S
 
 In the following sections, we will illustrate a number of use-cases base on different usage of the LinTO platform capabilities and how to do it step-by-step. 
 
-To go deeper in how the Platform Service Manager works, you can check the dedicated documentation [here](/docs/developpers/agent/server/post_install/stt_manager).
+To go deeper in how the Platform Service Manager works, you can check the dedicated documentation [here](post_install/service-manager/stt_manager_how2use).
 
 ## Voice Applications
 Voice applications provides a mean to communicate informations using natural language. It relies on a STT engine that transcribe digital audio signal into computer usable data, in that case: text.

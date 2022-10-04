@@ -4,52 +4,52 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/fr/markdown-page',
-    component: ComponentCreator('/fr/markdown-page', '6c6'),
+    component: ComponentCreator('/fr/markdown-page', '1f4'),
     exact: true
   },
   {
     path: '/fr/tutorials',
-    component: ComponentCreator('/fr/tutorials', 'b1c'),
+    component: ComponentCreator('/fr/tutorials', '19c'),
     exact: true
   },
   {
     path: '/fr/tutorials/archive',
-    component: ComponentCreator('/fr/tutorials/archive', '40c'),
+    component: ComponentCreator('/fr/tutorials/archive', 'aea'),
     exact: true
   },
   {
     path: '/fr/tutorials/tadhack',
-    component: ComponentCreator('/fr/tutorials/tadhack', '15a'),
+    component: ComponentCreator('/fr/tutorials/tadhack', 'afa'),
     exact: true
   },
   {
     path: '/fr/tutorials/tags',
-    component: ComponentCreator('/fr/tutorials/tags', '2a1'),
+    component: ComponentCreator('/fr/tutorials/tags', 'e36'),
     exact: true
   },
   {
     path: '/fr/tutorials/tags/linto',
-    component: ComponentCreator('/fr/tutorials/tags/linto', 'ac8'),
+    component: ComponentCreator('/fr/tutorials/tags/linto', '0d1'),
     exact: true
   },
   {
     path: '/fr/tutorials/tags/tadhack',
-    component: ComponentCreator('/fr/tutorials/tags/tadhack', 'b6d'),
+    component: ComponentCreator('/fr/tutorials/tags/tadhack', 'f9a'),
     exact: true
   },
   {
     path: '/fr/tutorials/tags/voicelab',
-    component: ComponentCreator('/fr/tutorials/tags/voicelab', '26a'),
+    component: ComponentCreator('/fr/tutorials/tags/voicelab', '109'),
     exact: true
   },
   {
     path: '/fr/tutorials/tutorials_intro',
-    component: ComponentCreator('/fr/tutorials/tutorials_intro', 'a38'),
+    component: ComponentCreator('/fr/tutorials/tutorials_intro', 'f3e'),
     exact: true
   },
   {
     path: '/fr/docs',
-    component: ComponentCreator('/fr/docs', 'b5d'),
+    component: ComponentCreator('/fr/docs', '6f6'),
     routes: [
       {
         path: '/fr/docs/consumers',
@@ -342,7 +342,7 @@ export default [
   },
   {
     path: '/fr/',
-    component: ComponentCreator('/fr/', '22c'),
+    component: ComponentCreator('/fr/', '0cd'),
     exact: true
   },
   {

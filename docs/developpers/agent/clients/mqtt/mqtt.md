@@ -22,7 +22,7 @@ For the client to connect to the broker it needs the MQTT connexion informations
 
 Those informations can be obtain two different ways:
 * The client is configured to connect to the broker directly.
-* The client fetches these informations using [authentication protocol](client/http_protocols).
+* The client fetches these informations using [authentication protocol](/docs/developpers/agent/clients/http).
 
 On both case the client comes to have the following informations:
 * MQTT broker `ip` and `port`.
@@ -124,7 +124,7 @@ Start a WS connection to the STT server
 ```
 
 #### Chunk
-Send a chunk to be transcribe after an WS connection
+Send a chunk to transcribe after a WS connection
 
 **Topic**: `egressTopic`/streaming/chunk`
 
@@ -171,7 +171,7 @@ Available behaviors depends on the client device. As for now, there are two avai
 
 <h3 name="Behavior">Behavior</h3>
 Server answer to a client request. The server specify the device behavior. It may be a single response (say or/and display) or the server might need additionnal information (ask).
-For the `ask` behavior, conversation data are attached to the request and shall be returned with the following device answer.
+For the *ask* behavior, conversation data are attached to the request and shall be returned with the following device answer.
 
 **Available on**: ![](/docs/client/rpi.png) ![](/docs/client/android.png)
 

@@ -26,7 +26,7 @@ The remaining of this doc is kinda obsolete as the LinTO-Admin interface convini
 
 ## Local developpement & tests prerequistes
 
-The **Business-Logic-Server** is required, This is the LinTO workflow manager, based on the framework Node-RED. It’s a programming tool for wiring different node / skill. Each skill have their own action allowing together to become a LinTO functionality.
+The **Business-Logic-Server** is required, this is the LinTO workflow manager, based on the framework Node-RED. It’s a programming tool for wiring different node / skill. Each skill have their own action allowing together to become a LinTO functionality.
 
 ```sh
 git clone https://github.com/linto-ai/linto-platform-business-logic-server
@@ -84,7 +84,7 @@ npm install -s linto-module-name
 ```
 
 ### Default registry
-The default registry is the `registry.npmjs.com`. I would not recommend these part until the skill is ready to be release.
+The default registry used is `registry.npmjs.com`. I would not recommend these part until the skill is ready to be release.
 
 ### Private registry
 A private repository can be used : `npm set registry my.repository.url`.

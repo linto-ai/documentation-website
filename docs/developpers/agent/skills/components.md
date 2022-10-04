@@ -634,5 +634,3 @@ throw  new  WireEventHandlerException(exceptionMessage)
 
 </TabItem>
 </Tabs>
-
-Salut

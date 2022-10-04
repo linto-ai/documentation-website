@@ -6,10 +6,10 @@ sidebar_position: 3
 # About LinTO Applications
 
 LinTO Applications are created and managed within linto-admin GUI (see [Server/PostInstall](/docs/developpers/agent/server/post_install/) documentation). They are mainly built upon [Node-RED](https://nodered.org) framework. These **LinTO applications** are automatically created and configured inside embeded Node-RED server as you use linto-admin.
-Once an application has been configured (Bound to NLU, STT, Chatbots...) you certainly want your **Virtual agent / Smart Assistant** to actualy make something specific for you based on text-entries or vocal commands.
+Once an application has been configured (Bound to NLU, STT, Chatbots...) you certainly want your **Virtual agent / Smart Assistant** to actually make something specific for your text-entries or vocal commands.
 
 :::tip
-To achieve this, you will drag'n drop Node-RED nodes, representing the skills you want to add inside the Node-Red workflown at the core of your **LinTO application**. All the customization of your application occurs directly into linto-admin web GUI as it embeds directly the Node-RED interface
+To achieve this, you will drag'n drop Node-RED nodes, representing the skills you want to add inside the Node-Red workflow at the core of your **LinTO application**. All the customization of your application occurs directly into linto-admin web GUI as it embeds directly the Node-RED interface
 :::
 
 ## Node-RED

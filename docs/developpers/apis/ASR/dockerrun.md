@@ -22,7 +22,7 @@ LinTO-Platform-STT accepts two kinds of models:
 * LinTO Acoustic and Languages models.
 * Vosk models.
 
-[ASR Models](docs/developpers/apis/ASR/models)
+[ASR Models](models)
 
 ### Docker
 The transcription service requires docker up and running.
@@ -59,7 +59,7 @@ cp .envdefault .env
 | PARAMETER | DESCRIPTION | EXEMPLE |
 |---|---|---|
 | SERVING_MODE | STT serving mode see [Serving mode](#serving-mode) | http\|task\|websocket |
-| MODEL_TYPE | Type of STT model used. | lin\|vosk |
+| MODEL_TYPE | Type of STT model used | lin\|vosk |
 | ENABLE_STREAMING | Using http serving mode, enable the /streaming websocket route | true\|false |
 | SERVICE_NAME | Using the task mode, set the queue's name for task processing | my-stt |
 | SERVICE_BROKER | Using the task mode, URL of the message broker | redis://my-broker:6379 |
@@ -70,7 +70,7 @@ cp .envdefault .env
 ### Serving mode 
 ![Serving Modes](/docs/platform-stt.png)
 
-STT can be use three ways:
+STT can be used three different ways:
 * Through an [HTTP API](#http-server) using the **http**'s mode.
 * Through a [message broker](#micro-service-within-linto-platform-stack) using the **task**'s mode.
 * Through a [websocket server](#websocket-server) **websocket**'s mode.
@@ -80,7 +80,7 @@ Mode is specified using the .env value or environment variable ```SERVING_MODE``
 SERVING_MODE=http
 ```
 ### HTTP Server
-The HTTP serving mode deploys a HTTP server and a swagger-ui to allow transcription request on a dedicated route.
+The HTTP serving mode deploys an HTTP server and a swagger-ui to allow transcription request on a dedicated route.
 
 The SERVING_MODE value in the .env should be set to ```http```.
 
@@ -93,7 +93,7 @@ docker run --rm \
 linto-platform-stt:latest
 ```
 
-This will run a container providing an [HTTP API](#http-api) binded on the host HOST_SERVING_PORT port.
+This will run a container providing an [HTTP API](#http-api) binded on the host port ```HOST_SERVING_PORT```.
 
 **Parameters:**
 
@@ -157,7 +157,7 @@ Transcription API
 
 * Method: POST
 * Response content: text/plain or application/json
-* File: An Wave file 16b 16Khz
+* File: Wave file 16b 16Khz
 
 Return the transcripted text using "text/plain" or a json object when using "application/json" structure as followed:
 ```json
@@ -175,9 +175,9 @@ Return the transcripted text using "text/plain" or a json object when using "app
 The /streaming route is accessible if the ENABLE_STREAMING environment variable is set to true.
 
 The route accepts websocket connexions. Exchanges are structured as followed:
-1. Client send a json {"config": {"sample_rate":16000}}.
+1. Client send a json `{"config": {"sample_rate":16000}}`.
 2. Client send audio chunk (go to 3- ) or {"eof" : 1} (go to 5-).
-3. Server send either a partial result {"partial" : "this is a "} or a final result {"text": "this is a transcription"}.
+3. Server send either a partial result `{"partial" : "this is a "}` or a final result `{"text": "this is a transcription"}`.
 4. Back to 2-
 5. Server send a final result and close the connexion.
 
@@ -213,13 +213,13 @@ On a successfull transcription the returned object is a json object structured a
 ```
 
 * The __text__ field contains the raw transcription.
-* The __word__ field contains each word with their time stamp and individual confidence. (Empty if with_metadata=False)
+* The __word__ field contains each word with their timestamp and individual confidence. (Empty if with_metadata=False)
 * The __confidence__ field contains the overall confidence for the transcription. (0.0 if with_metadata=False)
 
 
 ## Test
 ### Curl
-You can test you http API using curl:
+You can test your http API using curl:
 ```bash 
 curl -X POST "http://YOUR_SERVICE:YOUR_PORT/transcribe" -H  "accept: application/json" -H  "Content-Type: multipart/form-data" -F "file=@YOUR_FILE;type=audio/x-wav"
 ```

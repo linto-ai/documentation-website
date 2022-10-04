@@ -66,7 +66,7 @@ To create a LinTO image, follow the next steps :
 * Use 1 to copy the origin image to the new image
 * Use 4 to mount and prepare partitions before Chroot
 * Use 4.1 and 4.2 to install last raspbian packages
-* Use 4.xx to automatically download and  install our latest distribution of binaries (see [prebuilt binaries](client/binaries))
+* Use 4.xx to automatically download and  install our latest distribution of binaries (see [prebuilt binaries](rpi_prebuilts))
 * Use 6 to enter chroot and manipulate the filesystem (insall custom packages, cross-compile ARM programs...)
 * Use 7 to finalize the installation
 

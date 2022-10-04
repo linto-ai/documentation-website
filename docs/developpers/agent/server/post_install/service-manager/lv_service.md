@@ -1,13 +1,13 @@
 # Deploy a Large vocabulary file transcription service
 A file transcription service allows to submit audio files to an API that will return a text transcription. File transcription can be used as itself and is a prerequisite of other uses. "Large vocabulary" implies that the transcription won't be limited to preset sentences and intend to cover an entire language.
 
-The following step are accomplished using the [LinTO Platform Service Manager](../services/stt_manager.md) web API on which requests can be executed using the swagger deployed within the platform at `[LINTO_STACK_DOMAIN]/stt-manager/api-doc/`.
+The following step are accomplished using the [LinTO Platform Service Manager](/docs/developpers/agent/server/post_install/service-manager) web API on which requests can be executed using the swagger deployed within the platform at `[LINTO_STACK_DOMAIN]/stt-manager/api-doc/`.
 
 ## Prerequisistes
 
 * You have a deployed stack with LinTO Platform Service Manager running.
 * You have access to the LinTO Platform Service Manager Swagger at `[LINTO_STACK_DOMAIN]/stt-manager/api-doc/`.
-* You have created an acoustic model for your language. If not see [Create an acoustic model](use_case/acoustic_model)
+* You have created an acoustic model for your language. If not see [Create an acoustic model](acoustic_model)
 
 ## Creating the service
 

@@ -7,7 +7,7 @@ sidebar_position: 1
 **Latest version: 1.1**
 
 :::note
-We currently do not plan to distribute further builts for these. As the provided images relies on older Buster Raspian OS you might want to use our [OS Generator](docs/developpers/agent/clients/raspberry/osgenerator) to build a new image with latest version of Raspbian or other Raspberry PI OSes. The OS Generator toolchain is a quite complete tool that emulates a Raspberry Pi ARM on your developpement computer.
+We currently do not plan to distribute further builts for these. As the provided images relies on older Buster Raspian OS you might want to use our [OS Generator](osgenerator) to build a new image with latest version of Raspbian or other Raspberry PI OSes. The OS Generator toolchain is a quite complete tool that emulates a Raspberry Pi ARM on your developpement computer.
 :::
 
 | Link | Description | Sha256 |

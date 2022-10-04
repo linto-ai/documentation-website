@@ -729,7 +729,7 @@ A client-server system that enables the conception, deployment and maintenance o
 
 ### LinTO Smart meetings
 
-This topic combines and leverages our Smart Assistants tooling and our cognitive APIs. Our APIs were **intialy developped for collaborative solutions involving many users and speakers**. Based on this strong expertise in the field, we decided to push the innovation further with our own open source Virtual Scribe platform (LinTO Conversation Manager). Deployed on our own infrastructures, users can upload their meetings, recordings, Jitsi videoconferences with LinTO subtitles... share them, annotate them, correct them and easily exploit their content with the help of intelligent information extraction.
+This topic combines and leverages our Smart Assistants tooling and our cognitive APIs. Our APIs were **initialy developped for collaborative solutions involving many users and speakers**. Based on this strong expertise in the field, we decided to push the innovation further with our own open source Virtual Scribe platform (LinTO Conversation Manager). Deployed on our own infrastructures, users can upload their meetings, recordings, Jitsi videoconferences with LinTO subtitles... share them, annotate them, correct them and easily exploit their content with the help of intelligent information extraction.
 
 **Use cases**
 - Live closed captions for visioconferencing (Jitsi)

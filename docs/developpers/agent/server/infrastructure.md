@@ -51,7 +51,7 @@ do echo -e "$(docker node inspect --format '{{.Status.Addr}}' "${NODE}") "${NODE
 
 A good design pattern for highly available applications is to deploy the application as a container on a Docker Swarm cluster with persistent storage provided by GlusterFS. GlusterFS is a fast shared filesystem that can keep the container volume in sync between multiple nodes of the Docker Swarm cluster.  In the event a node dies, Docker Swarm will spin up the container on another node. GlusterFS will ensure the container has access to the same data when it comes up.
 
-In our case, [LinTO-Platform-STT-Service-Manager](services/manager) will need read / write access on a shared folder made available on every node of your cluster for AI models used by the [LinTO-STT-Services](services/services). In this tutorial we will use a GlusterFS share folder
+In our case, [Platform-Service-Manager](post_install/service-manager/stt_manager_how2use) will need read / write access on a shared folder made available on every node of your cluster for AI models used by transcription services. In this tutorial we will use a GlusterFS share folder.
 
 
 ### Create directories for GlusterFS storage
@@ -64,7 +64,7 @@ mkdir -p ~/linto_shared/data
 ... and so on on every node of your swarm cluster
 ```
 
-__Note for single Machine Deployement:__ If you do not intent to add other machines to the cluster later, you can stop right here and jump to [Server Installation](stack/stack.md).
+__Note for single Machine Deployement:__ If you do not intent to add other machines to the cluster later, you can stop right here and jump to [Server Installation](stack_deploy).
 
 ### Install Gluster FS
 
@@ -89,7 +89,7 @@ On the swarm cluster manager node, supposedly the first "brick" of the distribut
 ```
 sudo gluster peer probe <HostName-X for node X of the cluster>
 ```
---> USe this command for every other cluster's nodes hostnames.
+--> Use this command for every other cluster's nodes hostnames.
 
 ### Setup the replicated volume
 

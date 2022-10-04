@@ -29,7 +29,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/dam/work/documentation-website/sidebars.js",
+          "sidebarPath": "/home/yhoupert/Work/linto/dev_v2/doc/documentation-website/sidebars.js",
           "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/"
         },
         "blog": {
@@ -39,7 +39,7 @@ export default {
           "editUrl": "https://github.com/linto-ai/documentation-website/tree/source/tutorials"
         },
         "theme": {
-          "customCss": "/home/dam/work/documentation-website/src/css/custom.css"
+          "customCss": "/home/yhoupert/Work/linto/dev_v2/doc/documentation-website/src/css/custom.css"
         }
       }
     ]
