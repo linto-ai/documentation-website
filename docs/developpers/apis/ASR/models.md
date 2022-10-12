@@ -19,11 +19,11 @@ Those models are the most generic ones, achieving best all-over performance, we 
 <Tabitem value="French v2" label="French v2">
 
 #### Acoustic model
-- A deep Time Delay Neural Network (TDNN) model, trained on a large spontanious speech corpora. Data augmenation was applied to increase the quantity of training data and to simulate artificially some environment conditions (noise, speaker). The full corpus after data augmentation is approximately 7100 hours.
+- A deep Time Delay Neural Network (TDNN) model, trained on a large spontanious speech corpora. Data augmentation was applied to increase the quantity of training data and to simulate artificially some environment conditions (noise, speaker). The full corpus after data augmentation is approximately 7100 hours.
 
 [2.0.0 AM download](https://dl.linto.ai/downloads/model-distribution/acoustic-models/fr-FR/linSTT_AM_fr-FR_v2.0.0.zip)
 
-- A deep neural network architecture (~30M parameters). This model is trained on the same data (7100 hours)
+- A deep neural network architecture (~30M parameters). This model is trained on the same data (7100 hours).
 
 [2.2.0 AM download](https://dl.linto.ai/downloads/model-distribution/acoustic-models/fr-FR/linSTT_AM_fr-FR_v2.2.0.zip)
 
