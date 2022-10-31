@@ -94,7 +94,7 @@ sudo gluster peer probe <HostName-X for node X of the cluster>
 ### Setup the replicated volume
 
 ```bash
-sudo volume create linto_shared \
+sudo gluster volume create linto_shared \
 replica <Number of cluster nodes> \
 <First Node HostName>:<corresponding folder> \
 <Second NodeHostName>:<corresponding folder> \
