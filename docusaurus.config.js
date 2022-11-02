@@ -75,7 +75,7 @@ const config = {
           src: 'img/linto.svg',
         },
         items: [
-          {to: '/docs/consumers', label: 'For consumers', position: 'left'},
+          {to: '/docs/consumers', label: "For users", position: 'left'},
           {to: '/docs/developpers', label: 'For developpers', position: 'left'},
           {to: 'tutorials', label: 'Tutorials', position: 'left'},
           {

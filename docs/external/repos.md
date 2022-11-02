@@ -1,6 +1,6 @@
 # Github source repositories
  [LinTO's Github](https://github.com/lintoai) - Repositories overview
-This Listing was generated using [GitHub API](https://api.github.com/users/linto-ai/repos) on Tue Oct 04 2022
+This Listing was generated using [GitHub API](https://api.github.com/users/linto-ai/repos) on Wed Nov 02 2022
 
 | Name | Description | Topics | Language | Stars |
 |:-|:-|:-|:-|:-|
@@ -8,9 +8,9 @@ This Listing was generated using [GitHub API](https://api.github.com/users/linto
 |[pyrtstools](https://github.com/linto-ai/pyrtstools)|Tools for speech processing, keyword spotting||Python|16|
 |[linto-client](https://github.com/linto-ai/linto-client)|LinTO client-server connectivity|raspberry-pi,raspberrypi,smart-assistant,vocal-assistant|JavaScript|15|
 |[linto-os-generator](https://github.com/linto-ai/linto-os-generator)|Build a LinTO OS Image which boots on Raspberry Pi3|arm,qemu,raspberry-pi,raspbian,toolchain,toolchain-builder,vocal-assistant|Shell|13|
+|[WebVoiceSDK](https://github.com/linto-ai/WebVoiceSDK)|Buildings block for voice-enabled applications in the browser|javascript,machine-learning,speech-recognition,speech-to-text,tensorflow,vocal-assistant,wake-word-detection,wakeword|JavaScript|13|
 |[linto-platform-stack](https://github.com/linto-ai/linto-platform-stack)|LinTO platform services stack deployment tool for Docker Swarm cluster|asr,automatic-speech-processing,automatic-speech-recognition,cluster,docker-compose,docker-swarm,microservices,smart-assistant,virtual-agent,vocal-assistant|JavaScript|12|
 |[linto-android-client](https://github.com/linto-ai/linto-android-client)|(WIP) Development folder for the LinTO android client.||Dart|11|
-|[WebVoiceSDK](https://github.com/linto-ai/WebVoiceSDK)|Buildings block for voice-enabled applications in the browser|javascript,machine-learning,speech-recognition,speech-to-text,tensorflow,vocal-assistant,wake-word-detection,wakeword|JavaScript|10|
 |[linto-platform-service-manager](https://github.com/linto-ai/linto-platform-service-manager)|API used with docker swarm to manage STT services||JavaScript|7|
 |[linto-web-client](https://github.com/linto-ai/linto-web-client)|The Web Client for LinTO intégrations in webpages.|chatbot,conversational-agents,conversational-ai,smart-assistant,virtual-agent,wake-word-detection,wakeword|SCSS|7|
 |[linto-desktoptools-hmg](https://github.com/linto-ai/linto-desktoptools-hmg)|GUI Tool to create, manage and test Keyword Spotting models using TF 2.0||Python|6|
@@ -45,6 +45,7 @@ This Listing was generated using [GitHub API](https://api.github.com/users/linto
 |[linto-jitsi](https://github.com/linto-ai/linto-jitsi)|null|audio,chat,irc,java,jigasi,jitsi,meetup,sip,voice|Java|1|
 |[linto-skills-transcriber](https://github.com/linto-ai/linto-skills-transcriber)|Generate transcription from LinSTT API by file upload|javascript,node-red,skills,smart-assistant,stt,transcription|JavaScript|1|
 |[linto-platform-nlp-keyword-extraction](https://github.com/linto-ai/linto-platform-nlp-keyword-extraction)|null|keyword-extraction,linto,nlp|Python|1|
+|[roadmap](https://github.com/linto-ai/roadmap)|Public product Roadmap||null|1|
 |[linto-desktoptools-voxharvest](https://github.com/linto-ai/linto-desktoptools-voxharvest)|A simple GUI tool to record your voice. ||Python|0|
 |[linto-skill-calendar](https://github.com/linto-ai/linto-skill-calendar)|Linto Skill calendar for Node-RED|javascript,node-red,skills,smart-assistant|JavaScript|0|
 |[linto-skill-datetime](https://github.com/linto-ai/linto-skill-datetime)|Linto skill datetime for Node-RED|datetime,javascript,node-red,skills,smart-assistant|HTML|0|
@@ -64,4 +65,4 @@ This Listing was generated using [GitHub API](https://api.github.com/users/linto
 |[linto-vosk-api](https://github.com/linto-ai/linto-vosk-api)|Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and Node||C++|0|
 |[multi-hand-gesture-dataset](https://github.com/linto-ai/multi-hand-gesture-dataset)|Multi-hand gesture dataset contains 10 annotated hand gestures in VOC Pscal format||null|0|
 
-__Popularity__ : We currently totalize __200__ GitHub stars and __64__ forks 
+__Popularity__ : We currently totalize __204__ GitHub stars and __64__ forks 
