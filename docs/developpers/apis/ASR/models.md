@@ -92,10 +92,6 @@ Those models are the most generic ones, achieving best all-over performance, we 
 
 [v1.1 LM download](https://dl.linto.ai/downloads/model-distribution/decoding-graphs/LVCSR/ar-AR/decoding_graph_ar-AR_v1.1.0.zip)
 
-- This language model is trained on big arabic text from different corpus. It is trained with SRILM tools.
-
-[v1.2 LM download](https://dl.linto.ai/downloads/model-distribution/decoding-graphs/LVCSR/ar-AR/decoding_graph_ar-AR_v1.2.0.zip)
-
 </Tabitem>
 
 
