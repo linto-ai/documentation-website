@@ -58,7 +58,7 @@ cp .envdefault .env
 
 | PARAMETER | DESCRIPTION | EXEMPLE |
 |---|---|---|
-| SERVING_MODE | STT serving mode see [Serving mode](#serving-mode) | http\|task\|websocket |
+| SERVICE_MODE | STT serving mode see [Serving mode](#serving-mode) | http\|task\|websocket |
 | MODEL_TYPE | Type of STT model used | lin\|vosk |
 | ENABLE_STREAMING | Using http serving mode, enable the /streaming websocket route | true\|false |
 | SERVICE_NAME | Using the task mode, set the queue's name for task processing | my-stt |
@@ -75,14 +75,14 @@ STT can be used three different ways:
 * Through a [message broker](#micro-service-within-linto-platform-stack) using the **task**'s mode.
 * Through a [websocket server](#websocket-server) **websocket**'s mode.
 
-Mode is specified using the .env value or environment variable ```SERVING_MODE```.
+Mode is specified using the .env value or environment variable ```SERVICE_MODE```.
 ```bash
-SERVING_MODE=http
+SERVICE_MODE=http
 ```
 ### HTTP Server
 The HTTP serving mode deploys an HTTP server and a swagger-ui to allow transcription request on a dedicated route.
 
-The SERVING_MODE value in the .env should be set to ```http```.
+The SERVICE_MODE value in the .env should be set to ```http```.
 
 ```bash
 docker run --rm \
@@ -108,7 +108,7 @@ This will run a container providing an [HTTP API](#http-api) binded on the host 
 ### Micro-service & task broker
 The HTTP serving mode connect a celery worker to a message broker.
 
-The SERVING_MODE value in the .env should be set to ```task```.
+The SERVICE_MODE value in the .env should be set to ```task```.
 
 :::tip
 LinTO-platform-stt in task mode is not intended to be launch manually.
@@ -139,7 +139,7 @@ linto-platform-stt:latest
 ### Websocket Server
 Websocket server's mode deploy a streaming transcription service only.
 
-The SERVING_MODE value in the .env should be set to ```websocket```.
+The SERVICE_MODE value in the .env should be set to ```websocket```.
 
 Usage is the same as the [http streaming API](#/streaming)
 
